@@ -3,7 +3,7 @@
   <Culture id="battania"
            name="{=0B27RrYJ}Battania"
            is_main_culture="true"
-          color="0xff2D3F1D"
+           color="0xff2D3F1D"
            color2="0xffBFCBB0"
            elite_basic_troop="NPCCharacter.cla_battania_elite_2"
            basic_troop="NPCCharacter.cla_battania_recruit"

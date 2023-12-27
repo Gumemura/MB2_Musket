@@ -23,14 +23,14 @@
   <MBPartyTemplate id="cla_caravan_template_aserai" >
     <stacks>
       <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.cla_armed_trader_aserai" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_caravan_guard_aserai" />
+      <!-- <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_caravan_guard_aserai" /> -->
       <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_veteran_caravan_guard_aserai" />
     </stacks>
   </MBPartyTemplate>
   <MBPartyTemplate id="cla_elite_caravan_template_aserai" >
     <stacks>
       <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.cla_armed_trader_aserai" />
-      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.cla_caravan_guard_aserai" />
+      <!-- <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.cla_caravan_guard_aserai" /> -->
       <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cla_veteran_caravan_guard_aserai" />
       <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_caravan_master_aserai" />
     </stacks>
@@ -38,7 +38,7 @@
   <MBPartyTemplate id="cla_militia_aserai_template" >
       <stacks>
         <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_aserai_militia_spearman" />
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_aserai_militia_archer" />
+        <!-- <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_aserai_militia_archer" /> -->
       </stacks>
     </MBPartyTemplate>
   <MBPartyTemplate id="cla_rebels_aserai_template" >

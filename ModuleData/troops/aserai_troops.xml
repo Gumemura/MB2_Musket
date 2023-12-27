@@ -1,393 +1,366 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
   <!-- Militia -->
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_militia_archer" level="11" name="{=cla_aserai_militia_archer}Sultanate Militia Archer" occupation="Soldier" skill_template="SkillSet.cla_skills_level11">
+  <NPCCharacter id="cla_aserai_militia_veteran_archer"
+                culture="Culture.aserai"
+                default_group="Ranged"
+                level="21"
+                name="{=cla_aserai_militia_veteran_archer}Sultanate Militia Veteran Archer"
+                occupation="Soldier"
+                skill_template="SkillSet.cla_skills_level21">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.peasant_hatchet_1_t1" slot="Item3"/>
-        <equipment id="Item.aserai_civil_e_hscarf" slot="Head"/>
-        <equipment id="Item.aserai_civil_a" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item2"/>
+        <equipment id="Item.aserai_sword_1_t2"
+                   slot="Item3"/>
+        <equipment id="Item.tight_head_scarf"
+                   slot="Head"/>
+        <equipment id="Item.short_padded_robe"
+                   slot="Body"/>
+        <equipment id="Item.leather_boots"
+                   slot="Leg"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.wrapped_scarf"
+                   slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.peasant_hatchet_1_t1" slot="Item3"/>
-        <equipment id="Item.desert_cap" slot="Head"/>
-        <equipment id="Item.aserai_civil_e" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item2"/>
+        <equipment id="Item.aserai_sword_2_t2"
+                   slot="Item3"/>
+        <equipment id="Item.tight_head_scarf"
+                   slot="Head"/>
+        <equipment id="Item.short_padded_robe"
+                   slot="Body"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.eastern_leather_boots"
+                   slot="Leg"/>
+        <equipment id="Item.wrapped_scarf"
+                   slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.peasant_hammer_1_t1" slot="Item3"/>
-        <equipment id="Item.turban" slot="Head"/>
-        <equipment id="Item.aserai_civil_d" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item2"/>
+        <equipment id="Item.aserai_sword_2_t2"
+                   slot="Item3"/>
+        <equipment id="Item.closed_head_scarf"
+                   slot="Head"/>
+        <equipment id="Item.long_padded_robe"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.wrapped_scarf"
+                   slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.peasant_hammer_1_t1" slot="Item3"/>
-        <equipment id="Item.turban" slot="Head"/>
-        <equipment id="Item.aserai_civil_d" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_militia_veteran_archer" level="21" name="{=cla_aserai_militia_veteran_archer}Sultanate Militia Veteran Archer" occupation="Soldier" skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item3"/>
-        <equipment id="Item.tight_head_scarf" slot="Head"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item3"/>
-        <equipment id="Item.tight_head_scarf" slot="Head"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item3"/>
-        <equipment id="Item.closed_head_scarf" slot="Head"/>
-        <equipment id="Item.long_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item3"/>
-        <equipment id="Item.closed_head_scarf" slot="Head"/>
-        <equipment id="Item.desert_padded_cloth" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_militia_spearman" level="11" name="{=cla_aserai_militia_spearman}Sultanate Militia Spearman" occupation="Soldier" skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_axe_2_t2" slot="Item1"/>
-        <equipment id="Item.desert_oval_shield" slot="Item2"/>
-        <equipment id="Item.open_head_scarf" slot="Head"/>
-        <equipment id="Item.aserai_civil_a" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_axe_1_t2" slot="Item1"/>
-        <equipment id="Item.desert_oval_shield" slot="Item2"/>
-        <equipment id="Item.desert_helmet" slot="Head"/>
-        <equipment id="Item.layered_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_axe_1_t2" slot="Item1"/>
-        <equipment id="Item.desert_oval_shield" slot="Item2"/>
-        <equipment id="Item.open_desert_helmet" slot="Head"/>
-        <equipment id="Item.aserai_civil_e" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_axe_1_t2" slot="Item1"/>
-        <equipment id="Item.desert_oval_shield" slot="Item2"/>
-        <equipment id="Item.open_desert_helmet" slot="Head"/>
-        <equipment id="Item.aserai_civil_e" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_militia_veteran_spearman" level="21" name="{=cla_aserai_militia_veteran_spearman}Sultanate Militia Veteran Spearman" occupation="Soldier" skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item1"/>
-        <equipment id="Item.oval_shield" slot="Item2"/>
-        <equipment id="Item.trailed_desert_helmet" slot="Head"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item1"/>
-        <equipment id="Item.oval_shield" slot="Item2"/>
-        <equipment id="Item.closed_desert_helmet" slot="Head"/>
-        <equipment id="Item.long_padded_robe" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_mace_2_t2" slot="Item1"/>
-        <equipment id="Item.oval_shield" slot="Item2"/>
-        <equipment id="Item.open_desert_helmet" slot="Head"/>
-        <equipment id="Item.long_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment id="Item.eastern_spear_1_t2" slot="Item0"/>
-        <equipment id="Item.aserai_axe_2_t2" slot="Item1"/>
-        <equipment id="Item.oval_shield" slot="Item2"/>
-        <equipment id="Item.open_desert_helmet" slot="Head"/>
-        <equipment id="Item.desert_padded_cloth" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item2"/>
+        <equipment id="Item.aserai_sword_2_t2"
+                   slot="Item3"/>
+        <equipment id="Item.closed_head_scarf"
+                   slot="Head"/>
+        <equipment id="Item.desert_padded_cloth"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.wrapped_scarf"
+                   slot="Cape"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
   <!-- Caravan -->
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_caravan_master_aserai" level="26" name="{=cla_caravan_master_aserai}Sultanate Caravan Master" occupation="CaravanGuard" skill_template="SkillSet.cla_skills_level26">
+  <NPCCharacter id="cla_caravan_master_aserai"
+                culture="Culture.aserai"
+                  default_group="Infantry"
+                level="26"
+                name="{=cla_caravan_master_aserai}Sultanate Caravan Master"
+                occupation="CaravanGuard"
+                skill_template="SkillSet.cla_skills_level26">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_musket_pistol_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item0"/>
-        <equipment id="Item.aserai_civil_c_head" slot="Head"/>
-        <equipment id="Item.aserai_archer_armor" slot="Body"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_musket_pistol_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_sword_3_t3"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_civil_c_head"
+                   slot="Head"/>
+        <equipment id="Item.aserai_archer_armor"
+                   slot="Body"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_musket_pistol_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item0"/>
-        <equipment id="Item.aserai_civil_d_hscarf" slot="Head"/>
-        <equipment id="Item.aserai_archer_armor" slot="Body"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.scarf" slot="Cape"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_musket_pistol_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_sword_3_t3"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_civil_d_hscarf"
+                   slot="Head"/>
+        <equipment id="Item.aserai_archer_armor"
+                   slot="Body"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.scarf"
+                   slot="Cape"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_musket_pistol_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item0"/>
-        <equipment id="Item.aserai_civil_d_hscarf" slot="Head"/>
-        <equipment id="Item.tassled_southern_robes" slot="Body"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.leopard_pelt" slot="Cape"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_musket_pistol_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_sword_3_t3"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_civil_d_hscarf"
+                   slot="Head"/>
+        <equipment id="Item.tassled_southern_robes"
+                   slot="Body"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.leopard_pelt"
+                   slot="Cape"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_musket_pistol_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item0"/>
-        <equipment id="Item.aserai_civil_c_head" slot="Head"/>
-        <equipment id="Item.aserai_archer_armor" slot="Body"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_musket_pistol_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_sword_3_t3"
+                   slot="Item0"/>
+        <equipment id="Item.aserai_civil_c_head"
+                   slot="Head"/>
+        <equipment id="Item.aserai_archer_armor"
+                   slot="Body"/>
+        <equipment id="Item.buttoned_leather_bracers"
+                   slot="Gloves"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Cavalry" id="cla_caravan_guard_aserai" level="21" name="{=cla_caravan_guard_aserai}Sultanate Caravan Guard" occupation="CaravanGuard" skill_template="SkillSet.cla_skills_level21" upgrade_requires="ItemCategory.horse">
+  <NPCCharacter id="cla_veteran_caravan_guard_aserai"
+                culture="Culture.aserai"
+                default_group="HorseArcher"
+                level="26"
+                name="{=cla_veteran_caravan_guard_aserai}Sultanate Veteran Caravan Guard"
+                occupation="CaravanGuard"
+                skill_template="SkillSet.cla_skills_level26"
+                upgrade_requires="ItemCategory.war_horse">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.aserai_2haxe_2_t4" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item1"/>
-        <equipment id="Item.bound_adarga" slot="Item2"/>
-        <equipment id="Item.open_head_scarf" slot="Head"/>
-        <equipment id="Item.long_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.studded_vambraces" slot="Gloves"/>
+        <equipment id="Item.cla_jestle_carbine_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_6_t4"
+                   slot="Item2"/>
+        <equipment id="Item.bound_adarga"
+                   slot="Item3"/>
+        <equipment id="Item.desert_mail_coif"
+                   slot="Head"/>
+        <equipment id="Item.stitched_leather_over_mail"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.aserai_2haxe_2_t4" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item1"/>
-        <equipment id="Item.bound_adarga" slot="Item2"/>
-        <equipment id="Item.tied_head_wrapping" slot="Head"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.studded_vambraces" slot="Gloves"/>
+        <equipment id="Item.cla_jestle_carbine_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_5_t4"
+                   slot="Item2"/>
+        <equipment id="Item.large_adarga"
+                   slot="Item3"/>
+        <equipment id="Item.desert_helmet_with_mail"
+                   slot="Head"/>
+        <equipment id="Item.stitched_leather_over_mail"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
+        <equipment id="Item.wrapped_scarf"
+                   slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.aserai_2haxe_2_t4" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item1"/>
-        <equipment id="Item.bound_adarga" slot="Item2"/>
-        <equipment id="Item.woven_turban" slot="Head"/>
-        <equipment id="Item.leather_strips_over_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.studded_vambraces" slot="Gloves"/>
+        <equipment id="Item.cla_jestle_carbine_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_5_t4"
+                   slot="Item2"/>
+        <equipment id="Item.bound_desert_round_shield"
+                   slot="Item3"/>
+        <equipment id="Item.loose_wrapped_desert_helmet"
+                   slot="Head"/>
+        <equipment id="Item.stitched_leather_over_mail"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment id="Item.aserai_2haxe_2_t4" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item1"/>
-        <equipment id="Item.bound_adarga" slot="Item2"/>
-        <equipment id="Item.woven_turban" slot="Head"/>
-        <equipment id="Item.leather_strips_over_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.studded_vambraces" slot="Gloves"/>
+        <equipment id="Item.cla_jestle_carbine_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_5_t4"
+                   slot="Item2"/>
+        <equipment id="Item.bound_desert_round_shield"
+                   slot="Item3"/>
+        <equipment id="Item.loose_wrapped_desert_helmet"
+                   slot="Head"/>
+        <equipment id="Item.stitched_leather_over_mail"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment id="Item.aserai_2haxe_2_t4" slot="Item0"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item1"/>
-        <equipment id="Item.bound_adarga" slot="Item2"/>
-        <equipment id="Item.tied_head_wrapping" slot="Head"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.studded_vambraces" slot="Gloves"/>
+        <equipment id="Item.cla_jestle_carbine_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_5_t4"
+                   slot="Item2"/>
+        <equipment id="Item.large_adarga"
+                   slot="Item3"/>
+        <equipment id="Item.desert_helmet_with_mail"
+                   slot="Head"/>
+        <equipment id="Item.stitched_leather_over_mail"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
+        <equipment id="Item.wrapped_scarf"
+                   slot="Cape"/>
       </EquipmentRoster>
-      <equipment id="Item.aserai_horse" slot="Horse"/>
-      <equipment id="Item.desert_cloth_harness" slot="HorseHarness"/>
+      <equipment id="Item.t2_aserai_horse"
+                 slot="Horse"/>
+      <equipment id="Item.chain_horse_harness"
+                 slot="HorseHarness"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_veteran_caravan_guard_aserai" level="26" name="{=cla_veteran_caravan_guard_aserai}Sultanate Veteran Caravan Guard" occupation="CaravanGuard" skill_template="SkillSet.cla_skills_level26" upgrade_requires="ItemCategory.war_horse">
+  <NPCCharacter id="cla_armed_trader_aserai"
+                culture="Culture.aserai"
+                default_group="Ranged"
+                is_basic_troop="true"
+                level="16"
+                name="{=cla_armed_trader_aserai}Sultanate Armed Trader"
+                occupation="CaravanGuard"
+                skill_template="SkillSet.cla_skills_level16">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_6_t4" slot="Item2"/>
-        <equipment id="Item.bound_adarga" slot="Item3"/>
-        <equipment id="Item.desert_mail_coif" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_2_t2"
+                   slot="Item2"/>
+        <equipment id="Item.short_padded_robe"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.large_adarga" slot="Item3"/>
-        <equipment id="Item.desert_helmet_with_mail" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.range_arrows"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_1_t2"
+                   slot="Item2"/>
+        <equipment id="Item.short_padded_robe"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.bound_desert_round_shield" slot="Item3"/>
-        <equipment id="Item.loose_wrapped_desert_helmet" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.range_arrows"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_1_t2"
+                   slot="Item2"/>
+        <equipment id="Item.aserai_civil_c"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.bound_desert_round_shield" slot="Item3"/>
-        <equipment id="Item.loose_wrapped_desert_helmet" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.range_arrows"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_1_t2"
+                   slot="Item2"/>
+        <equipment id="Item.aserai_civil_c"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.large_adarga" slot="Item3"/>
-        <equipment id="Item.desert_helmet_with_mail" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <equipment id="Item.t2_aserai_horse" slot="Horse"/>
-      <equipment id="Item.chain_horse_harness" slot="HorseHarness"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_armed_trader_aserai" is_basic_troop="true" level="16" name="{=cla_armed_trader_aserai}Sultanate Armed Trader" occupation="CaravanGuard" skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item2"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.range_arrows" slot="Item1"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.range_arrows" slot="Item1"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
-        <equipment id="Item.aserai_civil_c" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.range_arrows" slot="Item1"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
-        <equipment id="Item.aserai_civil_c" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment id="Item.cla_jestle_arquebus_2" slot="Item0"/>
-        <equipment id="Item.range_arrows" slot="Item1"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
-        <equipment id="Item.short_padded_robe" slot="Body"/>
-        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.cla_jestle_arquebus_2"
+                   slot="Item0"/>
+        <equipment id="Item.range_arrows"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_sword_1_t2"
+                   slot="Item2"/>
+        <equipment id="Item.short_padded_robe"
+                   slot="Body"/>
+        <equipment id="Item.khuzait_curved_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
 
   <!-- Basic Tier 1 Recruit -->
-  <NPCCharacter culture="Culture.aserai"
+  <NPCCharacter id="cla_aserai_ranged_1"
+                culture="Culture.aserai"
                 default_group="Ranged"
-                id="cla_aserai_ranged_1"
                 is_basic_troop="true"
                 level="6"
                 name="{=cla_aserai_ranged_1}Sultanate Janissary Recruit"
@@ -402,13 +375,19 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_hand_cannon_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_civil_e_hscarf" slot="Head"/>
-        <equipment id="Item.desert_robe" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.cla_hand_cannon_1"
+                   slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1"
+                   slot="Item1"/>
+        <equipment id="Item.aserai_civil_e_hscarf"
+                   slot="Head"/>
+        <equipment id="Item.desert_robe"
+                   slot="Body"/>
+        <equipment id="Item.eastern_leather_boots"
+                   slot="Leg"/>
       </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t1"/>
+      <EquipmentSet civilian="true"
+                      id="aserai_troop_civilian_template_t1"/>
     </Equipments>
   </NPCCharacter>
 
@@ -623,9 +602,9 @@
   </NPCCharacter> -->
 
   <!-- Ranged -->
-  <NPCCharacter culture="Culture.aserai"
+  <NPCCharacter id="cla_aserai_ranged_2"
+                culture="Culture.aserai"
                 default_group="Ranged"
-                id="cla_aserai_ranged_2"
                 level="11"
                 name="{=cla_aserai_ranged_2}Sultanate Janissary Infantry"
                 occupation="Soldier"
@@ -648,9 +627,9 @@
       <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t1"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai"
+  <NPCCharacter id="cla_aserai_ranged_3"
+                culture="Culture.aserai"
                 default_group="Ranged"
-                id="cla_aserai_ranged_3"
                 level="16"
                 name="{=cla_aserai_ranged_3}Sultanate Trained Janissary Infantry"
                 occupation="Soldier"
@@ -676,9 +655,9 @@
       <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai"
+  <NPCCharacter id="cla_aserai_ranged_4"
+                culture="Culture.aserai"
                 default_group="Ranged"
-                id="cla_aserai_ranged_4"
                 level="21"
                 name="{=cla_aserai_ranged_4}Sultanate Veteran Janissary Infantry"
                 occupation="Soldier"
@@ -703,9 +682,9 @@
       <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai"
+  <NPCCharacter id="cla_aserai_ranged_5"
+                culture="Culture.aserai"
                 default_group="Ranged"
-                id="cla_aserai_ranged_5"
                 level="26"
                 name="{=cla_aserai_ranged_5}Sultanate Elite Janissary Infantry"
                 occupation="Soldier"
