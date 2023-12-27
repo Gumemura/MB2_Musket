@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item Type="HorseHarness" appearance="1" culture="Culture.empire" difficulty="0" id="cla_loyalist_striped_horse_harness_1" is_merchandise="true" mesh="horse_harness_imperial_a_clotest" multiplayer_item="false" name="{=cla_loyalist_striped_horse_harness_1}Aged Leather Harness" subtype="body_armor" weight="7">
+    <ItemComponent>
+      <Armor body_armor="15" family_type="1" mane_cover_type="none" material_type="Leather" modifier_group="leather" reins_mesh="horse_harness_imperial_a_rein"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="HorseHarness" appearance="1" culture="Culture.empire" difficulty="0" id="cla_loyalist_striped_horse_harness_2" is_merchandise="true" mesh="horse_harness_imperial_a_clotest" multiplayer_item="false" name="{=cla_loyalist_striped_horse_harness_2}Striped Leather Harness" subtype="body_armor" weight="7">
+    <ItemComponent>
+      <Armor body_armor="60" family_type="1" mane_cover_type="none" material_type="Leather" modifier_group="leather" reins_mesh="horse_harness_imperial_a_rein"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="HorseHarness" appearance="1" culture="Culture.empire" difficulty="0" id="cla_loyalist_striped_horse_harness_3" is_merchandise="true" mesh="horse_harness_imperial_a_clotest" multiplayer_item="false" name="{=cla_loyalist_striped_horse_harness_3}Tanned Striped Leather Harness" subtype="body_armor" weight="7">
+    <ItemComponent>
+      <Armor body_armor="75" family_type="1" mane_cover_type="none" material_type="Leather" modifier_group="leather" reins_mesh="horse_harness_imperial_a_rein"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_tunic_1" mesh="armor_roman_military_tunic" name="{=cla_empire_loyalist_tunic_1}Imperial Tunic" subtype="body_armor" weight="0.6">
+    <ItemComponent>
+      <Armor arm_armor="1" body_armor="8" covers_body="true" leg_armor="2" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_tunic_2" mesh="armor_roman_military_tunic" name="{=cla_empire_loyalist_tunic_2}Improved Imperial Tunic" subtype="body_armor" weight="0.6">
+    <ItemComponent>
+      <Armor arm_armor="3" body_armor="15" covers_body="true" leg_armor="3" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_tunic_3" mesh="armor_roman_military_tunic" name="{=cla_empire_loyalist_tunic_3}Well Woven Imperial Tunic" subtype="body_armor" weight="0.6">
+    <ItemComponent>
+      <Armor arm_armor="4" body_armor="30" covers_body="true" leg_armor="4" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_tunic_cloth_1" mesh="armor_tunic_with_rolled_cloth" name="{=cla_empire_loyalist_tunic_cloth_a_1}Tunic With Rolled Cloth" subtype="body_armor" weight="0.7">
+    <ItemComponent>
+      <Armor arm_armor="1" body_armor="15" covers_body="true" leg_armor="2" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_tunic_cloth_2" mesh="armor_tunic_with_rolled_cloth" name="{=cla_empire_loyalist_tunic_cloth_2}Improved Tunic With Rolled Cloth" subtype="body_armor" weight="0.7">
+    <ItemComponent>
+      <Armor arm_armor="2" body_armor="30" covers_body="true" leg_armor="4" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" id="cla_empire_loyalist_tunic_pads_1" mesh="roman_cloth_tunic_b" name="{=cla_empire_loyalist_tunic_pads_a_1}Tunic With Shoulder Pads" weight="0.6">
+    <ItemComponent>
+      <Armor arm_armor="1" body_armor="8" covers_body="true" leg_armor="2" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1.4" culture="Culture.empire" difficulty="0" id="cla_empire_veteran_mercenary_armor_1" mesh="veteran_mercenary_armor" name="{=cla_empire_veteran_mercenary_armor_1}Musketeer Armor" subtype="body_armor" weight="8.2">
+    <ItemComponent>
+      <Armor arm_armor="15" body_armor="40" covers_body="true" has_gender_variations="true" leg_armor="18" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1.3" culture="Culture.empire" difficulty="0" id="cla_empire_empire_horseman_armor_1" mesh="empire_horseman_armor" name="{=cla_empire_empire_horseman_armor_1}Mail Shirt" subtype="body_armor" weight="8.3">
+    <ItemComponent>
+      <Armor arm_armor="15" body_armor="40" covers_body="true" has_gender_variations="true" leg_armor="18" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.empire" id="cla_empire_studded_leather" mesh="khuzait_leather_armor_b" name="{=cla_empire_studded_leather}Studded Leather Armor" weight="3.0">
+    <ItemComponent>
+      <Armor arm_armor="12" body_armor="33" covers_body="true" leg_armor="15" material_type="Leather" modifier_group="leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1.3" culture="Culture.empire" id="cla_empire_imperial_leather_armor" mesh="empire_leather_armor" name="{=cla_empire_imperial_leather_armor}Leather Armor" weight="3.1">
+    <ItemComponent>
+      <Armor arm_armor="12" body_armor="33" covers_body="true" leg_armor="15" material_type="Leather" modifier_group="leather"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="6.0" culture="Culture.empire" difficulty="0" id="cla_empire_legion_b" mesh="empire_legion_b" name="{=cla_empire_legion_b}Improved Ornate Legionary Scale Mail" subtype="body_armor" weight="22.0">
+    <ItemComponent>
+      <Armor arm_armor="14" body_armor="48" covers_body="true" leg_armor="24" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <!-- Legs -->
+  <Item Type="HandArmor" appearance="1" culture="Culture.empire" id="cla_empire_leather_gloves_1" mesh="crossbow_armor_hand" name="{=cla_empire_leather_gloves_1}Leather Gloves" weight="0.4">
+    <ItemComponent>
+      <Armor arm_armor="10" covers_hands="true" material_type="Leather" modifier_group="leather"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HandArmor" appearance="1" culture="Culture.empire" id="cla_empire_leather_gloves_2" mesh="crossbow_armor_hand" name="{=cla_empire_leather_gloves_2}Sturdy Leather Gloves" weight="0.4">
+    <ItemComponent>
+      <Armor arm_armor="20" covers_hands="true" material_type="Leather" modifier_group="leather"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="LegArmor" appearance="1.3" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_boots_1" mesh="empire_horseman_boots" name="{=cla_empire_loyalist_boots_1}Imperial Boots" weight="0.8">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="8" material_type="Leather" modifier_group="leather"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="LegArmor" appearance="1.3" culture="Culture.empire" difficulty="0" id="cla_empire_loyalist_boots_2" mesh="empire_horseman_boots" name="{=cla_empire_loyalist_boots_2}Imperial Sturdy Boots" weight="0.8">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="15" material_type="Leather" modifier_group="leather"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <!-- Helm -->
+  <Item Type="HeadArmor" appearance="5" culture="Culture.empire" difficulty="0" id="cla_empire_helm_palace_guard" mesh="empire_lord_helmet_a" name="{=cla_empire_helm_palace_guard}Palace Guard Helmet" subtype="head_armor" weight="3.2">
+    <ItemComponent>
+      <Armor beard_cover_type="type2" hair_cover_type="all" has_gender_variations="false" head_armor="46" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="HeadArmor" appearance="3" culture="Culture.empire" difficulty="0" id="cla_empire_guarded_lord_helmet_1" mesh="empire_lord_helmet_b" name="{=cla_empire_guarded_lord_helmet_1}Imperial Guard Helmet" subtype="head_armor" weight="3.7">
+    <ItemComponent>
+      <Armor beard_cover_type="type3" hair_cover_type="all" has_gender_variations="false" head_armor="35" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="HeadArmor" appearance="3" culture="Culture.empire" difficulty="0" id="cla_empire_guarded_lord_helmet_2" mesh="empire_lord_helmet_b" name="{=cla_empire_guarded_lord_helmet_1}Imperial Royal Guard Helmet" subtype="head_armor" weight="3.7">
+    <ItemComponent>
+      <Armor beard_cover_type="type3" hair_cover_type="all" has_gender_variations="false" head_armor="51" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="HeadArmor" appearance="3" culture="Culture.empire" difficulty="0" id="cla_empire_helm_officer_1" mesh="empire_lord_helmet_c_2" name="{=cla_empire_helm_officer_1}Officer's Helm" subtype="head_armor" weight="3.4">
+    <ItemComponent>
+      <Armor beard_cover_type="type2" hair_cover_type="all" has_gender_variations="false" head_armor="47" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <!-- Shoulders -->
+  <Item Type="Cape" appearance="1.2" culture="Culture.empire" id="cla_empire_cape_1" mesh="cla_rome_cape_long_team" name="{=cla_empire_cape_1}Shoulder Cape" weight="0.5">
+    <ItemComponent>
+      <Armor body_armor="10" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="Cape" appearance="1.2" culture="Culture.empire" id="cla_empire_cape_2" mesh="cla_rome_cape_long_team" name="{=cla_empire_cape_2}Expensive Shoulder Cape" weight="0.5">
+    <ItemComponent>
+      <Armor body_armor="20" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="Cape" appearance="1.2" culture="Culture.empire" id="cla_empire_cape_3" mesh="cla_rome_cape_long_lord_team" name="{=cla_empire_cape_3}Lord's Shoulder Cape" weight="0.5">
+    <ItemComponent>
+      <Armor body_armor="20" material_type="Cloth" modifier_group="cloth_unarmoured"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <!-- Shields -->
+  <Item Type="Shield" appearance="0.9" body_name="bo_cap_aserai_shields_g" culture="Culture.empire" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" id="cla_empire_steel_round_shield" item_holsters="shield:shield_2:shield_3:shield_4" mesh="aserai_shields_g" name="{=cla_empire_steel_round_shield}Steel Round Shield" recalculate_body="false" shield_body_name="bo_aserai_shields_g" weight="4">
+    <ItemComponent>
+      <Weapon body_armor="1" center_of_mass="0.01, 0.07, 0.1" hit_points="300" item_usage="shield" modifier_group="metal_shield" physics_material="metal_shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" speed_rating="82" thrust_damage_type="Blunt" thrust_speed="82" weapon_class="LargeShield" weapon_length="60">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandSecondaryItemBone="true" HeldInOffHand="true" WoodenParry="true"/>
+  </Item>
+  <Item Type="Shield" appearance="0.9" body_name="bo_cap_aserai_shields_g" culture="Culture.empire" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" id="cla_empire_steel_round_shield_2" item_holsters="shield:shield_2:shield_3:shield_4" mesh="aserai_shields_g" name="{=cla_empire_steel_round_shield_2}Reinforced Steel Round Shield" recalculate_body="false" shield_body_name="bo_aserai_shields_g" weight="4">
+    <ItemComponent>
+      <Weapon body_armor="1" center_of_mass="0.01, 0.07, 0.1" hit_points="520" item_usage="shield" modifier_group="metal_shield" physics_material="metal_shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" speed_rating="82" thrust_damage_type="Blunt" thrust_speed="82" weapon_class="LargeShield" weapon_length="60">
+        <WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandSecondaryItemBone="true" HeldInOffHand="true" WoodenParry="true"/>
+  </Item>
+  <!-- Invisible Items -->
+  <Item Type="Cape" appearance="2" culture="Culture.empire" id="cla_l_invisible_shoulders_1" mesh="fakemesh" name="{=cla_l_invisible_shoulders_1}Invisible Shoulders" weight="5.0">
+    <ItemComponent>
+      <Armor arm_armor="5" body_armor="15" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+</Items>

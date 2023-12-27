@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_helm_icon" mesh="rus_helm_icon" name="{=cla_dominion_rus_helm_icon}Vaegir Decorated Helmet" subtype="head_armor" value="60000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="51" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_helm_noble" mesh="rus_helm_noble" name="{=cla_dominion_rus_helm_noble}Vaegir Noble Helmet" subtype="head_armor" value="55000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="51" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_helm_noble_icon" mesh="rus_helm_noble_icon" name="{=cla_dominion_rus_helm_noble_icon}Vaegir Decorated Noble Helmet" subtype="head_armor" value="65000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="51" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_helm_regular" mesh="rus_helm_regular" name="{=cla_dominion_rus_helm_regular}Vaegir Helmet" subtype="head_armor" value="50000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="51" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_helm_regular2" mesh="rus_helm_regular2" name="{=cla_dominion_rus_helm_regular2}Vaegir Helmet" subtype="head_armor" value="50000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="51" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_open_helm" mesh="rus_open_helm" name="{=cla_dominion_rus_open_helm}Vaegir Helmet" subtype="head_armor" value="45000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_vaegir_helm" mesh="vaegir_helm" name="{=cla_dominion_vaegir_helm}War Mask" subtype="head_armor" value="65000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_vaegir_helm_open" mesh="vaegir_helm_open" name="{=cla_dominion_vaegir_helm_open}War helmet" subtype="head_armor" value="65000" weight="3.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="42" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_armour" is_merchandise="true" mesh="Rus_armour" name="{=cla_dominion_rus_armour}Vaegir coat of plates" subtype="body_armor" value="800000" weight="24">
+    <ItemComponent>
+      <Armor arm_armor="23" body_armor="50" covers_body="true" leg_armor="20" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_armour1" is_merchandise="true" mesh="Rus_armour1" name="{=cla_dominion_rus_armour1}Vaegir coat of plates" subtype="body_armor" value="800000" weight="24">
+    <ItemComponent>
+      <Armor arm_armor="23" body_armor="50" covers_body="true" leg_armor="20" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.sturgia" difficulty="0" id="cla_dominion_rus_armour2" is_merchandise="true" mesh="Rus_armour2" name="{=cla_dominion_rus_armour2}Vaegir coat of plates" subtype="body_armor" value="800000" weight="24">
+    <ItemComponent>
+      <Armor arm_armor="23" body_armor="50" covers_body="true" leg_armor="20" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+</Items>

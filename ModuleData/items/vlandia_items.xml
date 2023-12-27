@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- Winged -->
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_winged_great_helm_base" mesh="winged_great_helm_base" name="{=cla_federation_winged_great_helm_base}Winged Great Helmet" subtype="head_armor" value="45000" weight="4.8">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_winged_great_helm_dark" mesh="winged_great_helm_dark" name="{=cla_federation_winged_great_helm_dark}Winged Blackened Great Helmet" subtype="head_armor" value="45000" weight="4.8">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_winged_great_helm_brass" mesh="winged_great_helm_brass" name="{=cla_federation_winged_great_helm_brass}Winged Great Helmet" subtype="head_armor" value="45000" weight="4.8">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <!-- Helms -->
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_italio_norman_helm_bronze" mesh="italio_norman_helm_bronze" name="{=cla_federation_italio_norman_helm_bronze}Western Helm With brass Faceplate" subtype="head_armor" value="30000" weight="3.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="40" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_italio_norman_helm" mesh="italio_norman_helm" name="{=cla_federation_italio_norman_helm}Western Helm With Faceplate" subtype="head_armor" value="30000" weight="3.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="40" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_fluted_helm_with_brass_faceplate" mesh="fluted_helm_with_brass_faceplate" name="{=cla_federation_fluted_helm_with_brass_faceplate}Fluted Helm With Brass Faceplate" subtype="head_armor" value="25000" weight="3.4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="40" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_fluted_helm_with_faceplate" mesh="fluted_helm_with_faceplate" name="{=cla_federation_fluted_helm_with_faceplate}Fluted Helm With Faceplate" subtype="head_armor" value="25000" weight="3.4">
+    <ItemComponent>
+      <Armor hair_cover_type="all" has_gender_variations="false" head_armor="40" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_bascinet_facemask" mesh="sa_bacinet_with_facemask" name="{=cla_federation_helm_bacinet_facemask}Bascinet with Facemask" subtype="head_armor" value="40000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="45" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_pothelm" mesh="pothelm" name="{=cla_federation_pothelm}Western Pothelm over Chainmail" subtype="head_armor" value="30000" weight="3.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="45" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_pothelm_painted" mesh="pothelm2" name="{=cla_federation_pothelm_painted}Western Painted Pothelm over Chainmail" subtype="head_armor" value="30000" weight="3.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="45" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_helm_base" mesh="great_helm_base" name="{=cla_federation_great_helm_base}Great Helmet" subtype="head_armor" value="40000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_helm_brass" mesh="great_helm_brass" name="{=cla_federation_great_helm_brass}Brass Great Helmet" subtype="head_armor" value="40000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_helm_dark" mesh="great_helm_dark" name="{=cla_federation_great_helm_dark}Blackened Great Helmet" subtype="head_armor" value="40000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_vlandian_helm_with_faceplate" mesh="vlandian_helm_with_faceplate" name="{=cla_federation_vlandian_helm_with_faceplate}Western Full Plate Helmet" subtype="head_armor" value="35000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_vlandian_helm_with_faceplate_blackend_brass" mesh="vlandian_helm_with_faceplate_black" name="{=cla_federation_vlandian_helm_with_faceplate_blackend_brass}Western Ornate Full Plate Helmet" subtype="head_armor" value="37000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_vlandian_helm_with_faceplate_brass" mesh="vlandian_helm_with_faceplate_brass" name="{=cla_federation_vlandian_helm_with_faceplate_brass}Western Ornate Full Plate Helmet" subtype="head_armor" value="37000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_vlandian_helm_with_faceplate_painted" mesh="vlandian_helm_with_faceplate_paint" name="{=cla_federation_vlandian_helm_with_faceplate_painted}Western Painted Full Plate Helmet" subtype="head_armor" value="35000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="52" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_vlandian_helm_with_visor" mesh="vlandian_helm_with_visor" name="{=cla_federation_vlandian_helm_with_visor}Western Helmet With Visor" subtype="head_armor" value="40000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="55" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_engraved_vlandian_helm_with_visor" mesh="engraved_vlandian_helm_with_visor" name="{=cla_federation_engraved_vlandian_helm_with_visor}Ornate Western Helmet With Visor" subtype="head_armor" value="40000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="55" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sugarloaf_helm_brass" mesh="sugarloaf_helm3" name="{=cla_federation_sugarloaf_helm}Western Sugarloaf Helm with Brass Guard" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="56" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sugarloaf_helm" mesh="sugarloaf_helm4" name="{=cla_federation_sugarloaf_helm}Western Sugarloaf Helm" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="56" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sugarloaf_helm_cloth" mesh="sugarloaf_helm" name="{=cla_federation_sugarloaf_helm}Western Sugarloaf Helm with Cloth Headwrap" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="56" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sugarloaf_helm_brass_cloth" mesh="sugarloaf_helm2" name="{=cla_federation_sugarloaf_helm_brass_cloth}Western Sugarloaf Helm with Brass Guard and Cloth Headwrap" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="56" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_sallet_no_visor" mesh="sallet_no_visor" name="{=cla_federation_helm_sallet_no_visor}Imperial Sallet without Visor" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="40" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sallet_base" mesh="sallet_base" name="{=cla_federation_sallet_base}Western Sallet" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="56" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sallet_wings" mesh="sallet_winged" name="{=cla_federation_sallet_wings}Western Winged Sallet" subtype="head_armor" value="50000" weight="4.6">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="56" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_pigface_bascinet" mesh="pigface_bascinet" name="{=cla_federation_pigface_bascinet}Western Bascinet" subtype="head_armor" value="58000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="57" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_pigface_bascinet_feather" mesh="pigface_bascinet_feather" name="{=cla_federation_pigface_bascinet_feather}Western Bascinet with Plumes" subtype="head_armor" value="58000" weight="4.6">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="57" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_pigface_bascinet_tail" mesh="pigface_bascinet_tail" name="{=cla_federation_pigface_bascinet_tail}Western Bascinet with mane" subtype="head_armor" value="58000" weight="4.6">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="57" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_prankh_helm" mesh="great_prankh_helm" name="{=cla_federation_great_prankh_helm}Round Top Great Helmet" subtype="head_armor" value="60000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="60" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_prankh_helm_crest" mesh="great_prankh_helm_crest" name="{=cla_federation_great_prankh_helm_crest}Round Top Great Helmet with crest" subtype="head_armor" value="65000" weight="5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="60" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_prankh_helm_winged" mesh="great_prankh_helm_winged" name="{=cla_federation_great_prankh_helm_winged}Round Top Great Helmet with wings" subtype="head_armor" value="62000" weight="5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="60" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_prankh_helm_horns" mesh="great_prankh_helm_horns" name="{=cla_federation_great_prankh_helm_horns}Round Top Great Helmet with horns" subtype="head_armor" value="62000" weight="5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="60" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <!-- Lords -->
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_sallet_crowned" mesh="sallet_crowned" name="{=cla_federation_sallet_crowned}Western Crowned Sallet" subtype="head_armor" value="55000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="60" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_royal_great_helm" mesh="royal_great_helm" name="{=cla_federation_royal_great_helm}Ornate Great Helmet" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="55" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_royal_great_helm_brass" mesh="royal_great_helm_brass" name="{=cla_federation_royal_great_helm_brass}Ornate Brass Great Helmet" subtype="head_armor" value="50000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="55" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_italio_norman_helm_crown" mesh="italio_norman_helm_crown" name="{=cla_federation_italio_norman_helm_crown}Western Crowned Helmet with Faceplate" subtype="head_armor" value="40000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_crowned_helm_with_brass_faceplate" mesh="crowned_helm_with_brass_faceplate" name="{=cla_federation_crowned_helm_with_brass_faceplate}Crowned Helm With Brass Faceplate" subtype="head_armor" value="40000" weight="3.7">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_crowned_helm_with_faceplate" mesh="crowned_helm_with_faceplate" name="{=cla_federation_crowned_helm_with_faceplate}Crowned Helm With Faceplate" subtype="head_armor" value="40000" weight="3.7">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="50" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_crowned_royal_vlandian_helm_with_visor" mesh="crowned_royal_vlandian_helm_with_visor" name="{=cla_federation_crowned_royal_vlandian_helm_with_visor}Ornate Western Helmet With Visor" subtype="head_armor" value="45000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="58" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_crowned_vlandian_helm_with_visor" mesh="crowned_vlandian_helm_with_visor" name="{=cla_federation_crowned_vlandian_helm_with_visor}Crowned Western Helmet With Visor" subtype="head_armor" value="50000" weight="4">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="58" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_great_prankh_helm_royal" mesh="great_prankh_helm_royal" name="{=cla_federation_great_prankh_helm_royal}Royal Round Top Great Helmet" subtype="head_armor" value="65000" weight="5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="60" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <!-- Shoulders -->
+  <Item Type="Cape" appearance="2" culture="Culture.vlandia" id="cla_federation_western_chain_shoulders" is_merchandise="true" mesh="chain_shoulders" name="{=cla_federation_western_chain_shoulders}Western Chain shoulders" value="8000" weight="3.6">
+    <ItemComponent>
+      <Armor body_armor="12" material_type="Chainmail" modifier_group="Chainmail"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="Cape" appearance="2" culture="Culture.vlandia" id="cla_federation_plate_shoulders" mesh="swadian_shoulders" name="{=cla_federation_plate_shoulders}Western Shoulder Plates" weight="3.6">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="20" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="Cape" appearance="2" culture="Culture.vlandia" id="cla_federation_engraved_plate_shoulders" is_merchandise="true" mesh="engraved_swadian_shoulders" name="{=cla_federation_engraved_plate_shoulders}Western Ornate Shoulder Plates" weight="3.6">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="20" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="Cape" appearance="4" culture="Culture.vlandia" id="cla_federation_pauldron_cape_a" mesh="pauldron_cape_a" name="{=cla_federation_pauldron_cape_a}Griffon-Knight's Cape" weight="3.5">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="17" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <!-- Body -->
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_mail_with_tabbard1" is_merchandise="true" mesh="mail_with_tabbard1" name="{=cla_federation_mail_with_tabbard1}Mail With Tabbard" subtype="body_armor" value="40000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="36" covers_body="true" leg_armor="15" material_type="Chainmail" modifier_group="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_mail_with_tabbard2" is_merchandise="true" mesh="mail_with_tabbard2" name="{=cla_federation_mail_with_tabbard2}Mail With Tabbard" subtype="body_armor" value="40000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="36" covers_body="true" leg_armor="15" material_type="Chainmail" modifier_group="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_mail_with_tabbard3" is_merchandise="true" mesh="mail_with_tabbard3" name="{=cla_federation_mail_with_tabbard3}Mail With Tabbard" subtype="body_armor" value="40000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="36" covers_body="true" leg_armor="15" material_type="Chainmail" modifier_group="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_mail_with_tabbard4" is_merchandise="true" mesh="mail_with_tabbard4" name="{=cla_federation_mail_with_tabbard4}Mail With Tabbard" subtype="body_armor" value="40000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="36" covers_body="true" leg_armor="15" material_type="Chainmail" modifier_group="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_mail_with_tabbard5" is_merchandise="true" mesh="mail_with_tabbard5" name="{=cla_federation_mail_with_tabbard5}Mail With Tabbard" subtype="body_armor" value="40000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="10" body_armor="36" covers_body="true" leg_armor="15" material_type="Chainmail" modifier_group="Chainmail"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <!-- Coat of Plates -->
+  <Item Type="BodyArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_coat_of_plates" is_merchandise="true" mesh="coat_of_plates1_c" name="{=cla_federation_coat_of_plates}Coat of Plates" subtype="body_armor" value="70000" weight="25.11">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="45" covers_body="true" leg_armor="20" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_coat_of_plates_royal" is_merchandise="true" mesh="coat_of_plates2_c" name="{=cla_federation_coat_of_plates_royal}Coat of Plates with Royal Pattern" subtype="body_armor" value="70000" weight="25.11">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="45" covers_body="true" leg_armor="20" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_coat_of_plates_lys" is_merchandise="true" mesh="coat_of_plates3_c" name="{=cla_federation_coat_of_plates_lys}Coat of Plates with Lys Pattern" subtype="body_armor" value="70000" weight="25.11">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="45" covers_body="true" leg_armor="20" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_coat_of_plates_checker" is_merchandise="true" mesh="coat_of_plates4_c" name="{=cla_federation_coat_of_plates_checker}Coat of Plates with Checker Pattern" subtype="body_armor" value="70000" weight="25.11">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="45" covers_body="true" leg_armor="20" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_coat_of_plates_cross" is_merchandise="true" mesh="coat_of_plates5_c" name="{=cla_federation_coat_of_plates_cross}Coat of Plates with Cross Pattern" subtype="body_armor" value="70000" weight="25.11">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="45" covers_body="true" leg_armor="20" material_type="Chainmail" modifier_group="chain"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <!-- Plate Armor -->
+  <!-- Cuirass -->
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_cuirass" is_merchandise="true" mesh="swadian_cuirass" name="{=cla_federation_cuirass}Western Cuirass" subtype="body_armor" value="78000" weight="25">
+    <ItemComponent>
+      <Armor arm_armor="18" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="3" culture="Culture.vlandia" difficulty="1" id="cla_federation_striped_cuirass" is_merchandise="true" mesh="swadian_striped_cuirass" name="{=cla_federation_striped_cuirass}Western Striped Cuirass" subtype="body_armor" value="78000" weight="25">
+    <ItemComponent>
+      <Armor arm_armor="18" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_plate_with_armguards" is_merchandise="true" mesh="swadian_plate_with_armguards" name="{=cla_federation_plate_with_armguards}Western Cuirass With Armguards" subtype="body_armor" value="85000" weight="26.5">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_leather_plate_with_armguards" is_merchandise="true" mesh="swadian_leather_plate_with_armguards" name="{=cla_federation_leather_plate_with_armguards}Western Leather Plate Armor With Armguards" subtype="body_armor" value="85000" weight="26.5">
+    <ItemComponent>
+      <Armor arm_armor="20" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_leather_plate_armor" is_merchandise="true" mesh="swadian_leather_plate_armor" name="{=cla_federation_leather_plate_armor}Western Leather Plate Armor" subtype="body_armor" value="100000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="25" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_brass_plate_armor" is_merchandise="true" mesh="swadian_brass_plate_armor" name="{=cla_federation_brass_plate_armor}Western Brass Plate Armor" subtype="body_armor" value="100000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="25" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_plate_armor" is_merchandise="true" mesh="swadian_plate_armor" name="{=cla_federation_plate_armor}Western Plate Armor" subtype="body_armor" value="100000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="25" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_striped_plate_armor" is_merchandise="true" mesh="swadian_striped_plate_armor" name="{=cla_federation_striped_plate_armor}Western Striped Plate Armor" subtype="body_armor" value="100000" weight="29">
+    <ItemComponent>
+      <Armor arm_armor="25" body_armor="55" covers_body="true" leg_armor="25" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_armet" mesh="armet2" name="{=cla_federation_helm_armet} Armet" subtype="head_armor" value="68000" weight="4.6">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="62" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_armet_feather" mesh="armet" name="{=cla_federation_helm_armet_feather}Featherd Armet" subtype="head_armor" value="68000" weight="4.6">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="62" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_bascinet_hounskull" mesh="sa_1churburghhelm" name="{=cla_federation_helm_bascinet_hounskull}Hounskull Bascinet" subtype="head_armor" value="58000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="57" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="LegArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_feet_plate_boots_churburg" mesh="sa_1churburghboots" name="{=cla_federation_feet_plate_boots_churburg}Plate Boots" value="36000" weight="2.5">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="30" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_body_plate_churburgh" is_merchandise="true" mesh="sa_1churburghtorso" name="{=cla_federation_body_plate_churburgh}Plate Cuirass" subtype="body_armor" value="90000" weight="30">
+    <ItemComponent>
+      <Armor arm_armor="30" body_armor="55" covers_body="true" leg_armor="30" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HandArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_gloves_plate_churburgh" is_merchandise="true" mesh="sa_1churburghgauntlet" name="{=cla_federation_gloves_plate_churburgh}Plate Mittens" subtype="body_armor" value="35000" weight="2.9">
+    <ItemComponent>
+      <Armor arm_armor="30" body_armor="0" covers_hands="true" leg_armor="0" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_bascinet_hounskull_black" mesh="sa_2churburghhelm" name="{=cla_federation_helm_bascinet_hounskull_black}Blackend Hounskull Bascinet" subtype="head_armor" value="62000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="57" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="LegArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_feet_plate_boots_churburg_black" mesh="sa_2churburghboots" name="{=cla_federation_feet_plate_boots_churburg_black}Blackend Plate Boots" value="39000" weight="2.5">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="30" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_body_plate_churburgh_black" is_merchandise="true" mesh="sa_2churburghtorso" name="{=cla_federation_body_plate_churburgh_black}Blackend Plate Cuirass" subtype="body_armor" value="100000" weight="30">
+    <ItemComponent>
+      <Armor arm_armor="30" body_armor="55" covers_body="true" leg_armor="30" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HandArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_gloves_plate_churburgh_black" is_merchandise="true" mesh="sa_2churburghgauntlet" name="{=cla_federation_gloves_plate_churburgh_black}Blackend Plate Mittens" subtype="body_armor" value="39000" weight="2.9">
+    <ItemComponent>
+      <Armor arm_armor="30" body_armor="0" covers_hands="true" leg_armor="0" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="HeadArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_helm_bascinet_hounskull_trim" mesh="sa_churburghhelm" name="{=cla_federation_helm_bascinet_hounskull_trim}Trimmed Hounskull Bascinet" subtype="head_armor" value="62000" weight="4.5">
+    <ItemComponent>
+      <Armor beard_cover_type="all" hair_cover_type="all" has_gender_variations="false" head_armor="57" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <Item Type="LegArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_feet_plate_boots_churburg_trim" mesh="sa_churburghboots" name="{=cla_federation_feet_plate_boots_churburg_trim}Trimmed Plate Boots" value="39000" weight="2.5">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="30" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="BodyArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_body_plate_churburgh_trim" is_merchandise="true" mesh="sa_churburghtorso" name="{=cla_federation_body_plate_churburgh_trim}Trimmed Plate Cuirass" subtype="body_armor" value="100000" weight="30">
+    <ItemComponent>
+      <Armor arm_armor="30" body_armor="55" covers_body="true" leg_armor="30" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="true"/>
+  </Item>
+  <Item Type="HandArmor" appearance="1" culture="Culture.vlandia" difficulty="0" id="cla_federation_gloves_plate_churburgh_trim" is_merchandise="true" mesh="sa_churburghgauntlet" name="{=cla_federation_gloves_plate_churburgh_trim}Trimmed Plate Mittens" subtype="body_armor" value="39000" weight="2.9">
+    <ItemComponent>
+      <Armor arm_armor="30" body_armor="0" covers_hands="true" leg_armor="0" material_type="Plate" modifier_group="Plate"/>
+    </ItemComponent>
+    <Flags UseTeamColor="false"/>
+  </Item>
+  <!-- Feet -->
+  <Item Type="LegArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_feet_plate_steel" is_merchandise="true" mesh="plateboot" name="{=cla_federation_feet_plate_steel}Steel Plate Boots" weight="3.5">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="25" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+  <Item Type="LegArmor" appearance="3" culture="Culture.vlandia" difficulty="0" id="cla_federation_feet_plate_brass" is_merchandise="true" mesh="plateboot2" name="{=cla_federation_feet_plate_brass}Brass Plate Boots" weight="3.5">
+    <ItemComponent>
+      <Armor covers_legs="true" leg_armor="25" material_type="Plate" modifier_group="plate"/>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+</Items>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+	  <MBPartyTemplate id="cla_kingdom_hero_party_vlandia_template" >
+    <stacks>
+      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.cla_vlandia_recruit_1" />      
+      <PartyTemplateStack min_value="7" max_value="8" troop="NPCCharacter.cla_vlandia_infantry_2" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_vlandia_infantry_3" />
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.cla_vlandian_infantry_4" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandian_infantry_5" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_vlandia_infantry_spear_3" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandia_infantry_spear_4" />
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.cla_vlandian_bannerman_4" />
+	    <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.cla_vlandia_musketeer_2" />
+	    <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_vlandia_musketeer_3" />
+	    <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_vlandia_musketeer_4" />
+	    <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandia_musketeer_5" />
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.cla_vlandia_grenadier_5" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_vlandia_ranged_mounted_4" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_vlandia_elite_3" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_vlandia_elite_5" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_vlandia_elite_ranged_3" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandia_elite_ranged_4" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="cla_caravan_template_vlandia" >
+    <stacks>
+      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.cla_armed_trader_vlandia" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_caravan_guard_vlandia" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_veteran_caravan_guard_vlandia" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="cla_elite_caravan_template_vlandia" >
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.cla_armed_trader_vlandia" />
+      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.cla_caravan_guard_vlandia" />
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cla_veteran_caravan_guard_vlandia" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_caravan_master_vlandia" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="cla_militia_vlandia_template" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandian_militia_spearman" />
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandian_militia_archer" />
+      </stacks>
+    </MBPartyTemplate>
+  <MBPartyTemplate id="cla_rebels_vlandia_template" >
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_vlandia_recruit_1" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="cla_vassal_reward_troops_vlandia" >
+    <stacks>
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.cla_vlandia_elite_ranged_3" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_vlandian_bannerman_4" />
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>

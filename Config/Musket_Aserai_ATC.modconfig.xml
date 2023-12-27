@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ATCConfig>
+  <!-- Faction configuration -->
+  <!-- id taken from spkingdoms.xml -->
+  <!-- special case: player_faction -->
+  <MapFaction id="aserai">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="empire">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="empire_s">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="empire_w">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="battania">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="khuzait">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="sturgia">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="vlandia">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+  <MapFaction id="player_faction">
+    <Culture id="aserai">
+      <basicTroops>
+        <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+  </MapFaction>
+
+</ATCConfig>
