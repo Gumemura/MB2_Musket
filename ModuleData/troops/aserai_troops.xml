@@ -788,7 +788,7 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
         <equipment id="Item.bound_adarga" slot="Item3"/>
@@ -799,7 +799,7 @@
         <equipment id="Item.wrapped_scarf" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
         <equipment id="Item.bound_adarga" slot="Item3"/>
@@ -821,7 +821,7 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -832,7 +832,7 @@
         <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -856,7 +856,7 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -867,7 +867,7 @@
         <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -891,7 +891,7 @@
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
         <equipment id="Item.large_adarga" slot="Item3"/>
@@ -913,7 +913,7 @@
     <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_4_t4" slot="Item2"/>
         <equipment id="Item.ornate_adarga" slot="Item3"/>

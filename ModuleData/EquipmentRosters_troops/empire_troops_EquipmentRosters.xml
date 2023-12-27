@@ -1007,8 +1007,8 @@
   </EquipmentRoster>
   <EquipmentRoster id="cla_empire_ranged_5_shotgun_template" culture="Culture.empire">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
-      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_4" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
       <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
@@ -1017,8 +1017,8 @@
       <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
-      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_4" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
       <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
@@ -1027,8 +1027,8 @@
       <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
-      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_4" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
       <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
@@ -1037,8 +1037,8 @@
       <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
-      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_4" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
       <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
@@ -1568,7 +1568,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
@@ -1579,7 +1578,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.empire_legion_b" />
@@ -1590,7 +1588,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
@@ -1601,7 +1598,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.empire_legion_b" />
@@ -1612,7 +1608,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
@@ -1623,7 +1618,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.empire_legion_b" />
@@ -1634,7 +1628,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
@@ -1645,7 +1638,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.empire_legion_b" />
@@ -1658,7 +1650,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1669,7 +1660,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1680,7 +1670,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1691,7 +1680,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1702,7 +1690,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1713,7 +1700,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1724,7 +1710,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1735,7 +1720,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_lamellar" />
@@ -1748,7 +1732,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_scale_armor" />
@@ -1759,7 +1742,6 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
@@ -1770,7 +1752,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.imperial_scale_armor" />
@@ -1781,7 +1762,6 @@
     <EquipmentSet civilian="true">
       <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
       <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
-      <Equipment slot="Item2" id="Item.cla_banner_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
       <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
       <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
@@ -1911,8 +1891,8 @@
 <!-- AOE Units -->
   <EquipmentRoster id="cla_empire_elite_ranged_5_c_template" culture="Culture.empire">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
@@ -1922,8 +1902,8 @@
       <Equipment slot="Cape" id="Item.wolf_shoulder" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
@@ -1933,8 +1913,8 @@
       <Equipment slot="Cape" id="Item.wolf_shoulder" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
@@ -1944,8 +1924,8 @@
       <Equipment slot="Cape" id="Item.wolf_shoulder" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
@@ -1957,8 +1937,8 @@
   </EquipmentRoster>
   <EquipmentRoster id="cla_empire_elite_ranged_6_c_template" culture="Culture.empire">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
@@ -1968,8 +1948,8 @@
       <Equipment slot="Cape" id="Item.scarf" />
     </EquipmentSet>
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.roundkettle_over_imperial_mail" />
@@ -1979,8 +1959,8 @@
       <Equipment slot="Cape" id="Item.scarf" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
@@ -1990,8 +1970,8 @@
       <Equipment slot="Cape" id="Item.scarf" />
     </EquipmentSet>
     <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
-      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item0" id="Item.cla_jestle_musket_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
       <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
       <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
       <Equipment slot="Head" id="Item.roundkettle_over_imperial_mail" />

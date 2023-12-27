@@ -17,9 +17,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.peasant_pickaxe_1_t1" />
         <equipment slot="Head"
@@ -35,9 +35,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.peasant_hatchet_1_t1" />
         <equipment slot="Body"
@@ -51,9 +51,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.peasant_hammer_1_t1" />
         <equipment slot="Head"
@@ -69,9 +69,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.peasant_hammer_1_t1" />
         <equipment slot="Head"
@@ -101,9 +101,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Head"
@@ -121,9 +121,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Head"
@@ -141,9 +141,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Head"
@@ -159,9 +159,9 @@
         <equipment slot="Item0"
                    id="Item.cla_jestle_arquebus_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item3"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Head"
@@ -359,7 +359,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item0"
                    id="Item.vlandia_sword_2_t3" />
         <equipment slot="Head"
@@ -373,7 +373,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item0"
                    id="Item.vlandia_sword_2_t3" />
         <equipment slot="Head"
@@ -387,7 +387,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item0"
                    id="Item.vlandia_sword_2_t3" />
         <equipment slot="Head"
@@ -401,7 +401,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item0"
                    id="Item.vlandia_sword_2_t3" />
         <equipment slot="Head"
@@ -649,7 +649,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Body"
@@ -661,7 +661,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Body"
@@ -675,7 +675,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Body"
@@ -687,7 +687,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Body"
@@ -699,7 +699,7 @@
         <equipment slot="Item0"
                    id="Item.cla_hand_cannon_1" />
         <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <equipment slot="Item2"
                    id="Item.vlandia_sword_1_t2" />
         <equipment slot="Body"
@@ -733,7 +733,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
        <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -750,7 +750,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
        <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -1358,8 +1358,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_2_t3" />
       <equipment slot="Head"
@@ -1377,8 +1375,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_2_t3" />
       <equipment slot="Head"
@@ -1396,8 +1392,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_2_t3" />
       <equipment slot="Head"
@@ -1415,8 +1409,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_2_t3" />
       <equipment slot="Head"
@@ -1434,8 +1426,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_3_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_2_t3" />
       <equipment slot="Head"
@@ -1473,8 +1463,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1492,8 +1480,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1511,8 +1497,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1530,8 +1514,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1549,8 +1531,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1568,8 +1548,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1587,8 +1565,6 @@
       <EquipmentRoster>
       <equipment slot="Item0"
                  id="Item.vlandia_sword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Item2"
                  id="Item.western_javelin_3_t4" />
       <equipment slot="Head"
@@ -1962,7 +1938,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -1978,7 +1954,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2016,7 +1992,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2034,7 +2010,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2052,7 +2028,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2070,7 +2046,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2088,7 +2064,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2106,7 +2082,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_k" />
+                 id="Item.cla_musket_ammo_1" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2145,7 +2121,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2163,7 +2139,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.seax" />
       <equipment slot="Head"
@@ -2200,7 +2176,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2218,7 +2194,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2236,7 +2212,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2254,7 +2230,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2272,7 +2248,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2290,7 +2266,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2308,7 +2284,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
       <equipment slot="Head"
@@ -2453,7 +2429,7 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
@@ -2471,7 +2447,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
@@ -2514,7 +2490,7 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
@@ -2532,7 +2508,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
@@ -2550,7 +2526,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
@@ -2568,7 +2544,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
        <equipment slot="Item2"
@@ -2615,7 +2591,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
        <equipment slot="Item3"
@@ -2636,7 +2612,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
        <equipment slot="Item3"
@@ -2657,7 +2633,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_2_t3" />
        <equipment slot="Item3"
@@ -3289,7 +3265,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3310,7 +3286,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3351,7 +3327,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3371,7 +3347,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3391,7 +3367,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3411,7 +3387,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3431,7 +3407,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3472,7 +3448,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3492,7 +3468,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <equipment slot="Item3"
@@ -3532,7 +3508,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_5_t5" />
        <equipment slot="Item3"
@@ -3552,7 +3528,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_5_t5" />
        <equipment slot="Item3"
@@ -3572,7 +3548,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_5_t5" />
        <equipment slot="Item3"
@@ -3592,7 +3568,7 @@
       <equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item2"
                  id="Item.vlandia_sword_5_t5" />
        <equipment slot="Item3"
@@ -3632,9 +3608,9 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_2" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_explosive" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
                  id="Item.vlandia_2hsword_2_t5" />
       <equipment slot="Head"
@@ -3651,9 +3627,9 @@
 
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_1" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_explosive" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
                  id="Item.vlandia_2hsword_1_t5" />
       <equipment slot="Head"
@@ -3688,9 +3664,9 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_2" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_explosive" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
                  id="Item.vlandia_2hsword_2_t5" />
       <equipment slot="Head"
@@ -3707,9 +3683,9 @@
 
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_1" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_explosive" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
                  id="Item.vlandia_2hsword_1_t5" />
       <equipment slot="Head"
@@ -3726,9 +3702,9 @@
 
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_2" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_explosive" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
                  id="Item.vlandia_2hsword_2_t5" />
       <equipment slot="Head"
@@ -3745,9 +3721,9 @@
 
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_1" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_explosive" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
                  id="Item.vlandia_2hsword_1_t5" />
       <equipment slot="Head"

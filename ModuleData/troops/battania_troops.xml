@@ -1485,8 +1485,6 @@
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_2" />
       <equipment slot="Body"
@@ -1503,8 +1501,6 @@
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_2" />
       <equipment slot="Body"
@@ -1521,8 +1517,6 @@
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_2" />
       <equipment slot="Body"
@@ -1539,8 +1533,6 @@
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_2" />
       <equipment slot="Body"
@@ -1575,8 +1567,6 @@
                  id="Item.battania_2hsword_5_t5" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_3" />
       <equipment slot="Body"
@@ -1593,8 +1583,6 @@
                  id="Item.battania_2hsword_5_t5" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_3" />
       <equipment slot="Body"
@@ -1611,8 +1599,6 @@
                  id="Item.battania_2hsword_5_t5" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_3" />
       <equipment slot="Body"
@@ -1629,8 +1615,6 @@
                  id="Item.battania_2hsword_5_t5" />
       <equipment slot="Item1"
                  id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Item2"
-                 id="Item.cla_banner_shield" />
       <equipment slot="Head"
                  id="Item.cla_battania_helm_bronze_3" />
       <equipment slot="Body"
@@ -1984,7 +1968,7 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
@@ -2004,7 +1988,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
@@ -2049,7 +2033,7 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
@@ -2069,7 +2053,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
@@ -2089,7 +2073,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <equipment slot="Item2"
@@ -2501,9 +2485,9 @@
     <Equipments>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_1" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_cannon_ammo_1" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item3"
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Head"
@@ -2519,9 +2503,9 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_2" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_cannon_ammo_1" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item3"
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Head"
@@ -2537,9 +2521,9 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_2" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_cannon_ammo_1" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item3"
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Head"
@@ -2555,9 +2539,9 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_1" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_cannon_ammo_1" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item3"
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Head"
@@ -2573,9 +2557,9 @@
       </EquipmentRoster>
       <EquipmentRoster>
       <equipment slot="Item0"
-                 id="Item.cla_musket_cannon_1" />
+                 id="Item.cla_jestle_musket_2" />
       <equipment slot="Item1"
-                 id="Item.cla_cannon_ammo_1" />
+                 id="Item.cla_musket_ammo_1" />
       <equipment slot="Item3"
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Head"
@@ -2613,7 +2597,7 @@
       <equipment slot="Item0"
                  id="Item.cla_jestle_musket_3" />
       <equipment slot="Item1"
-                 id="Item.cla_cannon_ammo_2" />
+                 id="Item.cla_musket_ammo_1_large" />
       <equipment slot="Item3"
                  id="Item.battania_2hsword_5_t4" />
       <equipment slot="Head"

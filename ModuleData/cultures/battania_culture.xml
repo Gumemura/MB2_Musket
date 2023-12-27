@@ -76,7 +76,7 @@
     <vassal_reward_items>
       <item id="Item.noble_horse_khamseen" />
       <item id="Item.cla_throwing_bomb_1" />
-      <item id="Item.cla_musket_ammo_1_large_k" />
+      <item id="Item.cla_musket_ammo_1_large" />
       <item id="Item.cla_jestle_musket_3" />
       <item id="Item.cla_battania_cape_officer_cape_1" />
       <item id="Item.cla_battania_helm_officer_1" />

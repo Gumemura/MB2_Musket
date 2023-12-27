@@ -1163,7 +1163,7 @@
       <Equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <Equipment slot="Item2"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <Equipment slot="Item3"
                  id="Item.cla_musket_ammo_1" />
       <Equipment slot="Head"
@@ -1199,7 +1199,7 @@
       <Equipment slot="Item1"
                  id="Item.battania_sword_1_t2" />
       <Equipment slot="Item2"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <Equipment slot="Item3"
                  id="Item.cla_musket_ammo_1" />
       <Equipment slot="Head"
@@ -1374,7 +1374,7 @@
     <xsl:template match="EquipmentRoster[@id='player_char_creation_battania_2_m']/EquipmentSet">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <Equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2"
@@ -1406,7 +1406,7 @@
     <xsl:template match="EquipmentRoster[@id='player_char_creation_battania_2_f']/EquipmentSet">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_3" />
+                 id="Item.cla_jestle_carbine_1" />
       <Equipment slot="Item1"
                  id="Item.cla_musket_ammo_1" />
       <Equipment slot="Item2"
@@ -1983,7 +1983,7 @@
         <Equipment slot="Item2"
                    id="Item.cla_hand_cannon_1" />
         <Equipment slot="Item3"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <Equipment slot="Cape"
                    id="Item.mail_shoulders" />
         <Equipment slot="Head"
@@ -2019,7 +2019,7 @@
         <Equipment slot="Item2"
                    id="Item.cla_hand_cannon_1" />
         <Equipment slot="Item3"
-                   id="Item.cla_musket_ammo_1_k" />
+                   id="Item.cla_musket_ammo_1" />
         <Equipment slot="Cape"
                    id="Item.mail_shoulders" />
         <Equipment slot="Head"
@@ -2125,7 +2125,7 @@
       <Equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <Equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
         <Equipment slot="Head"
                    id="Item.cla_federation_pothelm" />
         <Equipment slot="Body"
@@ -2159,7 +2159,7 @@
       <Equipment slot="Item0"
                  id="Item.cla_hand_cannon_1" />
       <Equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
         <Equipment slot="Head"
                    id="Item.cla_federation_pothelm" />
         <Equipment slot="Body"
@@ -2188,7 +2188,7 @@
     <xsl:template match="EquipmentRoster[@id='player_char_creation_vlandia_2_m']/EquipmentSet">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <Equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
         <Equipment slot="Item2"
@@ -2220,7 +2220,7 @@
     <xsl:template match="EquipmentRoster[@id='player_char_creation_vlandia_2_f']/EquipmentSet">
     <EquipmentSet>
       <Equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_2" />
+                 id="Item.cla_jestle_carbine_1" />
        <Equipment slot="Item1"
                  id="Item.cla_musket_ammo_1_large" />
         <Equipment slot="Item2"

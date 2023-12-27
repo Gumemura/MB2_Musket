@@ -84,7 +84,7 @@
       <Equipment slot="Item0"
                  id="Item.cla_hand_cannon_3" />
       <Equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large_k" />
+                 id="Item.cla_musket_ammo_1_large" />
       <Equipment slot="Item2"
                  id="Item.vlandia_sword_4_t4" />
        <Equipment slot="Item3"
