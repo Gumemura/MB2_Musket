@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+<!-- Helm -->
+  <Item id="cla_battania_helm_bronze_1"
+        name="{=cla_battania_helm_bronze_1}Bronze Helm"
+        mesh="battania_earmuff_helmet_b_brnz"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="25"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="cla_battania_helm_steel_1"
+        name="{=cla_battania_helm_steel_1}Steel Helm"
+        mesh="battania_earmuff_helmet_b"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="2.9"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="25"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+
+  <Item id="cla_battania_helm_bronze_plume_1"
+        name="{=cla_battania_helm_bronze_plume_1}Fringed Bronze Helm"
+        mesh="battania_earmuff_helmet_a_brnz"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3.2"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="40"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="cla_battania_helm_steel_plume_1"
+        name="{=cla_battania_helm_steel_plume_1}Fringed Steel Helm"
+        mesh="battania_earmuff_helmet_a"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="45"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+
+
+
+  <Item id="cla_battania_helm_bronze_2"
+        name="{=cla_battania_helm_bronze_2}Decorated Bronze Helm"
+        mesh="battania_earmuff_helmet_c_cpr"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3.3"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="35"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_battania_helm_bronze_3"
+        name="{=cla_battania_helm_bronze_3}Ridged Decorated Bronze Helm"
+        mesh="battania_earmuff_helmet_d_brnz"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3.3"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="45"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="cla_battania_helm_steel_3"
+        name="{=cla_battania_helm_steel_3}Ridged Decorated Steel Helm"
+        mesh="battania_earmuff_helmet_d"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3.2"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="50"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+
+  <Item id="cla_battania_helm_steel_plume_2"
+        name="{=cla_battania_helm_steel_plume_2}Fringed Decorated Steel Helm"
+        mesh="battania_earmuff_helmet_c"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3.1"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="40"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="cla_battania_helm_bronze_plume_2"
+        name="{=cla_battania_helm_bronze_plume_2}Fringed Decorated Bronze Helm"
+        mesh="battania_earmuff_helmet_c_brnz"
+        culture="Culture.battania"
+        subtype="head_armor"
+        weight="3.3"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="40"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_battania_helm_officer_1"
+        name="{=cla_battania_helm_officer_1}Two Pronged Officer's Helm"
+        mesh="battania_battle_crown"
+        culture="Culture.battania"
+        subtype="head_armor"
+        is_merchandise="false"
+        weight="2.3"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="55"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="none"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+
+  <Item id="cla_battania_body_uniform_1"
+        name="{=cla_battania_body_uniform_1}Resistance Uniform"
+        subtype="body_armor"
+        mesh="battania_light_armor_b"
+        culture="Culture.battania"
+        weight="3.2"
+        difficulty="0"
+        appearance="1.7"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="9"
+             leg_armor="5"
+             arm_armor="3"
+             has_gender_variations="true"
+             covers_body="false"
+             body_mesh_type="shoulders"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags UseTeamColor="true"
+           Civilian="true" />
+  </Item>
+
+  <Item id="cla_battania_body_uniform_armor_1"
+        name="{=cla_battania_body_uniform_armor_1}Resistance Plated Uniform"
+        subtype="body_armor"
+        mesh="battania_light_armor_a"
+        culture="Culture.battania"
+        weight="6.5"
+        difficulty="0"
+        appearance="1.7"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="20"
+             leg_armor="5"
+             arm_armor="3"
+             has_gender_variations="true"
+             covers_body="false"
+             body_mesh_type="shoulders"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true"
+           Civilian="true" />
+  </Item>
+  <Item id="cla_battania_body_uniform_armor_2"
+        name="{=cla_battania_body_uniform_armor_2}Resistance Reinforced Uniform"
+        subtype="body_armor"
+        mesh="battania_light_armor_a"
+        culture="Culture.battania"
+        weight="6.5"
+        difficulty="0"
+        appearance="1.7"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="30"
+             leg_armor="5"
+             arm_armor="5"
+             has_gender_variations="true"
+             covers_body="false"
+             body_mesh_type="shoulders"
+             modifier_group="chain"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags UseTeamColor="true"
+           Civilian="true" />
+  </Item>
+
+  <Item id="cla_battania_body_heavy_scale_1"
+        name="{=cla_battania_body_heavy_scale_1}Heavy Scale Mail"
+        mesh="vlandia_scale_armor"
+        culture="Culture.battania"
+        weight="22.1"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="50"
+             leg_armor="22"
+             arm_armor="14"
+             covers_body="true"
+             modifier_group="plate"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+<!-- Shoulder -->
+  <Item id="cla_battania_cape_tartan_cape_1"
+        name="{=cla_battania_cape_tartan_cape_1}Tartan Cape"
+        mesh="battania_cloak_b"
+        culture="Culture.battania"
+        subtype="body_armor"
+        weight="0.8"
+        difficulty="0"
+        appearance="1.5"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="5"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+  </Item>
+  <Item id="cla_battania_cape_tartan_heavy_cape_1"
+        name="{=cla_battania_cape_tartan_heavy_cape_1}Heavy Tartan Cape"
+        mesh="battania_scarf_a"
+        culture="Culture.battania"
+        subtype="body_armor"
+        weight="0.55"
+        difficulty="0"
+        appearance="1.5"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="5"
+             arm_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+  </Item>
+  <Item id="cla_battania_cape_tartan_cloak_1"
+        name="{=cla_battania_cape_tartan_cloak_1}Tartan Cloak"
+        mesh="battania_cloak"
+        culture="Culture.battania"
+        weight="0.5"
+        appearance="1.2"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="5"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_cape_simple_cloak_1"
+        name="{=cla_battania_cape_simple_cloak_1}Simple Cloak"
+        mesh="battania_cloak_a"
+        culture="Culture.battania"
+        weight="0.5"
+        appearance="1"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="5"
+             arm_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_cape_woodland_cloak_1"
+        name="{=cla_battania_cape_woodland_cloak_1}Woodland Cloak"
+        mesh="battania_woodland_cloak"
+        culture="Culture.battania"
+        subtype="body_armor"
+        weight="1.4"
+        difficulty="0"
+        appearance="1.5"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="5"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+<!--2-->
+  <Item id="cla_battania_cape_tartan_cape_2"
+        name="{=cla_battania_cape_tartan_cape_2}Sturdy Tartan Cape"
+        mesh="battania_cloak_b"
+        culture="Culture.battania"
+        subtype="body_armor"
+        weight="0.8"
+        difficulty="0"
+        appearance="1.5"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+  </Item>
+  <Item id="cla_battania_cape_tartan_heavy_cape_2"
+        name="{=cla_battania_cape_tartan_heavy_cape_2}Sturdy Heavy Tartan Cape"
+        mesh="battania_scarf_a"
+        culture="Culture.battania"
+        subtype="body_armor"
+        weight="0.55"
+        difficulty="0"
+        appearance="1.5"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             arm_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+  </Item>
+  <Item id="cla_battania_cape_tartan_cloak_2"
+        name="{=cla_battania_cape_tartan_cloak_2}Sturdy Tartan Cloak"
+        mesh="battania_cloak"
+        culture="Culture.battania"
+        weight="0.5"
+        appearance="1.2"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_cape_simple_cloak_2"
+        name="{=cla_battania_cape_simple_cloak_2}Sturdy Simple Cloak"
+        mesh="battania_cloak_a"
+        culture="Culture.battania"
+        weight="0.5"
+        appearance="1"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             arm_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_cape_woodland_cloak_2"
+        name="{=cla_battania_cape_woodland_cloak_2}Sturdy Woodland Cloak"
+        mesh="battania_woodland_cloak"
+        culture="Culture.battania"
+        subtype="body_armor"
+        weight="1.4"
+        difficulty="0"
+        appearance="1.5"
+        Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="15"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_battania_cape_officer_cape_1" name="{=cla_battania_cape_officer_cape_1}Officer's Cape" mesh="cla_celt_cape_long_team" culture="Culture.battania" is_merchandise="true" weight="0.5" appearance="1.2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="5" modifier_group="cloth_unarmoured" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+<!-- Legs -->
+  <Item id="cla_battania_simple_leather_boots_1"
+        name="{=cla_battania_simple_leather_boots_1}Resistance Boots"
+        mesh="sturgia_boots_a"
+        culture="Culture.battania"
+        weight="1.55"
+        appearance="1"
+        Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="8"
+             covers_legs="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_simple_leather_tied_boots_1"
+        name="{=cla_battania_simple_leather_tied_boots_1}Tied Resistance Boots"
+        mesh="sturgia_boots_b"
+        culture="Culture.sturgia"
+        weight="1.8"
+        appearance="1"
+        Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="6"
+             covers_legs="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="cla_battania_simple_leather_boots_2"
+        name="{=cla_battania_simple_leather_boots_2}Sturdy Resistance Boots"
+        mesh="sturgia_boots_a"
+        culture="Culture.battania"
+        weight="1.55"
+        appearance="1"
+        Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="15"
+             covers_legs="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_simple_leather_tied_boots_2"
+        name="{=cla_battania_simple_leather_tied_boots_2}Tied Sturdy Resistance Boots"
+        mesh="sturgia_boots_b"
+        culture="Culture.sturgia"
+        weight="1.8"
+        appearance="1"
+        Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="16"
+             covers_legs="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+<!-- Gloves -->
+  <Item id="cla_battania_gloves_1"
+        name="{=cla_battania_gloves_1}Fur Rimmed Leather Gloves"
+        mesh="pict_armor_glove"
+        culture="Culture.battania"
+        weight="0.8"
+        difficulty="0"
+        appearance="1"
+        Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="8"
+             covers_hands="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="cla_battania_gloves_2"
+        name="{=cla_battania_gloves_2}Sturdy Fur Rimmed Leather Gloves"
+        mesh="pict_armor_glove"
+        culture="Culture.battania"
+        weight="0.8"
+        difficulty="0"
+        appearance="1"
+        Type="HandArmor">
+    <ItemComponent>
+      <Armor arm_armor="18"
+             covers_hands="true"
+             modifier_group="leather"
+             material_type="Leather" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+<!-- Shield -->
+  <Item id="cla_battania_shield_round_1"
+        name="{=cla_battania_shield_round_1}Resistance Round Shield"
+        body_name="bo_cap_shield_battania_cavalary_a"
+        shield_body_name="bo_shield_battania_cavalary_a"
+        recalculate_body="false"
+        mesh="shield_battania_cavalary_a"
+        culture="Culture.battania"
+        using_tableau="true"
+        weight="4.7"
+        appearance="0.9"
+        Type="Shield"
+        item_holsters="shield_round:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,-0.05,-0.04">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="1"
+              thrust_speed="82"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="0.0, 0.00, 0.00"
+              rotation="0.0,10.0,40.00"
+              weapon_length="60"
+              center_of_mass="-0.0,0.055,0.05"
+              hit_points="325"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+  <Item id="cla_battania_shield_round_2"
+        name="{=cla_battania_shield_round_2}Resistance Reinforced Round Shield"
+        body_name="bo_cap_shield_battania_cavalary_b"
+        shield_body_name="bo_shield_battania_cavalary_b"
+        recalculate_body="false"
+        mesh="shield_battania_cavalary_b"
+        culture="Culture.battania"
+        using_tableau="true"
+        weight="4.7"
+        appearance="0.9"
+        Type="Shield"
+        item_holsters="shield_round:shield_4"
+        has_lower_holster_priority="true"
+        holster_position_shift="-0.1,-0.05,-0.04">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="1"
+              thrust_speed="120"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              physics_material="wood_shield"
+              item_usage="shield"
+              position="0.0, 0.00, 0.00"
+              rotation="0.0,10.0,40.00"
+              weapon_length="60"
+              center_of_mass="-0.0,0.055,0.05"
+              hit_points="440"
+              modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+</Items>

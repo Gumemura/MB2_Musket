@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="solution">
+  <outputDirectory>..\MBModule\MBModule\</outputDirectory>
+  <XMLDirectory>..\WOTS\Modules\CA_BloodSmoke\</XMLDirectory>
+  <ModuleAssemblyDirectory>..\WOTS\bin\</ModuleAssemblyDirectory>
+  <file id="soln_item_holsters" name="ModuleData/cla_item_holsters.xml" type="item_holster" />
+  <file id="soln_item_usage_sets" name="ModuleData/item_usage_sets.xml" type="item_usage_set" />
+  <file id="soln_action_sets" name="ModuleData/action_sets.xml" type="action_set" />
+  <file id="soln_action_types" name="ModuleData/action_types.xml" type="action_type" />
+  <file id="soln_module_sound" name="ModuleData/module_sounds_mod.xml" type="module_sound" />
+  <file id="soln_collision_infos" name="ModuleData/collision_infos.xml" type="collision_infos" />
+  <file id="soln_physics_materials" name="ModuleData/physics_materials.xml" type="physics_material" />
+  <file id="soln_combat_system" name="ModuleData/er_combat_parameters.xml" type="animation_combat_parameters" />
+  <file id="soln_managed_core_paramaters" name="ModuleData/er_managed_core_paramaters.xml" type="managed_core_parameters" />
+</base>

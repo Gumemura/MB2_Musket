@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+
+
+<!-- Tournaments-->
+  <NPCCharacter id="cla_empire_tournament_template_one_participant_set_v1"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_one_participant_set_v1"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_one_participant_set_v1_template" />
+      <EquipmentSet id="cla_empire_tournament_template_one_participant_set_v1_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cla_empire_tournament_template_two_participant_set_v1"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_two_participant_set_v1"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills></skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_two_participant_set_v1_template" />
+      <EquipmentSet id="cla_empire_tournament_template_two_participant_set_v1_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cla_empire_tournament_template_two_participant_set_v2"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_two_participant_set_v2"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_two_participant_set_v2_template" />
+      <EquipmentSet id="cla_empire_tournament_template_two_participant_set_v2_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cla_empire_tournament_template_two_participant_set_v3"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_two_participant_set_v3"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_two_participant_set_v3_template" />
+      <EquipmentSet id="cla_empire_tournament_template_two_participant_set_v3_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cla_empire_tournament_template_four_participant_set_v1"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_four_participant_set_v1"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_four_participant_set_v1_template" />
+      <EquipmentSet id="cla_empire_tournament_template_four_participant_set_v1_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cla_empire_tournament_template_four_participant_set_v2"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_four_participant_set_v2"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_four_participant_set_v2_template" />
+      <EquipmentSet id="cla_empire_tournament_template_four_participant_set_v2_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="cla_empire_tournament_template_four_participant_set_v3"
+                default_group="Infantry"
+                level="6"
+                name="{=!}cla_empire_tournament_template_four_participant_set_v3"
+                culture="Culture.empire"
+                skill_template="SkillSet.cla_skills_level6">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentSet id="cla_empire_tournament_template_four_participant_set_v3_template" />
+      <EquipmentSet id="cla_empire_tournament_template_four_participant_set_v3_template" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+</NPCCharacters>

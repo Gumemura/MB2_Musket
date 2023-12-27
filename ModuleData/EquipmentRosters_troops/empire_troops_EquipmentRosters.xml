@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+
+<!-- Troops -->
+  <EquipmentRoster id="cla_empire_recruit_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.laced_cloth_coif" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.laced_cloth_coif" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.cloth_headwrap" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.laced_cloth_coif" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.laced_cloth_coif" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.cloth_headwrap" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_infantry_2_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.simple_pike_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.simple_pike_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Head" id="Item.roundkettle_over_laced_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.simple_pike_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.simple_pike_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.simple_pike_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Head" id="Item.roundkettle_over_laced_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.simple_pike_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_infantry_3_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
+      <Equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.imperial_mail_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.imperial_mail_vest" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_padding" />
+      <Equipment slot="Body" id="Item.empire_legion_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
+      <Equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.imperial_mail_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.imperial_mail_vest" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.fine_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_padding" />
+      <Equipment slot="Body" id="Item.empire_legion_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_infantry_4_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_infantry_5_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.a_empire_plated_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.thamaskene_pike_t4" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.a_empire_plated_shoulder_b" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_infantry_grenade_4_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_1" />
+      <Equipment slot="Item1" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_1" />
+      <Equipment slot="Item1" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_1" />
+      <Equipment slot="Item1" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_1" />
+      <Equipment slot="Item1" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_infantry_grenade_5_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_2" />
+      <Equipment slot="Item1" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_2" />
+      <Equipment slot="Item1" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_2" />
+      <Equipment slot="Item1" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_throwing_bomb_2" />
+      <Equipment slot="Item1" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- Cav -->
+  <EquipmentRoster id="cla_empire_cavalry_3_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_spear_3_t3" />
+      <Equipment slot="Item1" id="Item.western_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_spear_3_t3" />
+      <Equipment slot="Item1" id="Item.western_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_spear_3_t3" />
+      <Equipment slot="Item1" id="Item.western_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_spear_3_t3" />
+      <Equipment slot="Item1" id="Item.western_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_spear_3_t3" />
+      <Equipment slot="Item1" id="Item.western_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_spear_3_t3" />
+      <Equipment slot="Item1" id="Item.western_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_cavalry_4_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_spear_4_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_spear_4_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_spear_4_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_spear_4_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_spear_4_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.western_spear_4_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_cavalry_5_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.empire_lance_2_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_2" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.empire_lance_2_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_lance_2_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_lance_2_t4" />
+      <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+      <Equipment slot="Item2" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_2" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- Ranged -->
+  <EquipmentRoster id="cla_empire_ranged_2_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.roundkettle_over_laced_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.roundkettle_over_laced_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_3_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_4_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.bolted_leather_strips" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.bolted_leather_strips" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.bolted_leather_strips" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.pugio" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.bolted_leather_strips" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_5_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_studded_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_studded_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_flintlock_rifle_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- Pistols -->
+  <EquipmentRoster id="cla_empire_ranged_3_pistol_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_4_pistol_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_3" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_5_pistol_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_5_shotgun_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_blunderbuss_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_k" />
+      <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Item3" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- Dragoon -->
+  <EquipmentRoster id="cla_empire_ranged_4_cav_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_laced_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_laced_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_cloth" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_2_t3" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_loyalist_tunic_2" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_ranged_5_cav_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_musket_ammo_1" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+<!-- Elite -->
+  <EquipmentRoster id="cla_empire_elite_recruit_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_d" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_c" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_d" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_c" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Item1" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item2" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item3" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_1" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_1" />
+      <Equipment slot="Cape" id="Item.wrapped_scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- Elite Cav -->
+  <EquipmentRoster id="cla_empire_elite_cavalry_3_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      <Equipment slot="Horse" id="Item.empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      <Equipment slot="Horse" id="Item.empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      <Equipment slot="Horse" id="Item.empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_1" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      <Equipment slot="Horse" id="Item.empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.cla_loyalist_striped_horse_harness_1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_cavalry_4_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.half_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_1_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.half_scale_barding" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_cavalry_5_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_2_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_2_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_cavalry_6_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_2_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_2_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_2_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_polearm_2_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_guarded_lord_helmet_2" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+      <Equipment slot="Horse" id="Item.t2_empire_horse" />
+      <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- Officer -->
+  <EquipmentRoster id="cla_empire_elite_special_3_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.empire_legion_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.empire_legion_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.empire_legion_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.empire_legion_a" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+<!-- Standard Bearers -->
+  <EquipmentRoster id="cla_empire_elite_special_4_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.leopard_pelt" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.bearskin" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.rough_bearskin" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.leopard_pelt" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.bearskin" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.rough_bearskin" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_special_5_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.leopard_pelt" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.bearskin" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.rough_bearskin" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.leopard_pelt" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.bearskin" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.rough_bearskin" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_special_6_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_scale_armor" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.rough_bearskin" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.bearskin" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.imperial_scale_armor" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.rough_bearskin" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_banner_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_palace_guard" />
+      <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.bearskin" />
+    </EquipmentSet>
+  </EquipmentRoster>
+
+<!-- Officer -->
+  <EquipmentRoster id="cla_empire_elite_special_4_b_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.empire_legion_b" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_b" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_2" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.empire_plate_armor_shoulder_a" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_special_5_b_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.cla_empire_cape_2" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_5_t4" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      <Equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+      <Equipment slot="Cape" id="Item.cla_empire_cape_2" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_special_6_b_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.cla_empire_cape_3" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.imperial_scale_armor" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.cla_empire_cape_3" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.cla_empire_cape_3" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_pistol_3_clean" />
+      <Equipment slot="Item1" id="Item.cla_musket_ammo_1_large" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield_2" />
+      <Equipment slot="Item3" id="Item.empire_sword_6_t5" />
+      <Equipment slot="Head" id="Item.cla_empire_helm_officer_1" />
+      <Equipment slot="Body" id="Item.imperial_scale_armor" />
+      <Equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      <Equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+      <Equipment slot="Cape" id="Item.cla_empire_cape_3" />
+    </EquipmentSet>
+  </EquipmentRoster>
+<!-- AOE Units -->
+  <EquipmentRoster id="cla_empire_elite_ranged_5_c_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_veteran_mercenary_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_1" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_1" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.cla_empire_empire_horseman_armor_1" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.wolf_shoulder" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="cla_empire_elite_ranged_6_c_template" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.leatherlame_roundkettle" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.cla_musket_cannon_2" />
+      <Equipment slot="Item1" id="Item.cla_cannon_ammo_2" />
+      <Equipment slot="Item2" id="Item.cla_empire_steel_round_shield" />
+      <Equipment slot="Item3" id="Item.empire_sword_4_t4" />
+      <Equipment slot="Head" id="Item.roundkettle_over_imperial_mail" />
+      <Equipment slot="Body" id="Item.imperial_lamellar" />
+      <Equipment slot="Leg" id="Item.cla_empire_loyalist_boots_2" />
+      <Equipment slot="Gloves" id="Item.cla_empire_leather_gloves_2" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

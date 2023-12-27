@@ -1,0 +1,20 @@
+<base>
+	<item_holsters>
+		<item_holster id="cla_firearms" equip_action="act_equip_crossbow" equip_action_left_stance="act_equip_crossbow_left_stance" 
+		unequip_action="act_unequip_crossbow" unequip_action_left_stance="act_unequip_crossbow_left_stance" show_holster_when_drawn="false" 
+		holster_skeleton="holster_skeleton_back" base_set="thorax_back_crossbow" holster_position="-.09, -0.17, -0.16" holster_rotation_yaw_pitch_roll="-45, 0, -90"/>
+		<item_holster id="cla_firearms2" equip_action="act_equip_crossbow" equip_action_left_stance="act_equip_crossbow_left_stance" 
+		unequip_action="act_unequip_crossbow" unequip_action_left_stance="act_unequip_crossbow_left_stance" show_holster_when_drawn="false" 
+		holster_skeleton="holster_skeleton_back" base_set="thorax_back_crossbow" holster_position="-.09, -0.17, -0.08" holster_rotation_yaw_pitch_roll="-45, 0, -90"/>
+		<item_holster id="polearm_back" equip_action="act_equip_spear" equip_action_left_stance="act_equip_spear_left_stance" unequip_action="act_unequip_spear" unequip_action_left_stance="act_unequip_spear_left_stance" show_holster_when_drawn="false" group_name="back_polearm_1" holster_skeleton="holster_skeleton_back" base_set="thorax_back_near_left" holster_position="0.070, -0.180, -0.120" holster_rotation_yaw_pitch_roll="0.790, -105.810, -177.170"/>
+		<item_holster id="polearm_back_2" equip_action="act_equip_spear" equip_action_left_stance="act_equip_spear_left_stance" unequip_action="act_unequip_spear" unequip_action_left_stance="act_unequip_spear_left_stance" show_holster_when_drawn="false" group_name="back_polearm_2" holster_skeleton="holster_skeleton_back" base_set="thorax_back_near_right" holster_position="0.060, -0.180, -0.140" holster_rotation_yaw_pitch_roll="0.660, 75.470, 4.210"/>
+		<item_holster id="cla_pistol" equip_action="act_equip_dagger_front_right" equip_action_left_stance="act_equip_dagger_front_right_left_stance" 
+		unequip_action="act_unequip_dagger_front_right" unequip_action_left_stance="act_unequip_dagger_front_right_left_stance" show_holster_when_drawn="false" 
+		group_name="hip_dagger_2" holster_skeleton="holster_skeleton_hip_right" base_set="abdomen" holster_position="-0.01, -0.02, -0.22" holster_rotation_yaw_pitch_roll="0, -101, 20"/>
+		<item_holster id="cla_pistol2" equip_action="act_equip_dagger_front_left" equip_action_left_stance="act_equip_dagger_front_left_left_stance" 
+		unequip_action="act_unequip_dagger_front_left" unequip_action_left_stance="act_unequip_dagger_front_left_left_stance" show_holster_when_drawn="false" 
+		group_name="hip_dagger_1" holster_skeleton="holster_skeleton_hip_left" base_set="abdomen_left" holster_position="-0.01, -0.02, 0.22" holster_rotation_yaw_pitch_roll="0, -80, 20"/>
+		<item_holster id="cla_gladius_right_hip_1" equip_action="act_equip_dagger_front_right" equip_action_left_stance="act_equip_dagger_front_right_left_stance" unequip_action="act_unequip_dagger_front_right" unequip_action_left_stance="act_unequip_dagger_front_right_left_stance" show_holster_when_drawn="false" group_name="cla_gladius_right_hip_1" holster_skeleton="holster_skeleton_hip_right" base_set="abdomen" holster_position="0.2, -0.02, -0.25" holster_rotation_yaw_pitch_roll="-110, -55, 40"/>
+		<item_holster id="cla_gladius_right_hip_2" equip_action="act_equip_dagger_front_right" equip_action_left_stance="act_equip_dagger_front_right_left_stance" unequip_action="act_unequip_dagger_front_right" unequip_action_left_stance="act_unequip_dagger_front_right_left_stance" show_holster_when_drawn="false" group_name="cla_gladius_right_hip_2" holster_skeleton="holster_skeleton_hip_right" base_set="abdomen" holster_position="0.19, .14, -.24" holster_rotation_yaw_pitch_roll="-110, 60, 160"/>
+	</item_holsters>
+</base>

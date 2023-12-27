@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+<!-- Hand Cannon -->
+  <Item id="cla_hand_cannon_1"
+        name="{=cla_hand_cannon_1}Handgonne"
+        body_name="bo_composite_crossbows"
+        mesh="cla_hand_cannon_1"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="85"
+              thrust_damage="160"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     CanKnockDown="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="cla_hand_cannon_2"
+        name="{=cla_hand_cannon_2}Improved Handgonne"
+        body_name="bo_composite_crossbows"
+        mesh="cla_hand_cannon_1"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="3000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="85"
+              thrust_damage="180"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     CanKnockDown="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+  <Item id="cla_hand_cannon_3"
+        name="{=cla_hand_cannon_3}Well-Crafted Handgonne"
+        body_name="bo_composite_crossbows"
+        mesh="cla_hand_cannon_1"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="10000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="85"
+              thrust_damage="200"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     CanKnockDown="true"
+                      BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<!-- Arquebus -->
+  <Item id="cla_jestle_arquebus_1"
+        name="{=cla_jestle_arquebus_1}Ocidental Arquebus"
+        body_name="bo_composite_crossbows"
+        mesh="arquebus"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="2000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="160"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_arquebus_2"
+        name="{=cla_jestle_arquebus_2}Oriental Arquebus"
+        body_name="bo_composite_crossbows"
+        mesh="arquebus2"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="2000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="160"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<!-- Musket -->
+  <Item id="cla_jestle_musket_1"
+        name="{=cla_jestle_musket_1}Calradian Matchlock Musket"
+        body_name="bo_composite_crossbows"
+        mesh="musket"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="2000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="190"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_musket_2"
+        name="{=cla_jestle_musket_2}Vlandian Matchlock Musket"
+        body_name="bo_composite_crossbows"
+        mesh="musket"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="190"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_musket_3"
+        name="{=cla_jestle_musket_3}Battanian Matchlock Musket"
+        body_name="bo_composite_crossbows"
+        mesh="musket"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="190"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_musket_4"
+        name="{=cla_jestle_musket_4}Aseran Matchlock Musket"
+        body_name="bo_composite_crossbows"
+        mesh="musket"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="190"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<!-- Carbine -->
+  <Item id="cla_jestle_carbine_1"
+        name="{=cla_jestle_carbine_1}Calradian Matchlock Carbine"
+        body_name="bo_composite_crossbows"
+        mesh="arquebus2"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="200"
+              accuracy="85"
+              thrust_damage="170"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket_fast"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_carbine_2"
+        name="{=cla_jestle_carbine_2}Vlandian Matchlock Carbine"
+        body_name="bo_composite_crossbows"
+        mesh="arquebus2"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="200"
+              accuracy="85"
+              thrust_damage="170"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket_fast"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_carbine_3"
+        name="{=cla_jestle_carbine_3}Battanian Matchlock Carbine"
+        body_name="bo_composite_crossbows"
+        mesh="arquebus2"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="200"
+              accuracy="85"
+              thrust_damage="170"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket_fast"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_jestle_carbine_4"
+        name="{=cla_jestle_carbine_4}Aseran Matchlock Carbine"
+        body_name="bo_composite_crossbows"
+        mesh="arquebus2"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, 0, 0"
+			        rotation="0, -1, 0"
+              missile_speed="200"
+              accuracy="85"
+              thrust_damage="170"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket_fast"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<!-- Cannons -->
+  <Item id="cla_musket_cannon_1"
+        name="{=cla_musket_cannon_1}Iron Hand-Cannon"
+        body_name="bo_composite_crossbows"
+        mesh="cla_cannon_handcannon_iron"
+        weight="8"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0.0, 0.02131, 0.24650"
+        value="5000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, -1, 0"
+              missile_speed="100"
+              accuracy="100"
+              thrust_damage="270"
+              thrust_speed="10"
+              speed_rating="10"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_cannon"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_musket_cannon_2"
+        name="{=cla_musket_cannon_2}Brass Hand-Cannon"
+        body_name="bo_composite_crossbows"
+        mesh="cla_cannon_handcannon_brass"
+        weight="8"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0.0, 0.02131, 0.24650"
+        value="5000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, 0, 0"
+              missile_speed="100"
+              accuracy="100"
+              thrust_damage="270"
+              thrust_speed="10"
+              speed_rating="10"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_cannon"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     CantReloadOnHorseback="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<!-- Cannon Ammo -->
+  <Item id="cla_cannon_ammo_1"
+        name="{=cla_cannon_ammo_1}Black-powder Cannon Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="torch_flame_base"
+        flying_mesh="cla_cannon_ball_1"
+        holster_mesh="stone_holster"
+        weight="0.01"
+        appearance="0.0"
+        Type="Bolts"
+        item_holsters="cla_firearms:cla_firearms2"
+        value="2000"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="15"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="30"
+			        thrust_damage="5"
+			        thrust_damage_type="Pierce"
+              weapon_length="45"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="cla_explosion"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_rocket"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags Consumable="true"
+					           Burning="true"
+                     UseHandAsThrowBase="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true"
+                     CanPenetrateShield="true"
+                     LeavesTrail="true"
+                     AffectsAreaBig="true"
+                     CanKnockDown="true" 
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+  <Item id="cla_cannon_ammo_2"
+        name="{=cla_cannon_ammo_2}Black-powder Large Cannon Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="torch_flame_base"
+        flying_mesh="cla_cannon_ball_1"
+        holster_mesh="stone_holster"
+        weight="0.01"
+        appearance="0.0"
+        Type="Bolts"
+        item_holsters="cla_firearms:cla_firearms2"
+        value="10000"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="30"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+			        thrust_damage="5"
+			        thrust_damage_type="Pierce"
+              weapon_length="45"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="cla_explosion"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_rocket"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags Consumable="true"
+					           Burning="true"
+                     UseHandAsThrowBase="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true"
+                     CanPenetrateShield="true"
+                     LeavesTrail="true"
+                     AffectsAreaBig="true"
+                     CanKnockDown="true" 
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags/>
+  </Item>
+
+<!-- Flintlock Rifles -->
+
+<!-- Muskets -->
+  <Item id="cla_flintlock_rifle_1"
+        name="{=cla_flintlock_rifle_1}Flintlock Rifle"
+        body_name="bo_composite_crossbows"
+        mesh="cla_empire_flintlock_rifle_2"
+        weight="4"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        value="2000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="180"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_flint_rifle"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     CantReloadOnHorseback="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_flintlock_rifle_2"
+        name="{=cla_flintlock_rifle_2}Well Crafted Flintlock Rifle"
+        body_name="bo_composite_crossbows"
+        mesh="cla_empire_flintlock_rifle_2"
+        weight="4"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="5000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="200"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_flint_rifle"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     CantReloadOnHorseback="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_flintlock_rifle_3"
+        name="{=cla_flintlock_rifle_3}Expert Crafted Flintlock Rifle"
+        body_name="bo_composite_crossbows"
+        mesh="cla_empire_flintlock_rifle_3"
+        weight="4"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="15000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, -1, 0"
+              missile_speed="220"
+              accuracy="90"
+              thrust_damage="220"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_flint_rifle"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     CantReloadOnHorseback="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_musket_rifle_1_b"
+        name="{=cla_musket_rifle_1_b}Handcrafted Foreign Musket"
+        body_name="bo_composite_crossbows"
+        mesh="cla_springfield"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="3000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.01, 0"
+			        rotation="0, -3, 0"
+              missile_speed="200"
+              accuracy="90"
+              thrust_damage="180"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_flint_rifle"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     NotUsableWithOneHand="true"
+                     CantReloadOnHorseback="true"
+                     TwoHandIdleOnMount="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+<!-- Pistols -->
+  <Item id="cla_musket_pistol_1"
+        name="{=cla_bolt_pistol_1}Flintlock Pistol"
+        body_name="bo_composite_crossbows"
+        mesh="cla_pistol_flintlock_dirty_1"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_pistol:cla_pistol2"
+        AmmoOffset="0, 0, 0"
+        value="1000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0.01, 0, 0.02"
+			        rotation="35, -6, -91"
+              missile_speed="200"
+              accuracy="90"
+              thrust_damage="120"
+              thrust_speed="95"
+              speed_rating="75"
+              weapon_length="50"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_pistol"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     BonusAgainstShield="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="cla_musket_pistol_2"
+        name="{=cla_musket_pistol_2}Well-Crafted Flintlock Pistol"
+        body_name="bo_composite_crossbows"
+        mesh="cla_empire_pistol_flintlock_1"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_pistol:cla_pistol2"
+        AmmoOffset="0, 0, 0"
+        value="3000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0.01, 0, 0"
+			        rotation="33, -6, -90"
+              missile_speed="200"
+              accuracy="90"
+              thrust_damage="160"
+              thrust_speed="95"
+              speed_rating="75"
+              weapon_length="50"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_pistol"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     BonusAgainstShield="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="cla_musket_pistol_3"
+        name="{=cla_musket_pistol_3}Expert Aged Flintlock Pistol"
+        body_name="bo_composite_crossbows"
+        mesh="cla_pistol_flintlock_2_worn"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_pistol:cla_pistol2"
+        AmmoOffset="0, 0, 0"
+        value="10000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0.01, 0, 0"
+			        rotation="33, -6, -91"
+              missile_speed="200"
+              accuracy="90"
+              thrust_damage="190"
+              thrust_speed="95"
+              speed_rating="75"
+              weapon_length="50"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_pistol"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     BonusAgainstShield="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="cla_musket_pistol_3_clean"
+        name="{=cla_musket_pistol_3_clean}Expert New Flintlock Pistol"
+        body_name="bo_composite_crossbows"
+        mesh="cla_pistol_flintlock_2_worn"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_pistol:cla_pistol2"
+        AmmoOffset="0, 0, 0"
+        value="15000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0.01, 0, 0"
+			        rotation="33, -6, -91"
+              missile_speed="200"
+              accuracy="90"
+              thrust_damage="200"
+              thrust_speed="95"
+              speed_rating="75"
+              weapon_length="50"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_pistol"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     UseHandAsThrowBase="true"
+                     BonusAgainstShield="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+<!-- bullets -->
+<!-- Musket Ammo -->
+  <Item id="cla_musket_ammo_1"
+        name="{=cla_musket_ammo_1}Black-powder Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        flying_mesh="lyon_bullet"
+        mesh="torch_flame_base"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        weight="1"
+        appearance="1.0"
+        Type="Bolts"
+        item_holsters="throwing_stone:throwing_stone_2"
+        value="100"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="30"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+			        thrust_damage="8"
+			        thrust_damage_type="Pierce"
+              weapon_length="37"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_musket"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,0">
+        <WeaponFlags Consumable="true"
+                     AmmoBreaksOnBounceBack="true"
+                     UseHandAsThrowBase="true"
+                     LeavesTrail="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true"  />
+  </Item>
+
+  <Item id="cla_musket_ammo_1_large"
+        name="{=cla_musket_ammo_1_large}Black-powder Large Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        flying_mesh="lyon_bullet"
+        mesh="torch_flame_base"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        weight="0.01"
+        appearance="1.0"
+        Type="Bolts"
+        item_holsters="throwing_stone:throwing_stone_2"
+        value="5000"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="50"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+			        thrust_damage="8"
+			        thrust_damage_type="Pierce"
+              weapon_length="37"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_musket"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,0">
+        <WeaponFlags Consumable="true"
+					           Burning="true"
+                     UseHandAsThrowBase="true"
+                     LeavesTrail="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true"  />
+  </Item>
+
+  <Item id="cla_musket_ammo_1_k"
+        name="{=cla_musket_ammo_1_k}Black-powder Packed Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        flying_mesh="lyon_bullet"
+        mesh="torch_flame_base"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        weight="1"
+        appearance="1.0"
+        Type="Bolts"
+        item_holsters="throwing_stone:throwing_stone_2"
+        value="15000"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="30"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+			        thrust_damage="8"
+			        thrust_damage_type="Pierce"
+              weapon_length="37"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_musket"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,0">
+        <WeaponFlags Consumable="true"
+                     CanKnockDown="true"
+                     UseHandAsThrowBase="true"
+                     AmmoBreaksOnBounceBack="true"
+                     LeavesTrail="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true"  />
+  </Item>
+
+  <Item id="cla_musket_ammo_1_large_k"
+        name="{=cla_musket_ammo_1_large_k}Black-powder Large Packed Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        flying_mesh="lyon_bullet"
+        mesh="torch_flame_base"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        weight="0.01"
+        appearance="1.0"
+        Type="Bolts"
+        item_holsters="throwing_stone:throwing_stone_2"
+        value="25000"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="30"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+			        thrust_damage="8"
+			        thrust_damage_type="Pierce"
+              weapon_length="37"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_musket"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              center_of_mass="0,0,0">
+        <WeaponFlags Consumable="true"
+                     CanKnockDown="true"
+                     UseHandAsThrowBase="true"
+                     AmmoBreaksOnBounceBack="true"
+                     LeavesTrail="true"
+                     BonusAgainstShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true"  />
+  </Item>
+
+<!-- Grenades -->
+<Item id="cla_throwing_bomb_1"
+        name="{=cla_throwing_bomb_1}Black-Powder Bombs"
+        body_name="bo_projectile_rock"
+        holster_body_name="bo_axe_short"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        mesh="cla_bomb_grenade"
+        weight="1.0"
+        appearance="1"
+        Type="Thrown"
+        item_holsters="throwing_stone:throwing_stone_2"
+        value="1500"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Stone"
+              ammo_class="Stone"
+			        position="0.02, -.04, 0.01"
+              stack_amount="3"
+              physics_material="cla_explosion_small"
+              accuracy="70"
+              thrust_speed="60"
+              speed_rating="70"
+              missile_speed="30"
+              weapon_length="95"
+              thrust_damage="150"
+              thrust_damage_type="Pierce"
+              item_usage="cla_bomb"
+              trail_particle_name="cla_fuse"
+              rotation_speed="0, -3.0, 0">
+        <WeaponFlags RangedWeapon="true"
+                     Consumable="true"
+                     AutoReload="true"
+                     LeavesTrail="true"
+                     Burning="true"
+                     AffectsAreaBig="true"
+                     UseHandAsThrowBase="true"
+                     AmmoBreaksOnBounceBack="true"
+                     CanPenetrateShield="true"
+                     MissileWithPhysics="true"
+                     CanKnockDown="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+<Item id="cla_throwing_bomb_2"
+        name="{=cla_throwing_bomb_2}Large bag of Bombs"
+        body_name="bo_projectile_rock"
+        holster_body_name="bo_axe_short"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        mesh="cla_bomb_grenade"
+        weight="1.0"
+        appearance="1"
+        Type="Thrown"
+        item_holsters="throwing_stone:throwing_stone_2"
+        value="3000"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Stone"
+              ammo_class="Stone"
+			        position="0.02, -.04, 0.01"
+              stack_amount="5"
+              physics_material="cla_explosion_small"
+              accuracy="70"
+              thrust_speed="60"
+              speed_rating="70"
+              missile_speed="30"
+              weapon_length="95"
+              thrust_damage="150"
+              thrust_damage_type="Pierce"
+              item_usage="cla_bomb"
+              trail_particle_name="cla_fuse"
+              rotation_speed="0, -3.0, 0">
+        <WeaponFlags RangedWeapon="true"
+                     Consumable="true"
+                     AutoReload="true"
+                     LeavesTrail="true"
+                     Burning="true"
+                     AffectsAreaBig="true"
+                     UseHandAsThrowBase="true"
+                     AmmoBreaksOnBounceBack="true"
+                     CanPenetrateShield="true"
+                     MissileWithPhysics="true"
+                     CanKnockDown="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+
+<!-- Flag Shield -->
+  <Item id="cla_banner_shield"
+        name="{=cla_banner_shield}Campaign Banner-Shield"
+	    	is_merchandise="true"
+        body_name="bo_spear_b"
+        shield_body_name="bo_kite_shield_a"
+        recalculate_body="false"
+        mesh="campaign_flag"
+        using_tableau="true"
+        weight="4"
+        appearance="0.3"
+        value="500"
+        Type="Shield"
+        item_holsters="polearm_back:polearm_back_2"
+        has_lower_holster_priority="true">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+              body_armor="3"
+              thrust_speed="86"
+			        thrust_damage="5"
+              thrust_damage_type="Blunt"
+              speed_rating="82"
+              item_usage="shield"
+              physics_material="wood_shield"
+			        position="0.0, 0.0, -0.8"
+              rotation="0.0,0.0,0.0"
+              weapon_length="180"
+              center_of_mass="0.0,0.0,0.0"
+              hit_points="400">
+        <WeaponFlags CanBlockRanged="true"
+                     HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+           HeldInOffHand="true"
+           ForceAttachOffHandPrimaryItemBone="true"
+		   HasToBeHeldUp="true" />
+  </Item>
+
+  <Item id="cla_musket_ammo_1_explosive"
+        name="{=cla_musket_ammo_1_explosive}Black-powder Explosive Ammo"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        flying_mesh="lyon_bullet"
+        mesh="torch_flame_base"
+        holster_mesh="stone_holster"
+        holster_mesh_with_weapon="stone_holster"
+        weight="0.01"
+        appearance="1.0"
+        value="30000"
+        Type="Bolts"
+        item_holsters="throwing_stone:throwing_stone_2"
+        is_merchandise="true">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="30"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
+			        thrust_damage="2"
+			        thrust_damage_type="Pierce"
+              weapon_length="37"
+              item_usage=""
+              rotation="180, 0, 0"
+			        physics_material="cla_explosion"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+			        trail_particle_name="cla_smoke_musket"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags Consumable="true"
+					           Burning="true"
+                     AmmoBreaksOnBounceBack="true"
+                     LeavesTrail="true"
+                     BonusAgainstShield="true"
+                     CanKnockDown="true"
+                     AffectsAreaBig="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true"/>
+  </Item>
+
+  <Item id="cla_musket_blunderbuss_1"
+        name="{=cla_musket_blunderbuss_1}Brown Blunderbuss"
+        body_name="bo_composite_crossbows"
+        mesh="cla_blunderbuss_brown"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="10000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, -1, 0"
+              missile_speed="80"
+              accuracy="40"
+              thrust_damage="250"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true" 
+                     UseHandAsThrowBase="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="cla_musket_blunderbuss_2"
+        name="{=cla_musket_blunderbuss_2}Black Blunderbuss"
+        body_name="bo_composite_crossbows"
+        mesh="cla_blunderbuss_black"
+        weight="2.2"
+        appearance="1"
+        difficulty="0"
+        Type="Crossbow"
+        item_holsters="cla_firearms:cla_firearms2"
+        AmmoOffset="0, 0, 0"
+        value="15000"
+        is_merchandise="true">
+    <ItemComponent>
+	    <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+			        position="0, -0.02, 0"
+			        rotation="0, -1, 0"
+              missile_speed="80"
+              accuracy="40"
+              thrust_damage="250"
+              thrust_speed="95"
+              speed_rating="63"
+              weapon_length="95"
+              ammo_limit="1"
+              thrust_damage_type="Pierce"
+              item_usage="cla_musket"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true" 
+                     UseHandAsThrowBase="true"/>
+      </Weapon>
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+</Items>
