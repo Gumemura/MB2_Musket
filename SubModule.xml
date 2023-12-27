@@ -36,7 +36,7 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 	  </XmlNode>
-    <!-- <XmlNode>                
+    <XmlNode>                
 			<XmlName id="SPCultures" path="cultures"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
@@ -44,14 +44,14 @@
 				<GameType value = "CustomGame"/>
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
-	  </XmlNode> -->
-<!-- 		<XmlNode>
+	  </XmlNode>
+		<XmlNode>
 			<XmlName id="partyTemplates" path="partytemplates"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
 			</IncludedGameTypes>
-		</XmlNode> -->
+		</XmlNode>
 		<XmlNode>  
 			<XmlName id="Items" path="items"/>
 			<IncludedGameTypes>
@@ -87,7 +87,7 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
    </XmlNode>
-   <!-- <XmlNode>                
+   <XmlNode>                
 			<XmlName id="EquipmentRosters" path="storymode_equipments"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
@@ -95,7 +95,7 @@
 				<GameType value = "CustomGame"/>
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
-   </XmlNode> -->
+   </XmlNode>
    <XmlNode>                
 			<XmlName id="EquipmentRosters" path="sandbox_equipment_sets"/>
 			<IncludedGameTypes>

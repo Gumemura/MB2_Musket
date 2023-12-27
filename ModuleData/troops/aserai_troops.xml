@@ -98,7 +98,7 @@
   <!-- Caravan -->
   <NPCCharacter id="cla_caravan_master_aserai"
                 culture="Culture.aserai"
-                  default_group="Infantry"
+                default_group="Infantry"
                 level="26"
                 name="{=cla_caravan_master_aserai}Sultanate Caravan Master"
                 occupation="CaravanGuard"
