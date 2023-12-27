@@ -639,7 +639,7 @@
     </face>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cla_aserai_ranged_4"/>
-      <!-- <upgrade_target id="NPCCharacter.cla_aserai_ranged_grenade_4"/> -->
+      <upgrade_target id="NPCCharacter.cla_aserai_ranged_cavalary_4"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -698,7 +698,7 @@
         <equipment id="Item.cla_jestle_musket_4" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.adarga" slot="Item3" />
+        <equipment id="Item.curved_round_shield" slot="Item3" />
         <equipment id="Item.trailed_desert_helmet" slot="Head"/>
         <equipment id="Item.aserai_archer_armor" slot="Body"/>
         <equipment id="Item.plated_strip_boots" slot="Leg"/>
@@ -757,12 +757,19 @@
   <!-- Aserai Noble Troops -->
   <!-- Elite Mounted Horse Archers, high tier gets Double-shot Carbine -->
   <!--   
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_elite_2" is_basic_troop="true" level="11" name="{=cla_aserai_elite_2}Sultanate Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level11_elite">
+  <NPCCharacter culture="Culture.aserai"
+                default_group="Ranged"
+                id="cla_aserai_elite_2"
+                is_basic_troop="true"
+                level="11"
+                name="{=cla_aserai_elite_2}Sultanate Janissary"
+                occupation="Soldier"
+                skill_template="SkillSet.cla_skills_level11_elite">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_3"/>
+      <upgrade_target id="NPCCharacter.cla_aserai_ranged_cavalary_4"/>
       <upgrade_target id="NPCCharacter.cla_aserai_elite_ranged_3"/>
     </upgrade_targets>
     <Equipments>
@@ -790,17 +797,24 @@
       </EquipmentRoster>
       <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
     </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_elite_3" level="16" name="{=cla_aserai_elite_3}Sultanate Mounted Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level16_elite" upgrade_requires="ItemCategory.horse">
+  </NPCCharacter> -->
+  <NPCCharacter id="cla_aserai_ranged_cavalary_4"
+                culture="Culture.aserai"
+                default_group="HorseArcher"
+                level="21"
+                name="{=cla_aserai_ranged_cavalary_4}Sultanate Mounted Janissary"
+                occupation="Soldier"
+                skill_template="SkillSet.cla_skills_level21_elite"
+                upgrade_requires="ItemCategory.horse">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_4"/>
+      <upgrade_target id="NPCCharacter.cla_aserai_ranged_cavalary_5"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -811,7 +825,7 @@
         <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -822,20 +836,25 @@
         <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-      <equipment id="Item.aserai_horse" slot="Horse"/>
-      <equipment id="Item.aseran_village_harness" slot="HorseHarness"/>
+      <equipment id="Item.war_camel" slot="Horse"/>
+      <equipment id="Item.camel_saddle" slot="HorseHarness"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_elite_4" level="21" name="{=cla_aserai_elite_4}Sultanate Trained Mounted Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level21_elite">
+  <NPCCharacter id="cla_aserai_ranged_cavalary_5"
+                culture="Culture.aserai"
+                default_group="HorseArcher"
+                level="26"
+                name="{=cla_aserai_ranged_cavalary_5}Sultanate Trained Mounted Janissary"
+                occupation="Soldier"
+                skill_template="SkillSet.cla_skills_level26_elite">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_5"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -846,7 +865,7 @@
         <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
         <equipment id="Item.studded_adarga" slot="Item3"/>
@@ -857,10 +876,11 @@
         <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-      <equipment id="Item.t2_aserai_horse" slot="Horse"/>
-      <equipment id="Item.aseran_village_harness" slot="HorseHarness"/>
+      <equipment id="Item.war_camel" slot="Horse"/>
+      <equipment id="Item.camel_saddle" slot="HorseHarness"/>
     </Equipments>
   </NPCCharacter>
+  <!--
   <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_elite_5" level="26" name="{=cla_aserai_elite_5}Sultanate Elite Mounted Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level26_elite">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
