@@ -37,41 +37,6 @@
     </Equipments>
   </NPCCharacter>
 
-  <NPCCharacter id="cla_empire_militia_spearman"
-                default_group="Infantry"
-                level="11"
-                name="{=cla_empire_militia_spearman}Empire Militia Spearman"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_militia_spearman_template" />
-      <EquipmentSet id="cla_empire_militia_spearman_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-  <NPCCharacter id="cla_empire_militia_veteran_spearman"
-                default_group="Infantry"
-                level="21"
-                name="{=cla_empire_militia_veteran_spearman}Empire Militia Veteran Spearman"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_militia_veteran_spearman_template" />
-      <EquipmentSet id="cla_empire_militia_veteran_spearman_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
   <!-- Guards -->
   <NPCCharacter id="cla_caravan_master_empire"
                 default_group="Infantry"
@@ -123,10 +88,9 @@
       <EquipmentSet id="cla_veteran_caravan_guard_empire_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="cla_armed_trader_empire"
+  <NPCCharacter id="cla_armed_trader_empire" name="{=cla_armed_trader_empire}Empire Armed Trader"
                 default_group="Ranged"
                 level="16"
-                name="{=cla_armed_trader_empire}Empire Armed Trader"
                 occupation="CaravanGuard"
                 culture="Culture.empire"
                 is_basic_troop="true"

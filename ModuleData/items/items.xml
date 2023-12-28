@@ -856,8 +856,7 @@
   </Item>
 
 <!-- Pistols -->
-  <Item id="cla_musket_pistol_1"
-        name="{=cla_bolt_pistol_1}Flintlock Pistol"
+  <Item id="cla_musket_pistol_1" name="{=cla_bolt_pistol_1}Flintlock Pistol"
         body_name="bo_composite_crossbows"
         mesh="cla_pistol_flintlock_dirty_1"
         weight="2.2"
@@ -893,8 +892,7 @@
     <Flags Civilian="true" />
   </Item>
 
-  <Item id="cla_musket_pistol_2"
-        name="{=cla_musket_pistol_2}Well-Crafted Flintlock Pistol"
+  <Item id="cla_musket_pistol_2" name="{=cla_musket_pistol_2}Well-Crafted Flintlock Pistol"
         body_name="bo_composite_crossbows"
         mesh="cla_empire_pistol_flintlock_1"
         weight="2.2"
@@ -930,8 +928,7 @@
     <Flags Civilian="true" />
   </Item>
 
-  <Item id="cla_musket_pistol_3"
-        name="{=cla_musket_pistol_3}Expert Aged Flintlock Pistol"
+  <Item id="cla_musket_pistol_3" name="{=cla_musket_pistol_3}Expert Aged Flintlock Pistol"
         body_name="bo_composite_crossbows"
         mesh="cla_pistol_flintlock_2_worn"
         weight="2.2"
@@ -967,8 +964,7 @@
     <Flags Civilian="true" />
   </Item>
 
-  <Item id="cla_musket_pistol_3_clean"
-        name="{=cla_musket_pistol_3_clean}Expert New Flintlock Pistol"
+  <Item id="cla_musket_pistol_3_clean" name="{=cla_musket_pistol_3_clean}Expert New Flintlock Pistol"
         body_name="bo_composite_crossbows"
         mesh="cla_pistol_flintlock_2_worn"
         weight="2.2"
