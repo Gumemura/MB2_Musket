@@ -7,7 +7,7 @@
                 name="{=cla_aserai_militia_archer}Sultanate Militia Janissary"
                 occupation="Soldier"
                 culture="Culture.aserai"
-                skill_template="SkillSet.cla_skills_level11">
+                skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai" />
     </face>
@@ -79,13 +79,13 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="cla_aserai_militia_veteran_archer"
+  <NPCCharacter id="cla_aserai_militia_veteran_ranged"
                 culture="Culture.aserai"
                 default_group="Ranged"
                 level="21"
-                name="{=cla_aserai_militia_veteran_archer}Sultanate Militia Veteran Archer"
+                name="{=cla_aserai_militia_veteran_ranged}Sultanate Militia Veteran Archer"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level21">
+                skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -181,7 +181,7 @@
                 level="26"
                 name="{=cla_caravan_master_aserai}Sultanate Caravan Master"
                 occupation="CaravanGuard"
-                skill_template="SkillSet.cla_skills_level26">
+                skill_template="SkillSet.ranged_skirmisher_level26_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -263,11 +263,36 @@
                 level="26"
                 name="{=cla_veteran_caravan_guard_aserai}Sultanate Veteran Caravan Guard"
                 occupation="CaravanGuard"
-                skill_template="SkillSet.cla_skills_level26"
                 upgrade_requires="ItemCategory.war_horse">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="70" />
+      <skill
+        id="Riding"
+        value="120" />
+      <skill
+        id="OneHanded"
+        value="130" />
+      <skill
+        id="TwoHanded"
+        value="20" />
+      <skill
+        id="Polearm"
+        value="100" />
+      <skill
+        id="Bow"
+        value="60" />
+      <skill
+        id="Crossbow"
+        value="140" />
+      <skill
+        id="Throwing"
+        value="40" />
+    </skills>
     <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
@@ -367,7 +392,7 @@
                 level="16"
                 name="{=cla_armed_trader_aserai}Sultanate Armed Trader"
                 occupation="CaravanGuard"
-                skill_template="SkillSet.cla_skills_level16">
+                skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -444,12 +469,11 @@
                 level="6"
                 name="{=cla_aserai_ranged_1}Sultanate Janissary Recruit"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level6">
+                skill_template="SkillSet.ranged_skirmisher_level6_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
     <upgrade_targets>
-      <!-- <upgrade_target id="NPCCharacter.cla_aserai_infantry_2"/> -->
       <upgrade_target id="NPCCharacter.cla_aserai_ranged_2"/>
     </upgrade_targets>
     <Equipments>
@@ -470,224 +494,14 @@
     </Equipments>
   </NPCCharacter>
 
-  <!-- Infantry-->
-  <!-- 
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_infantry_3" level="16" name="{=cla_aserai_infantry_3}Sultanate Trained Guard" occupation="Soldier" skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_infantry_4"/>
-      <upgrade_target id="NPCCharacter.cla_aserai_mounted_4"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item0"/>
-        <equipment id="Item.desert_oval_shield" slot="Item1"/>
-        <equipment id="Item.open_desert_helmet" slot="Head"/>
-        <equipment id="Item.ringed_desert_armor" slot="Body"/>
-        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.desert_leather_shoulderpad" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item0"/>
-        <equipment id="Item.desert_oval_shield" slot="Item1"/>
-        <equipment id="Item.closed_desert_helmet_with_mail" slot="Head"/>
-        <equipment id="Item.ringed_desert_armor" slot="Body"/>
-        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.desert_leather_shoulderpad" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_infantry_4" level="21" name="{=cla_aserai_infantry_4}Sultanate Veteran Guard" occupation="Soldier" skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_infantry_5"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item0"/>
-        <equipment id="Item.southern_oval_shield" slot="Item1"/>
-        <equipment id="Item.desert_mail_coif" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item0"/>
-        <equipment id="Item.southern_oval_shield" slot="Item1"/>
-        <equipment id="Item.desert_mail_coif" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_infantry_5" level="26" name="{=cla_aserai_infantry_5}Sultanate Elite Guard" occupation="Soldier" skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_noble_sword_2_t5" slot="Item0"/>
-        <equipment id="Item.emirs_oval_shield" slot="Item1"/>
-        <equipment id="Item.desert_helmet_with_mail" slot="Head"/>
-        <equipment id="Item.desert_lamellar" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.brass_lamellar_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-    </Equipments>
-  </NPCCharacter> -->
-
-  <!-- Pike troops -->
-  <!-- <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_infantry_pike_3" level="16" name="{=cla_aserai_infantry_pike_3}Sultanate Pikeman" occupation="Soldier" skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_infantry_pike_4"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.fine_pike_t4" slot="Item0"/>
-        <equipment id="Item.pointed_skullcap_over_cloth_headwrap" slot="Head"/>
-        <equipment id="Item.ringed_desert_armor" slot="Body"/>
-        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_infantry_pike_4" level="21" name="{=cla_aserai_infantry_pike_4}Sultanate Veteran Pikeman" occupation="Soldier" skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_infantry_pike_5"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.fine_pike_t4" slot="Item0"/>
-        <equipment id="Item.pointed_skullcap_with_mail" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.fine_pike_t4" slot="Item0"/>
-        <equipment id="Item.pointed_skullcap_over_mail_coif" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.fine_pike_t4" slot="Item0"/>
-        <equipment id="Item.pointed_skullcap_over_mail" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.aserai_horseman_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_infantry_pike_5" level="26" name="{=cla_aserai_infantry_pike_5}Sultanate Elite Pikeman" occupation="Soldier" skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.thamaskene_pike_t4" slot="Item0"/>
-        <equipment id="Item.celtic_dagger" slot="Item1"/>
-        <equipment id="Item.closed_desert_helmet_with_mail" slot="Head"/>
-        <equipment id="Item.sturgia_cavalry_armor" slot="Body"/>
-        <equipment id="Item.plated_strip_boots" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.brass_lamellar_shoulder" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-    </Equipments>
-  </NPCCharacter> -->
-
-  <!-- Mounted Cavalry-->
-  <!-- <NPCCharacter culture="Culture.aserai" default_group="Cavalry" id="cla_aserai_mounted_4" level="21" name="{=cla_aserai_mounted_4}Sultanate Hamidiye" occupation="Soldier" skill_template="SkillSet.cla_skills_level21" upgrade_requires="ItemCategory.horse">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_mounted_5"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item0"/>
-        <equipment id="Item.large_adarga" slot="Item1"/>
-        <equipment id="Item.eastern_spear_4_t4" slot="Item2"/>
-        <equipment id="Item.desert_helmet" slot="Head"/>
-        <equipment id="Item.aserai_horseman_armor" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item0"/>
-        <equipment id="Item.large_adarga" slot="Item1"/>
-        <equipment id="Item.eastern_spear_4_t4" slot="Item2"/>
-        <equipment id="Item.desert_helmet" slot="Head"/>
-        <equipment id="Item.ringed_desert_armor" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-      <equipment id="Item.aserai_horse" slot="Horse"/>
-      <equipment id="Item.half_mail_and_plate_barding" slot="HorseHarness"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Cavalry" id="cla_aserai_mounted_5" level="26" name="{=cla_aserai_mounted_5}Sultanate Elite Hamidiye" occupation="Soldier" skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.aserai_sword_4_t4" slot="Item0"/>
-        <equipment id="Item.large_adarga" slot="Item1"/>
-        <equipment id="Item.eastern_spear_5_t5" slot="Item2"/>
-        <equipment id="Item.trailed_desert_helmet" slot="Head"/>
-        <equipment id="Item.desert_scale_armor" slot="Body"/>
-        <equipment id="Item.plated_strip_boots" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.desert_fabric_shoulderpad" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-      <equipment id="Item.t2_aserai_horse" slot="Horse"/>
-      <equipment id="Item.chain_horse_harness" slot="HorseHarness"/>
-    </Equipments>
-  </NPCCharacter> -->
-
   <!-- Ranged -->
   <NPCCharacter id="cla_aserai_ranged_2"
                 culture="Culture.aserai"
                 default_group="Ranged"
                 level="11"
-                name="{=cla_aserai_ranged_2}Sultanate Janissary Infantry"
+                name="{=cla_aserai_ranged_2}Sultanate Janissary"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level11">
+                skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -710,9 +524,9 @@
                 culture="Culture.aserai"
                 default_group="Ranged"
                 level="16"
-                name="{=cla_aserai_ranged_3}Sultanate Trained Janissary Infantry"
+                name="{=cla_aserai_ranged_3}Sultanate Trained Janissary"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level16">
+                skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -738,9 +552,9 @@
                 culture="Culture.aserai"
                 default_group="Ranged"
                 level="21"
-                name="{=cla_aserai_ranged_4}Sultanate Veteran Janissary Infantry"
+                name="{=cla_aserai_ranged_4}Sultanate Veteran Janissary"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level21">
+                skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -765,9 +579,9 @@
                 culture="Culture.aserai"
                 default_group="Ranged"
                 level="26"
-                name="{=cla_aserai_ranged_5}Sultanate Elite Janissary Infantry"
+                name="{=cla_aserai_ranged_5}Sultanate Elite Janissary"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level26">
+                skill_template="SkillSet.ranged_skirmisher_level26_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
@@ -788,106 +602,43 @@
     </Equipments>
   </NPCCharacter>
 
-  <!-- Grenadier -->
-  <!--   
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_ranged_grenade_4" level="21" name="{=cla_aserai_ranged_grenade_4}Sultanate Grenadier" occupation="Soldier" skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_ranged_grenade_5"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_throwing_bomb_1" slot="Item0"/>
-        <equipment id="Item.cla_throwing_bomb_1" slot="Item1"/>
-        <equipment id="Item.curved_round_shield" slot="Item2"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item3"/>
-        <equipment id="Item.loose_wrapped_desert_helmet" slot="Head"/>
-        <equipment id="Item.southern_lamellar_armor" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cla_aserai_ranged_grenade_5" level="26" name="{=cla_aserai_ranged_grenade_5}Sultanate Elite Grenadier" occupation="Soldier" skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_throwing_bomb_2" slot="Item0"/>
-        <equipment id="Item.cla_throwing_bomb_2" slot="Item1"/>
-        <equipment id="Item.curved_round_shield" slot="Item2"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item3"/>
-        <equipment id="Item.trailed_desert_helmet" slot="Head"/>
-        <equipment id="Item.stitched_leather_over_mail" slot="Body"/>
-        <equipment id="Item.plated_strip_boots" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.brass_scale_shoulders" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-    </Equipments>
-  </NPCCharacter> -->
-
-  <!-- Aserai Noble Troops -->
-  <!-- Elite Mounted Horse Archers, high tier gets Double-shot Carbine -->
-  <!--   
-  <NPCCharacter culture="Culture.aserai"
-                default_group="Ranged"
-                id="cla_aserai_elite_2"
-                is_basic_troop="true"
-                level="11"
-                name="{=cla_aserai_elite_2}Sultanate Janissary"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level11_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_ranged_cavalary_4"/>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_ranged_3"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
-        <equipment id="Item.bound_adarga" slot="Item3"/>
-        <equipment id="Item.tuareg" slot="Head"/>
-        <equipment id="Item.eastern_silk_clothing" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_1_t2" slot="Item2"/>
-        <equipment id="Item.bound_adarga" slot="Item3"/>
-        <equipment id="Item.tuareg" slot="Head"/>
-        <equipment id="Item.khuzait_belt_leather" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.wrapped_scarf" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter> -->
+  <!-- Ranged Cavalary -->
   <NPCCharacter id="cla_aserai_ranged_cavalary_4"
                 culture="Culture.aserai"
                 default_group="HorseArcher"
                 level="21"
                 name="{=cla_aserai_ranged_cavalary_4}Sultanate Mounted Janissary"
                 occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level21_elite"
                 upgrade_requires="ItemCategory.horse">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="45" />
+      <skill
+        id="Riding"
+        value="100" />
+      <skill
+        id="OneHanded"
+        value="80" />
+      <skill
+        id="TwoHanded"
+        value="45" />
+      <skill
+        id="Polearm"
+        value="100" />
+      <skill
+        id="Bow"
+        value="15" />
+      <skill
+        id="Crossbow"
+        value="120" />
+      <skill
+        id="Throwing"
+        value="25" />
+    </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cla_aserai_ranged_cavalary_5"/>
     </upgrade_targets>
@@ -896,7 +647,7 @@
         <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
-        <equipment id="Item.studded_adarga" slot="Item3"/>
+        <equipment id="Item.eastern_spear_4_t4" slot="Item3" />
         <equipment id="Item.tied_head_wrapping" slot="Head"/>
         <equipment id="Item.belted_leather_cuirass" slot="Body"/>
         <equipment id="Item.eastern_leather_boots" slot="Leg"/>
@@ -907,7 +658,7 @@
         <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
-        <equipment id="Item.studded_adarga" slot="Item3"/>
+        <equipment id="Item.eastern_spear_4_t4" slot="Item3" />
         <equipment id="Item.woven_turban" slot="Head"/>
         <equipment id="Item.belted_leather_cuirass" slot="Body"/>
         <equipment id="Item.eastern_leather_boots" slot="Leg"/>
@@ -924,11 +675,36 @@
                 default_group="HorseArcher"
                 level="26"
                 name="{=cla_aserai_ranged_cavalary_5}Sultanate Trained Mounted Janissary"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_skills_level26_elite">
+                occupation="Soldier">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="80" />
+      <skill
+        id="Riding"
+        value="130" />
+      <skill
+        id="OneHanded"
+        value="130" />
+      <skill
+        id="TwoHanded"
+        value="60" />
+      <skill
+        id="Polearm"
+        value="100" />
+      <skill
+        id="Bow"
+        value="20" />
+      <skill
+        id="Crossbow"
+        value="140" />
+      <skill
+        id="Throwing"
+        value="60" />
+    </skills>
     <upgrade_targets>
     </upgrade_targets>
     <Equipments>
@@ -936,7 +712,7 @@
         <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
-        <equipment id="Item.studded_adarga" slot="Item3"/>
+        <equipment id="Item.eastern_spear_4_t4" slot="Item3"/>
         <equipment id="Item.emirs_helmet" slot="Head"/>
         <equipment id="Item.aserai_robe_c_chain" slot="Body"/>
         <equipment id="Item.eastern_leather_boots" slot="Leg"/>
@@ -947,7 +723,7 @@
         <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
-        <equipment id="Item.studded_adarga" slot="Item3"/>
+        <equipment id="Item.eastern_spear_4_t4" slot="Item3"/>
         <equipment id="Item.emirs_helmet" slot="Head"/>
         <equipment id="Item.desert_robe_over_mail" slot="Body"/>
         <equipment id="Item.eastern_leather_boots" slot="Leg"/>
@@ -959,140 +735,4 @@
       <equipment id="Item.camel_saddle" slot="HorseHarness"/>
     </Equipments>
   </NPCCharacter>
-  <!--
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_elite_5" level="26" name="{=cla_aserai_elite_5}Sultanate Elite Mounted Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level26_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_6"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.large_adarga" slot="Item3"/>
-        <equipment id="Item.eastern_vendel_helmet" slot="Head"/>
-        <equipment id="Item.desert_lamellar" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.rough_tied_bracers" slot="Gloves"/>
-        <equipment id="Item.brass_scale_shoulders" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-      <equipment id="Item.t2_aserai_horse" slot="Horse"/>
-      <equipment id="Item.half_mail_and_plate_barding" slot="HorseHarness"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_elite_6" level="31" name="{=cla_aserai_elite_6}Sultanate Mounted Janissary Guard" occupation="Soldier" skill_template="SkillSet.cla_skills_level31_elite" upgrade_requires="ItemCategory.war_horse">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
-        <equipment id="Item.aserai_sword_4_t4" slot="Item2"/>
-        <equipment id="Item.ornate_adarga" slot="Item3"/>
-        <equipment id="Item.southern_noble_helmet" slot="Head"/>
-        <equipment id="Item.desert_scale_armor" slot="Body"/>
-        <equipment id="Item.strapped_mail_chausses" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.desert_scale_shoulders" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-      <equipment id="Item.t2_aserai_horse" slot="Horse"/>
-      <equipment id="Item.half_mail_and_plate_barding" slot="HorseHarness"/>
-    </Equipments>
-  </NPCCharacter> -->
-
-  <!-- Elite Ranged High tier = Explosive Bullets -->
-  <!--
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_elite_ranged_3" level="16" name="{=cla_aserai_elite_ranged_3}Sultanate Trained Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level16_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_ranged_4"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_musket_4" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
-        <equipment id="Item.aserai_sword_3_t3" slot="Item2"/>
-        <equipment id="Item.studded_adarga" slot="Item2"/>
-        <equipment id="Item.tied_head_wrapping" slot="Head"/>
-        <equipment id="Item.desert_padded_cloth" slot="Body"/>
-        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
-        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
-        <equipment id="Item.leopard_pelt" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_elite_ranged_4" level="21" name="{=cla_aserai_elite_ranged_4}Sultanate Veteran Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level21_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_ranged_5"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_musket_4" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
-        <equipment id="Item.aserai_sword_2_t2" slot="Item2"/>
-        <equipment id="Item.studded_adarga" slot="Item3"/>
-        <equipment id="Item.emirs_helmet" slot="Head"/>
-        <equipment id="Item.southern_lamellar_armor" slot="Body"/>
-        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.leopard_pelt" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_elite_ranged_5" level="26" name="{=cla_aserai_elite_ranged_5}Sultanate Elite Janissary" occupation="Soldier" skill_template="SkillSet.cla_skills_level26_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_aserai_elite_ranged_6"/>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_musket_4" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.large_adarga" slot="Item3"/>
-        <equipment id="Item.trailed_desert_helmet" slot="Head"/>
-        <equipment id="Item.desert_lamellar" slot="Body"/>
-        <equipment id="Item.plated_strip_boots" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.leopard_pelt" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="Ranged" id="cla_aserai_elite_ranged_6" level="31" name="{=cla_aserai_elite_ranged_6}Sultanate Janissary Guard [AOE]" occupation="Soldier" skill_template="SkillSet.cla_skills_level31_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_aserai"/>
-    </face>
-    <upgrade_targets/>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment id="Item.cla_jestle_musket_4" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
-        <equipment id="Item.aserai_sword_5_t4" slot="Item2"/>
-        <equipment id="Item.ornate_adarga" slot="Item3"/>
-        <equipment id="Item.southern_lord_helmet" slot="Head"/>
-        <equipment id="Item.desert_scale_armor" slot="Body"/>
-        <equipment id="Item.plated_strip_boots" slot="Leg"/>
-        <equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-        <equipment id="Item.leopard_pelt" slot="Cape"/>
-      </EquipmentRoster>
-      <EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
-    </Equipments>
-  </NPCCharacter> -->
 </NPCCharacters>
