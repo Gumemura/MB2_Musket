@@ -5,7 +5,7 @@
   <NPCCharacter id="cla_empire_militia_musketeer"
                 default_group="Ranged"
                 level="11"
-                name="{=cla_empire_militia_musketeer}Empire Militia Musketeer"
+                name="{=cla_empire_militia_musketeer}Imperial Militia Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
                 skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
@@ -23,7 +23,7 @@
   <NPCCharacter id="cla_empire_militia_veteran_musketeer"
                 default_group="Ranged"
                 level="21"
-                name="{=cla_empire_militia_veteran_musketeer}Empire Militia Veteran Musketeer"
+                name="{=cimvm}Imperial Militia Veteran Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
                 skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
@@ -41,7 +41,7 @@
   <NPCCharacter id="cla_caravan_master_empire"
                 default_group="Infantry"
                 level="26"
-                name="{=cla_caravan_master_empire}Empire Armed Caravan Master"
+                name="{=ciacm}Imperial Armed Caravan Master"
                 occupation="CaravanGuard"
                 culture="Culture.empire">
     <face>
@@ -79,7 +79,7 @@
       <EquipmentSet id="cla_caravan_master_empire_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="cla_armed_trader_empire" name="{=cla_armed_trader_empire}Empire Musketeer Trader"
+  <NPCCharacter id="cla_armed_trader_empire" name="{=caem}Imperial Musketeer Trader"
                 default_group="Ranged"
                 level="16"
                 occupation="CaravanGuard"
