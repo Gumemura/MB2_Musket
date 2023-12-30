@@ -225,48 +225,57 @@
       <Equipment id="Item.cla_empire_leather_gloves_1" slot="Gloves"/>
     </EquipmentSet>
   </EquipmentRoster>
+
   <EquipmentRoster culture="Culture.empire" id="cla_caravan_master_empire_template">
-    <EquipmentRoster>
+    <EquipmentSet>
       <equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
       <equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_musket_pistol_2" slot="Item1" />
-      <Equipment id="Item.cla_musket_ammo_1" slot="Item2" />
+      <Equipment id="Item.cla_musket_pistol_2" slot="Item2" />
+      <Equipment id="Item.cla_musket_ammo_1" slot="Item3" />
       <equipment id="Item.imperial_mail_coif" slot="Head"/>
       <equipment id="Item.empire_horseman_armor" slot="Body"/>
       <equipment id="Item.leather_shoes" slot="Leg"/>
       <equipment id="Item.padded_mitten" slot="Gloves"/>
-    </EquipmentRoster>
-    <EquipmentRoster>
+      <equipment id="Item.empire_horse" slot="Horse"/>
+      <equipment id="Item.stripped_leather_harness" slot="HorseHarness"/>
+    </EquipmentSet>
+    <EquipmentSet>
       <equipment id="Item.eastern_spear_3_t3" slot="Item0"/>
       <equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_musket_pistol_2" slot="Item1" />
-      <Equipment id="Item.cla_musket_ammo_1" slot="Item2" />
+      <Equipment id="Item.cla_musket_pistol_2" slot="Item2" />
+      <Equipment id="Item.cla_musket_ammo_1" slot="Item3" />
       <equipment id="Item.imperial_open_mail_coif" slot="Head"/>
       <equipment id="Item.empire_horseman_armor" slot="Body"/>
       <equipment id="Item.strapped_leather_boots" slot="Leg"/>
       <equipment id="Item.padded_mitten" slot="Gloves"/>
-    </EquipmentRoster>
-    <EquipmentRoster>
+      <equipment id="Item.empire_horse" slot="Horse"/>
+      <equipment id="Item.stripped_leather_harness" slot="HorseHarness"/>
+    </EquipmentSet>
+    <EquipmentSet>
       <equipment id="Item.eastern_spear_3_t3" slot="Item0"/>
       <equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_musket_pistol_2" slot="Item1" />
-      <Equipment id="Item.cla_musket_ammo_1" slot="Item2" />
+      <Equipment id="Item.cla_musket_pistol_2" slot="Item2" />
+      <Equipment id="Item.cla_musket_ammo_1" slot="Item3" />
       <equipment id="Item.imperial_padded_coif" slot="Head"/>
       <equipment id="Item.empire_horseman_armor" slot="Body"/>
       <equipment id="Item.strapped_leather_boots" slot="Leg"/>
       <equipment id="Item.padded_mitten" slot="Gloves"/>
-    </EquipmentRoster>
-    <EquipmentRoster civilian="true">
+      <equipment id="Item.empire_horse" slot="Horse"/>
+      <equipment id="Item.stripped_leather_harness" slot="HorseHarness"/>
+    </EquipmentSet>
+    <EquipmentSet>
       <equipment id="Item.eastern_spear_3_t3" slot="Item0"/>
       <equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_musket_pistol_2" slot="Item1" />
-      <Equipment id="Item.cla_musket_ammo_1" slot="Item2" />
+      <Equipment id="Item.cla_musket_pistol_2" slot="Item2" />
+      <Equipment id="Item.cla_musket_ammo_1" slot="Item3" />
       <equipment id="Item.imperial_padded_coif" slot="Head"/>
       <equipment id="Item.empire_horseman_armor" slot="Body"/>
       <equipment id="Item.strapped_leather_boots" slot="Leg"/>
       <equipment id="Item.padded_mitten" slot="Gloves"/>
-    </EquipmentRoster>
-    <EquipmentRoster civilian="true">
+      <equipment id="Item.empire_horse" slot="Horse"/>
+      <equipment id="Item.stripped_leather_harness" slot="HorseHarness"/>
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
       <equipment id="Item.eastern_spear_3_t3" slot="Item0"/>
       <equipment id="Item.empire_sword_1_t2" slot="Item1"/>
       <equipment id="Item.worn_horsemans_kite_shield" slot="Item2"/>
@@ -274,102 +283,11 @@
       <equipment id="Item.imperial_mail_vest" slot="Body"/>
       <equipment id="Item.strapped_leather_boots" slot="Leg"/>
       <equipment id="Item.padded_mitten" slot="Gloves"/>
-    </EquipmentRoster>
-    <equipment id="Item.empire_horse" slot="Horse"/>
-    <equipment id="Item.stripped_leather_harness" slot="HorseHarness"/>
-  </EquipmentRoster>
-  <EquipmentRoster culture="Culture.empire" id="cla_caravan_guard_empire_template">
-    <EquipmentSet>
-      <Equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
-      <Equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_empire_steel_round_shield" slot="Item2"/>
-      <Equipment id="Item.ironlame_roundkettle_over_imperial_leather" slot="Head"/>
-      <Equipment id="Item.legionary_mail" slot="Body"/>
-      <Equipment id="Item.leather_cavalier_boots" slot="Leg"/>
-      <Equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-    <EquipmentSet>
-      <Equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
-      <Equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_empire_steel_round_shield" slot="Item2"/>
-      <Equipment id="Item.leatherlame_roundkettle_over_imperial_leather" slot="Head"/>
-      <Equipment id="Item.legionary_mail" slot="Body"/>
-      <Equipment id="Item.leather_cavalier_boots" slot="Leg"/>
-      <Equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-    <EquipmentSet>
-      <Equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
-      <Equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_empire_steel_round_shield" slot="Item2"/>
-      <Equipment id="Item.roundkettle_over_imperial_cloth" slot="Head"/>
-      <Equipment id="Item.imperial_mail_over_leather" slot="Body"/>
-      <Equipment id="Item.leather_cavalier_boots" slot="Leg"/>
-      <Equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
-      <Equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_empire_steel_round_shield" slot="Item2"/>
-      <Equipment id="Item.ironlame_roundkettle_over_imperial_leather" slot="Head"/>
-      <Equipment id="Item.legionary_mail" slot="Body"/>
-      <Equipment id="Item.leather_cavalier_boots" slot="Leg"/>
-      <Equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
-      <Equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_empire_steel_round_shield" slot="Item2"/>
-      <Equipment id="Item.leatherlame_roundkettle_over_imperial_leather" slot="Head"/>
-      <Equipment id="Item.legionary_mail" slot="Body"/>
-      <Equipment id="Item.leather_cavalier_boots" slot="Leg"/>
-      <Equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment id="Item.eastern_spear_2_t3" slot="Item0"/>
-      <Equipment id="Item.empire_sword_1_t2" slot="Item1"/>
-      <Equipment id="Item.cla_empire_steel_round_shield" slot="Item2"/>
-      <Equipment id="Item.roundkettle_over_imperial_cloth" slot="Head"/>
-      <Equipment id="Item.imperial_mail_over_leather" slot="Body"/>
-      <Equipment id="Item.leather_cavalier_boots" slot="Leg"/>
-      <Equipment id="Item.reinforced_leather_vambraces" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
+      <equipment id="Item.empire_horse" slot="Horse"/>
+      <equipment id="Item.stripped_leather_harness" slot="HorseHarness"/>
     </EquipmentSet>
   </EquipmentRoster>
-  <EquipmentRoster culture="Culture.empire" id="cla_veteran_caravan_guard_empire_template">
-    <EquipmentSet>
-      <Equipment id="Item.western_spear_4_t4" slot="Item0"/>
-      <Equipment id="Item.empire_sword_5_t4" slot="Item1"/>
-      <Equipment id="Item.heavy_horsemans_kite_shield" slot="Item2"/>
-      <Equipment id="Item.leatherlame_roundkettle" slot="Head"/>
-      <Equipment id="Item.empire_horseman_armor" slot="Body"/>
-      <Equipment id="Item.cla_empire_loyalist_boots_2" slot="Leg"/>
-      <Equipment id="Item.cla_empire_leather_gloves_2" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment id="Item.western_spear_4_t4" slot="Item0"/>
-      <Equipment id="Item.empire_sword_5_t4" slot="Item1"/>
-      <Equipment id="Item.heavy_horsemans_kite_shield" slot="Item2"/>
-      <Equipment id="Item.leatherlame_roundkettle" slot="Head"/>
-      <Equipment id="Item.empire_horseman_armor" slot="Body"/>
-      <Equipment id="Item.cla_empire_loyalist_boots_2" slot="Leg"/>
-      <Equipment id="Item.cla_empire_leather_gloves_2" slot="Gloves"/>
-      <Equipment id="Item.empire_horse" slot="Horse"/>
-      <Equipment id="Item.cla_loyalist_striped_horse_harness_1" slot="HorseHarness"/>
-    </EquipmentSet>
-  </EquipmentRoster>
+
   <EquipmentRoster culture="Culture.empire" id="cla_armed_trader_empire_template">
     <EquipmentSet>
       <Equipment id="Item.cla_jestle_musket_1" slot="Item0"/>

@@ -9,11 +9,4 @@
       <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_caravan_master_empire" />
     </stacks>
   </MBPartyTemplate>
-  <MBPartyTemplate id="cla_militia_empire_template" >
-    <stacks>
-      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.empire_militia_spearman" />
-      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.imperial_militia_archer" />
-      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_empire_militia_musketeer" />
-    </stacks>
-  </MBPartyTemplate>
 </partyTemplates>

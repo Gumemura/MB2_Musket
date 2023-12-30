@@ -191,9 +191,9 @@
         <equipment id="Item.cla_musket_pistol_1"
                    slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1"
-                   slot="Item0"/>
+                   slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3"
-                   slot="Item0"/>
+                   slot="Item2"/>
         <equipment id="Item.aserai_civil_c_head"
                    slot="Head"/>
         <equipment id="Item.aserai_archer_armor"
@@ -207,9 +207,9 @@
         <equipment id="Item.cla_musket_pistol_1"
                    slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1"
-                   slot="Item0"/>
+                   slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3"
-                   slot="Item0"/>
+                   slot="Item2"/>
         <equipment id="Item.aserai_civil_d_hscarf"
                    slot="Head"/>
         <equipment id="Item.aserai_archer_armor"
@@ -225,9 +225,9 @@
         <equipment id="Item.cla_musket_pistol_1"
                    slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1"
-                   slot="Item0"/>
+                   slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3"
-                   slot="Item0"/>
+                   slot="Item2"/>
         <equipment id="Item.aserai_civil_d_hscarf"
                    slot="Head"/>
         <equipment id="Item.tassled_southern_robes"
@@ -243,9 +243,9 @@
         <equipment id="Item.cla_musket_pistol_1"
                    slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1"
-                   slot="Item0"/>
+                   slot="Item1"/>
         <equipment id="Item.aserai_sword_3_t3"
-                   slot="Item0"/>
+                   slot="Item2"/>
         <equipment id="Item.aserai_civil_c_head"
                    slot="Head"/>
         <equipment id="Item.aserai_archer_armor"

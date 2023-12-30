@@ -18,7 +18,7 @@
     default_party_template="PartyTemplate.kingdom_hero_party_empire_template"
     caravan_party_template="PartyTemplate.caravan_template_empire"
     elite_caravan_party_template="PartyTemplate.cla_elite_caravan_template_empire"
-    militia_party_template="PartyTemplate.cla_militia_empire_template"
+    militia_party_template="PartyTemplate.militia_empire_template"
     rebels_party_template="PartyTemplate.rebels_empire_template"
     vassal_reward_party_template="PartyTemplate.vassal_reward_troops_empire"
     prosperity_bonus="1"

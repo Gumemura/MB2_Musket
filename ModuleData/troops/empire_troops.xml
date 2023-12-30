@@ -8,7 +8,7 @@
                 name="{=cla_empire_militia_musketeer}Empire Militia Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level11">
+                skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -26,14 +26,14 @@
                 name="{=cla_empire_militia_veteran_musketeer}Empire Militia Veteran Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level21">
+                skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <upgrade_targets></upgrade_targets>
     <Equipments>
-      <EquipmentSet id="cla_empire_militia_veteran_musketeer" />
-      <EquipmentSet id="cla_empire_militia_veteran_musketeer" civilian="true" />
+      <EquipmentSet id="cla_empire_militia_veteran_musketeer_template" />
+      <EquipmentSet id="cla_empire_militia_veteran_musketeer_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
 
@@ -41,60 +41,51 @@
   <NPCCharacter id="cla_caravan_master_empire"
                 default_group="Infantry"
                 level="26"
-                name="{=cla_caravan_master_empire}Empire Caravan Master"
+                name="{=cla_caravan_master_empire}Empire Armed Caravan Master"
                 occupation="CaravanGuard"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level26">
+                culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
+    <skills>
+      <skill
+        id="Athletics"
+        value="70" />
+      <skill
+        id="Riding"
+        value="120" />
+      <skill
+        id="OneHanded"
+        value="130" />
+      <skill
+        id="TwoHanded"
+        value="20" />
+      <skill
+        id="Polearm"
+        value="100" />
+      <skill
+        id="Bow"
+        value="60" />
+      <skill
+        id="Crossbow"
+        value="140" />
+      <skill
+        id="Throwing"
+        value="40" />
+    </skills>
     <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentSet id="cla_caravan_master_empire_template" />
       <EquipmentSet id="cla_caravan_master_empire_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="cla_caravan_guard_empire"
-                default_group="Cavalry"
-                level="21"
-                name="{=cla_caravan_guard_empire}Empire Caravan Guard"
-                upgrade_requires="ItemCategory.horse"
-                occupation="CaravanGuard"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-<upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_caravan_guard_empire_template" />
-      <EquipmentSet id="cla_caravan_guard_empire_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_veteran_caravan_guard_empire"
-                default_group="Cavalry"
-                level="26"
-                name="{=cla_veteran_caravan_guard_empire}Empire Veteran Caravan Guard"
-                upgrade_requires="ItemCategory.war_horse"
-                occupation="CaravanGuard"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_veteran_caravan_guard_empire_template" />
-      <EquipmentSet id="cla_veteran_caravan_guard_empire_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_armed_trader_empire" name="{=cla_armed_trader_empire}Empire Armed Trader"
+  <NPCCharacter id="cla_armed_trader_empire" name="{=cla_armed_trader_empire}Empire Musketeer Trader"
                 default_group="Ranged"
                 level="16"
                 occupation="CaravanGuard"
                 culture="Culture.empire"
                 is_basic_troop="true"
-                skill_template="SkillSet.cla_skills_level16">
+                skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -106,106 +97,28 @@
   </NPCCharacter>
   
   <!-- Troops -->
-  <NPCCharacter id="cla_empire_recruit"
+  <NPCCharacter id="cla_empire_levy"
                 default_group="Ranged"
                 level="6"
-                name="{=cla_empire_recruit}Empire Levy"
+                name="{=cla_empire_levy}Imperial Levy"
                 occupation="Soldier"
                 is_basic_troop="true"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level6">
+                skill_template="SkillSet.ranged_skirmisher_level6_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_empire_infantry_2" />
       <upgrade_target id="NPCCharacter.cla_empire_ranged_2" />
     </upgrade_targets>
     <Equipments>
-      <EquipmentSet id="cla_empire_recruit_template" />
-      <EquipmentSet id="cla_empire_recruit_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-<!-- Empire Basic Infantry -->
-<!-- T2 -->
-  <NPCCharacter id="cla_empire_infantry_2"
-                default_group="Infantry"
-                level="11"
-                name="{=cla_empire_infantry_2}Empire Guard"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_empire_infantry_3" />
-      <upgrade_target id="NPCCharacter.cla_empire_cavalry_3" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_infantry_2_template" />
-      <EquipmentSet id="cla_empire_infantry_2_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-  <NPCCharacter id="cla_empire_infantry_3"
-                default_group="Infantry"
-                level="16"
-                name="{=cla_empire_infantry_3}Empire Pikeman"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_empire_infantry_4" />
-      <upgrade_target id="NPCCharacter.cla_empire_infantry_grenade_4" />
-    </upgrade_targets>      
-    <Equipments>
-      <EquipmentSet id="cla_empire_infantry_3_template" />
-      <EquipmentSet id="cla_empire_infantry_3_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-  <NPCCharacter id="cla_empire_infantry_4"
-                default_group="Infantry"
-                level="21"
-                name="{=cla_empire_infantry_4}Empire Veteran Pikeman"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_empire_infantry_5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_infantry_4_template" />
-      <EquipmentSet id="cla_empire_infantry_4_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-  <NPCCharacter id="cla_empire_infantry_5"
-                default_group="Infantry"
-                level="26"
-                name="{=cla_empire_infantry_5}Empire Elite Pikeman"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_infantry_5_template" />
-      <EquipmentSet id="cla_empire_infantry_5_template" civilian="true" />
+      <EquipmentSet id="cla_empire_levy_template" />
+      <EquipmentSet id="cla_empire_levy_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
 
 <!-- @@Grenadier -->
+  <!-- 
   <NPCCharacter id="cla_empire_infantry_grenade_4"
                 default_group="Infantry"
                 formation_position_preference="Front"
@@ -241,77 +154,21 @@
       <EquipmentSet id="cla_empire_infantry_grenade_5_template" />
       <EquipmentSet id="cla_empire_infantry_grenade_5_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
-
-<!-- Cavalry-->
-  <NPCCharacter id="cla_empire_cavalry_3"
-                default_group="Cavalry"
-                level="16"
-                name="{=cla_empire_cavalry_3}Empire Mounted Scout"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_empire_cavalry_4" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_cavalry_3_template" />
-      <EquipmentSet id="cla_empire_cavalry_3_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_empire_cavalry_4"
-                default_group="Cavalry"
-                level="21"
-                name="{=cla_empire_cavalry_4}Empire Cavalry"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_empire_cavalry_5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_cavalry_4_template" />
-      <EquipmentSet id="cla_empire_cavalry_4_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_empire_cavalry_5"
-                default_group="Cavalry"
-                level="26"
-                name="{=cla_empire_cavalry_5}Empire Veteran Cavalry"
-                occupation="Soldier"
-                culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_empire" />
-    </face>
-    <upgrade_targets>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentSet id="cla_empire_cavalry_5_template" />
-      <EquipmentSet id="cla_empire_cavalry_5_template" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
 
   <!-- Basic Ranged -->
   <NPCCharacter id="cla_empire_ranged_2"
                 default_group="Ranged"
                 level="11"
-                name="{=cla_empire_ranged_2}Empire Novice Musketeer"
+                name="{=cla_empire_ranged_2}Imperial Novice Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level11">
+                skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cla_empire_ranged_3" />
-      <upgrade_target id="NPCCharacter.cla_empire_ranged_3_pistol" />
     </upgrade_targets>
     <Equipments>
       <EquipmentSet id="cla_empire_ranged_2_template" />
@@ -321,16 +178,15 @@
   <NPCCharacter id="cla_empire_ranged_3"
                 default_group="Ranged"
                 level="16"
-                name="{=cla_empire_ranged_3}Empire Trained Musketeer"
+                name="{=cla_empire_ranged_3}Imperial Trained Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level16">
+                skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cla_empire_ranged_4" />
-      <upgrade_target id="NPCCharacter.cla_empire_ranged_4_cav" />
     </upgrade_targets>
     <Equipments>
       <EquipmentSet id="cla_empire_ranged_3_template" />
@@ -340,10 +196,10 @@
   <NPCCharacter id="cla_empire_ranged_4"
                 default_group="Ranged"
                 level="21"
-                name="{=cla_empire_ranged_4}Empire Veteran Musketeer"
+                name="{=cla_empire_ranged_4}Imperial Veteran Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level21">
+                skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -358,10 +214,10 @@
   <NPCCharacter id="cla_empire_ranged_5"
                 default_group="Ranged"
                 level="26"
-                name="{=cla_empire_ranged_5}Empire Elite Musketeer"
+                name="{=cla_empire_ranged_5}Imperial Elite Musketeer"
                 occupation="Soldier"
                 culture="Culture.empire"
-                skill_template="SkillSet.cla_skills_level26">
+                skill_template="SkillSet.ranged_skirmisher_level26_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -374,7 +230,7 @@
   </NPCCharacter>
 
 <!-- Pistols -->
-  <NPCCharacter id="cla_empire_ranged_3_pistol"
+<!--   <NPCCharacter id="cla_empire_ranged_3_pistol"
                 default_group="Infantry"
                 formation_position_preference="Back"
                 level="16"
@@ -431,9 +287,10 @@
       <EquipmentSet id="cla_empire_ranged_5_pistol_template" />
       <EquipmentSet id="cla_empire_ranged_5_pistol_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
 
 <!-- Blunderbuss Troops -->
+  <!--   
   <NPCCharacter id="cla_empire_ranged_5_shotgun"
                 default_group="Infantry"
                 formation_position_preference="Back"
@@ -451,10 +308,11 @@
       <EquipmentSet id="cla_empire_ranged_5_shotgun_template" />
       <EquipmentSet id="cla_empire_ranged_5_shotgun_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> 
+  -->
 
 <!-- Ranged Cavalry -->
-  <NPCCharacter id="cla_empire_ranged_4_cav"
+<!--   <NPCCharacter id="cla_empire_ranged_4_cav"
                 default_group="HorseArcher"
                 level="21"
                 name="{=cla_empire_ranged_4_cav}Empire Ranged Scout"
@@ -489,10 +347,10 @@
       <EquipmentSet id="cla_empire_ranged_5_cav_template" />
       <EquipmentSet id="cla_empire_ranged_5_cav_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
 
 <!-- Empire Elite -->
-  <NPCCharacter id="cla_empire_elite_recruit"
+<!--   <NPCCharacter id="cla_empire_elite_recruit"
                 default_group="Infantry"
                 level="11"
                 name="{=cla_empire_elite_recruit}Empire Specialist"
@@ -584,10 +442,10 @@
       <EquipmentSet id="cla_empire_elite_cavalry_6_template" />
       <EquipmentSet id="cla_empire_elite_cavalry_6_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
 
 <!-- Ranged -->
-  <NPCCharacter id="cla_empire_elite_special_3"
+<!--   <NPCCharacter id="cla_empire_elite_special_3"
                 default_group="Infantry"
                 formation_position_preference="Back"
                 level="16"
@@ -606,10 +464,10 @@
       <EquipmentSet id="cla_empire_elite_special_3_template" />
       <EquipmentSet id="cla_empire_elite_special_3_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
 
 <!-- Standard -->
-  <NPCCharacter id="cla_empire_elite_special_4"
+<!--   <NPCCharacter id="cla_empire_elite_special_4"
                 default_group="Infantry"
                 formation_position_preference="Back"
                 level="21"
@@ -665,10 +523,10 @@
       <EquipmentSet id="cla_empire_elite_special_6_template" />
       <EquipmentSet id="cla_empire_elite_special_6_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
 
 <!-- Officers -->
-  <NPCCharacter id="cla_empire_elite_special_4_b"
+<!--   <NPCCharacter id="cla_empire_elite_special_4_b"
                 default_group="Infantry"
                 formation_position_preference="Back"
                 level="21"
@@ -723,9 +581,10 @@
       <EquipmentSet id="cla_empire_elite_special_6_b_template" />
       <EquipmentSet id="cla_empire_elite_special_6_b_template" civilian="true" />
     </Equipments>
-  </NPCCharacter>
+  </NPCCharacter> -->
+
 <!-- AOE Cannon Troops -->
-<NPCCharacter id="cla_empire_elite_ranged_5_c"
+<!-- <NPCCharacter id="cla_empire_elite_ranged_5_c"
                 default_group="Ranged"
                 level="26"
                 name="{=cla_empire_elite_ranged_5_c}Empire Ballistarius"
@@ -759,5 +618,5 @@
       <EquipmentSet id="cla_empire_elite_ranged_6_c_template" civilian="true" />
     </Equipments>
   </NPCCharacter>
-
+ -->
 </NPCCharacters>

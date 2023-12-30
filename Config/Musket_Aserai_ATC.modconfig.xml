@@ -9,12 +9,22 @@
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="empire">
     <Culture id="aserai">
       <basicTroops>
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -25,12 +35,22 @@
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="empire_w">
     <Culture id="aserai">
       <basicTroops>
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -41,12 +61,22 @@
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="khuzait">
     <Culture id="aserai">
       <basicTroops>
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -57,6 +87,11 @@
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="vlandia">
@@ -65,12 +100,22 @@
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="player_faction">
     <Culture id="aserai">
       <basicTroops>
         <volunteer id="cla_aserai_ranged_1" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="empire">
+      <basicTroops>
+        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
       </basicTroops>
     </Culture>
   </MapFaction>
