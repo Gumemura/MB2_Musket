@@ -11,7 +11,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -24,7 +29,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -37,7 +47,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -50,7 +65,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -63,7 +83,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -76,7 +101,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -89,7 +119,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -102,7 +137,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -115,7 +155,12 @@
     </Culture>
     <Culture id="empire">
       <basicTroops>
-        <volunteer id="cla_empire_levy" percent="25" atPower="50"/>
+        <volunteer id="cla_empire_levy" percent="25" atPower="75"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="vlandia">
+      <basicTroops>
+        <volunteer id="cla_vlandia_recruit_1" percent="25" atPower="75"/>
       </basicTroops>
     </Culture>
   </MapFaction>
