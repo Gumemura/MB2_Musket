@@ -19,7 +19,7 @@
     encounter_background_mesh="encounter_vlandia"
     faction_banner_key="11.14.14.1536.1536.764.764.1.0.0.160.15.15.497.497.764.764.1.0.0"
     elite_caravan_party_template="PartyTemplate.cla_elite_caravan_template_vlandia"
-    caravan_party_template="PartyTemplate.caravan_template_vlandia"
+    caravan_party_template="PartyTemplate.cla_caravan_template_vlandia"
     militia_party_template="PartyTemplate.militia_vlandia_template"
     rebels_party_template="PartyTemplate.rebels_vlandia_template"
     vassal_reward_party_template="PartyTemplate.vassal_reward_troops_vlandia"
