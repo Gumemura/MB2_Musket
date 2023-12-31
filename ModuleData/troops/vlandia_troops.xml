@@ -53,7 +53,7 @@
   </NPCCharacter>
   
   <!-- Caravan Troops -->
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_caravan_master_vlandia" level="26" name="{=cla_caravan_master_vlandia}Vlandian Armed Caravan Master" occupation="CaravanGuard" skill_template="SkillSet.cla_vlandian_ranged_infantry_26">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_caravan_master_vlandia" level="26" name="{=cla_caravan_master_vlandia}Vlandian Armed Caravan Master" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_26">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -93,11 +93,10 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cla_armed_trader_vlandia" is_basic_troop="true" level="16" name="{=cla_armed_trader_vlandia}Vlandian Musket Trader" occupation="CaravanGuard" skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+  <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cla_armed_trader_vlandia"  level="16" name="{=cla_armed_trader_vlandia}Vlandian Musket Trader" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
-    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
         <equipment id="Item.cla_hand_cannon_1" slot="Item0"/>
@@ -106,7 +105,7 @@
         <equipment id="Item.layered_leather_tunic" slot="Body"/>
         <equipment id="Item.leather_cavalier_boots" slot="Leg"/>
       </EquipmentRoster>
-      <EquipmentRoster>
+<!--       <EquipmentRoster>
         <equipment id="Item.cla_hand_cannon_1" slot="Item0"/>
         <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
         <equipment id="Item.vlandia_sword_1_t2" slot="Item2"/>
@@ -135,7 +134,7 @@
         <equipment id="Item.gambeson_b" slot="Body"/>
         <equipment id="Item.leather_cavalier_boots" slot="Leg"/>
         <equipment id="Item.hood" slot="Cape"/>
-      </EquipmentRoster>
+      </EquipmentRoster> -->
     </Equipments>
   </NPCCharacter>
   

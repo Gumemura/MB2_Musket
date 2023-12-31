@@ -3,13 +3,15 @@
   <MBPartyTemplate id="cla_caravan_template_vlandia">
     <stacks>
       <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.armed_trader_vlandia"/>
+      <PartyTemplateStack max_value="6" min_value="6" troop="NPCCharacter.cla_armed_trader_vlandia"/>
       <PartyTemplateStack max_value="4" min_value="4" troop="NPCCharacter.caravan_guard_vlandia"/>
       <PartyTemplateStack max_value="2" min_value="2" troop="NPCCharacter.veteran_caravan_guard_vlandia"/>
     </stacks>
   </MBPartyTemplate>
   <MBPartyTemplate id="cla_elite_caravan_template_vlandia">
     <stacks>
-      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.armed_trader_vlandia"/>
+      <PartyTemplateStack max_value="1" min_value="4" troop="NPCCharacter.armed_trader_vlandia"/>
+      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.cla_armed_trader_vlandia"/>
       <PartyTemplateStack max_value="7" min_value="7" troop="NPCCharacter.caravan_guard_vlandia"/>
       <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.veteran_caravan_guard_vlandia"/>
       <PartyTemplateStack max_value="2" min_value="2" troop="NPCCharacter.cla_caravan_master_vlandia"/>

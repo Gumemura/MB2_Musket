@@ -252,7 +252,7 @@
     <skill id="Crossbow" value="80"/>
     <skill id="Throwing" value="20"/>
   </SkillSet>
-  <!-- 5 -->
+  <!-- 6 -->
   <SkillSet id="cla_vlandian_ranged_infantry_31">
     <skill id="Athletics" value="140"/>
     <skill id="Riding" value="30"/>
