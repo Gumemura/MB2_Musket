@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
   <!-- Militia -->
-  <NPCCharacter culture="Culture.battania"
-                default_group="Ranged"
-                id="cla_battanian_militia_veteran_archer"
-                level="21"
-                name="{=cla_battanian_militia_veteran_archer}Battania Militia Veteran Musketeer"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_musketeer_21">
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_battanian_militia_veteran_musketeer" level="21" name="{=cla_battanian_militia_veteran_musketeer}Battania Militia Veteran Musketeer" occupation="Soldier" skill_template="SkillSet.cla_musketeer_21">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -53,15 +47,8 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  
   <!-- Caravan -->
-  <NPCCharacter culture="Culture.battania"
-                default_group="Infantry"
-                id="cla_caravan_master_battania"
-                level="26"
-                name="{=cla_caravan_master_battania}Battania Armed Caravan Master"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_musket_and_infantry_26">
+  <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cla_caravan_master_battania" level="26" name="{=cla_caravan_master_battania}Battania Armed Caravan Master" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_26">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -103,14 +90,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.battania"
-                default_group="Ranged"
-                id="cla_armed_trader_battania"
-                is_basic_troop="true"
-                level="16"
-                name="{=cla_armed_trader_battania}Battania Muslel Trader"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_musketeer_16">
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_musket_trader_battania" is_basic_troop="true" level="16" name="{=cla_musket_trader_battania}Battania Trader Musketeer" occupation="Soldier" skill_template="SkillSet.cla_musketeer_16">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -162,16 +142,8 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-
   <!-- Tier 1 Recruit -->
-  <NPCCharacter culture="Culture.battania"
-                default_group="Ranged"
-                id="cla_battania_recruit"
-                is_basic_troop="true"
-                level="6"
-                name="{=cla_battania_recruit}Battania Freedom Fighter"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_musketeer_6">
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_battania_recruit" is_basic_troop="true" level="6" name="{=cla_battania_recruit}Battania Levy" occupation="Soldier" skill_template="SkillSet.cla_musketeer_6">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -228,15 +200,8 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  
   <!-- Basic Ranged -->
-  <NPCCharacter culture="Culture.battania"
-                default_group="Ranged"
-                id="cla_battania_ranged_2"
-                level="11"
-                name="{=cla_battania_ranged_2}Battania Patriot"
-                occupation="Soldier"
-                skill_template="SkillSet.cla_musketeer_11">
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_battania_ranged_2" level="11" name="{=cla_battania_ranged_2}Battania Skirmisher" occupation="Soldier" skill_template="SkillSet.cla_musketeer_11">
     <face>
       <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
@@ -404,7 +369,6 @@
       <EquipmentSet civilian="true" id="battania_troop_civilian_template_t3"/>
     </Equipments>
   </NPCCharacter>
-  
   <!-- Basic Ranged Mounted -->
   <NPCCharacter culture="Culture.battania" default_group="HorseArcher" id="cla_battania_ranged_mounted_4" level="21" name="{=cla_battania_ranged_mounted_4}Battania Mounted Scout" occupation="Soldier" skill_template="SkillSet.cla_horse_musketeer_21" upgrade_requires="ItemCategory.horse">
     <face>

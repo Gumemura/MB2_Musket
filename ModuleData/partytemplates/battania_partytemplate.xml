@@ -1,55 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
-  <MBPartyTemplate id="cla_kingdom_hero_party_battania_template" >
+  <MBPartyTemplate id="cla_caravan_template_battania">
     <stacks>
-      <PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.cla_battania_recruit" />
-      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cla_battania_infantry_2" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_battania_infantry_3" />
-      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cla_battania_infantry_pike_3" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_battania_infantry_pike_4" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_battania_infantry_4" />
-      <PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.cla_battania_infantry_5" />
-      <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.cla_battania_infantry_4b" />
-      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.cla_battania_ranged_2" />
-      <PartyTemplateStack min_value="5" max_value="7" troop="NPCCharacter.cla_battania_ranged_3" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_battania_ranged_4" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_battania_elite_2" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_battania_elite_3" />
-      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.cla_battania_elite_4" />
-      <PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.cla_battania_ranged_mounted_4" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_battania_ranged_mounted_5" />
+      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.armed_trader_battania"/>
+      <PartyTemplateStack max_value="2" min_value="6" troop="NPCCharacter.cla_musket_trader_battania"/>
+      <PartyTemplateStack max_value="4" min_value="4" troop="NPCCharacter.caravan_guard_battania"/>
+      <PartyTemplateStack max_value="2" min_value="2" troop="NPCCharacter.veteran_caravan_guard_battania"/>
     </stacks>
   </MBPartyTemplate>
-  <MBPartyTemplate id="cla_caravan_template_battania" >
+  <MBPartyTemplate id="cla_elite_caravan_template_battania">
     <stacks>
-      <PartyTemplateStack  min_value="8" max_value="8" troop="NPCCharacter.cla_armed_trader_battania" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.cla_caravan_guard_battania" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_veteran_caravan_guard_battania" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="cla_elite_caravan_template_battania" >
-    <stacks>
-      <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.cla_armed_trader_battania" />
-      <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.cla_caravan_guard_battania" />
-      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.cla_veteran_caravan_guard_battania" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_caravan_master_battania" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="cla_militia_battania_template" >
-      <stacks>
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_battanian_militia_spearman" />
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_battanian_militia_archer" />
-      </stacks>
-    </MBPartyTemplate>
-  <MBPartyTemplate id="cla_rebels_battania_template" >
-    <stacks>
-      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cla_battania_recruit" />
-    </stacks>
-  </MBPartyTemplate>
-  <MBPartyTemplate id="cla_vassal_reward_troops_battania" >
-    <stacks>
-      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.cla_battania_elite_3" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cla_battania_elite_2" />
+      <PartyTemplateStack max_value="10" min_value="8" troop="NPCCharacter.armed_trader_battania"/>
+      <PartyTemplateStack max_value="4" min_value="8" troop="NPCCharacter.cla_musket_trader_battania"/>
+      <PartyTemplateStack max_value="7" min_value="7" troop="NPCCharacter.caravan_guard_battania"/>
+      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.veteran_caravan_guard_battania"/>
+      <PartyTemplateStack max_value="2" min_value="2" troop="NPCCharacter.cla_caravan_master_battania"/>
     </stacks>
   </MBPartyTemplate>
 </partyTemplates>
