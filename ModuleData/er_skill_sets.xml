@@ -196,9 +196,77 @@
     <skill id="Throwing" value="220"/>
   </SkillSet>
 
-  <!-- Vlandian Pistol Infantry (Pistol + One handed) -->
+  <!-- Generic musketeer (good crossbow, poor one-hand) -->
   <!-- 1 -->
-  <SkillSet id="cla_vlandian_ranged_infantry_6">
+  <SkillSet id="cla_musketeer_6">
+    <skill id="Athletics" value="20"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="20"/>
+    <skill id="TwoHanded" value="10"/>
+    <skill id="Polearm" value="10"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 2 -->
+  <SkillSet id="cla_musketeer_11">
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="10"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="60"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 3 -->
+  <SkillSet id="cla_musketeer_16">
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="60"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="90"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 4 -->
+  <SkillSet id="cla_musketeer_21">
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="110"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 5 -->
+  <SkillSet id="cla_musketeer_26">
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="80"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="150"/>
+    <skill id="Throwing" value="20"/>
+  </SkillSet>
+  <!-- 6 -->
+  <SkillSet id="cla_musketeer_31">
+    <skill id="Athletics" value="140"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="90"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="180"/>
+    <skill id="Throwing" value="20"/>
+  </SkillSet>
+
+  <!-- Infantry with firearm (strong one-hand and poor crossbow) -->
+  <!-- 1 -->
+  <SkillSet id="cla_musket_and_infantry_6">
     <skill id="Athletics" value="20"/>
     <skill id="Riding" value="10"/>
     <skill id="OneHanded" value="30"/>
@@ -209,7 +277,7 @@
     <skill id="Throwing" value="10"/>
   </SkillSet>
   <!-- 2 -->
-  <SkillSet id="cla_vlandian_ranged_infantry_11">
+  <SkillSet id="cla_musket_and_infantry_11">
     <skill id="Athletics" value="40"/>
     <skill id="Riding" value="20"/>
     <skill id="OneHanded" value="60"/>
@@ -220,7 +288,7 @@
     <skill id="Throwing" value="10"/>
   </SkillSet>
   <!-- 3 -->
-  <SkillSet id="cla_vlandian_ranged_infantry_16">
+  <SkillSet id="cla_musket_and_infantry_16">
     <skill id="Athletics" value="80"/>
     <skill id="Riding" value="20"/>
     <skill id="OneHanded" value="90"/>
@@ -231,7 +299,7 @@
     <skill id="Throwing" value="10"/>
   </SkillSet>
   <!-- 4 -->
-  <SkillSet id="cla_vlandian_ranged_infantry_21">
+  <SkillSet id="cla_musket_and_infantry_21">
     <skill id="Athletics" value="100"/>
     <skill id="Riding" value="20"/>
     <skill id="OneHanded" value="110"/>
@@ -242,7 +310,7 @@
     <skill id="Throwing" value="10"/>
   </SkillSet>
   <!-- 5 -->
-  <SkillSet id="cla_vlandian_ranged_infantry_26">
+  <SkillSet id="cla_musket_and_infantry_26">
     <skill id="Athletics" value="130"/>
     <skill id="Riding" value="30"/>
     <skill id="OneHanded" value="150"/>
@@ -253,7 +321,7 @@
     <skill id="Throwing" value="20"/>
   </SkillSet>
   <!-- 6 -->
-  <SkillSet id="cla_vlandian_ranged_infantry_31">
+  <SkillSet id="cla_musket_and_infantry_31">
     <skill id="Athletics" value="140"/>
     <skill id="Riding" value="30"/>
     <skill id="OneHanded" value="160"/>
@@ -262,5 +330,29 @@
     <skill id="Bow" value="15"/>
     <skill id="Crossbow" value="90"/>
     <skill id="Throwing" value="20"/>
+  </SkillSet>
+
+  <!-- Dragoons (Cavalary with firearm) -->
+  <!-- 21 -->
+  <SkillSet id="cla_horse_musketeer_21">
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="100"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="45"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="120"/>
+    <skill id="Throwing" value="25"/>
+  </SkillSet>
+  <!-- 26 -->
+  <SkillSet id="cla_horse_musketeer_26">
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="45"/>
+    <skill id="Polearm" value="130"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="170"/>
+    <skill id="Throwing" value="25"/>
   </SkillSet>
 </SkillSets>

@@ -357,20 +357,10 @@
     </Equipments>
   </NPCCharacter>
   <!-- Ranged Cavalary -->
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_ranged_cavalary_4" level="21" name="{=cla_aserai_ranged_cavalary_4}Sultanate Mounted Janissary" occupation="Soldier" upgrade_requires="ItemCategory.horse">
+  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_ranged_cavalary_4" level="21" name="{=cla_aserai_ranged_cavalary_4}Sultanate Mounted Janissary" occupation="Soldier" upgrade_requires="ItemCategory.horse" skill_template="SkillSet.cla_horse_musketeer_21">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
-    <skills>
-      <skill id="Athletics" value="45"/>
-      <skill id="Riding" value="100"/>
-      <skill id="OneHanded" value="80"/>
-      <skill id="TwoHanded" value="45"/>
-      <skill id="Polearm" value="100"/>
-      <skill id="Bow" value="15"/>
-      <skill id="Crossbow" value="120"/>
-      <skill id="Throwing" value="25"/>
-    </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.cla_aserai_ranged_cavalary_5"/>
     </upgrade_targets>
@@ -402,21 +392,10 @@
       <equipment id="Item.camel_saddle" slot="HorseHarness"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_ranged_cavalary_5" level="26" name="{=cla_aserai_ranged_cavalary_5}Sultanate Trained Mounted Janissary" occupation="Soldier">
+  <NPCCharacter culture="Culture.aserai" default_group="HorseArcher" id="cla_aserai_ranged_cavalary_5" level="26" name="{=cla_aserai_ranged_cavalary_5}Sultanate Trained Mounted Janissary" occupation="Soldier" skill_template="SkillSet.cla_horse_musketeer_26">
     <face>
       <face_key_template value="BodyProperty.fighter_aserai"/>
     </face>
-    <skills>
-      <skill id="Athletics" value="80"/>
-      <skill id="Riding" value="130"/>
-      <skill id="OneHanded" value="130"/>
-      <skill id="TwoHanded" value="60"/>
-      <skill id="Polearm" value="100"/>
-      <skill id="Bow" value="20"/>
-      <skill id="Crossbow" value="140"/>
-      <skill id="Throwing" value="60"/>
-    </skills>
-    <upgrade_targets/>
     <Equipments>
       <EquipmentRoster>
         <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>

@@ -53,7 +53,7 @@
   </NPCCharacter>
   
   <!-- Caravan Troops -->
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_caravan_master_vlandia" level="26" name="{=cla_caravan_master_vlandia}Vlandian Armed Caravan Master" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_26">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_caravan_master_vlandia" level="26" name="{=cla_caravan_master_vlandia}Vlandian Armed Caravan Master" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_26">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -139,7 +139,7 @@
   </NPCCharacter>
   
   <!-- Troops -->
-  <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cla_vlandia_recruit_1" is_basic_troop="true" level="6" name="{=cla_vlandia_recruit_1}Vlandian Peasant Levy" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_6">
+  <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cla_vlandia_recruit_1" is_basic_troop="true" level="6" name="{=cla_vlandia_recruit_1}Vlandian Peasant Levy" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_6">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -166,7 +166,7 @@
   </NPCCharacter>
   
   <!-- Musketeers-->
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_2" level="11" name="{=cla_vlandia_musketeer_2}Vlandian Versatile Recruit" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_11">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_2" level="11" name="{=cla_vlandia_musketeer_2}Vlandian Versatile Recruit" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_11">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -195,7 +195,7 @@
       <EquipmentSet civilian="true" id="vlandia_troop_civilian_template_t1"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_3" level="16" name="{=cla_vlandia_musketeer_3}Vlandian Versatile Trained" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_16">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_3" level="16" name="{=cla_vlandia_musketeer_3}Vlandian Versatile Trained" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_16">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -272,7 +272,7 @@
       <EquipmentSet civilian="true" id="vlandia_troop_civilian_template_t2"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_4" level="21" name="{=cla_vlandia_musketeer_4}Vlandian Versatile Veteran" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_21">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_4" level="21" name="{=cla_vlandia_musketeer_4}Vlandian Versatile Veteran" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_21">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -305,7 +305,7 @@
       <EquipmentSet civilian="true" id="vlandia_troop_civilian_template_t2"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_5" level="26" name="{=cla_vlandia_musketeer_5}Vlandian Versatile Elite" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_26">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_5" level="26" name="{=cla_vlandia_musketeer_5}Vlandian Versatile Elite" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_26">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>
@@ -326,7 +326,7 @@
       <EquipmentSet civilian="true" id="vlandia_troop_civilian_template_t3"/>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_6" level="31" name="{=cla_vlandia_musketeer_6}Vlandian Versatile Knight" occupation="Soldier" skill_template="SkillSet.cla_vlandian_ranged_infantry_31">
+  <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cla_vlandia_musketeer_6" level="31" name="{=cla_vlandia_musketeer_6}Vlandian Versatile Knight" occupation="Soldier" skill_template="SkillSet.cla_musket_and_infantry_31">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia"/>
     </face>

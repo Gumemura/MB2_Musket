@@ -1,2621 +1,487 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-<!-- Militia -->
-  <NPCCharacter id="cla_battanian_militia_archer"
+  <!-- Militia -->
+  <NPCCharacter culture="Culture.battania"
                 default_group="Ranged"
-                level="11"
-                name="{=cla_battanian_militia_archer}Resistance Militia Musketeer"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Head"
-                   id="Item.battania_civil_hood" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-      </EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_battanian_militia_veteran_archer"
-                default_group="Ranged"
+                id="cla_battanian_militia_veteran_archer"
                 level="21"
-                name="{=cla_battanian_militia_veteran_archer}Resistance Militia Veteran Musketeer"
+                name="{=cla_battanian_militia_veteran_archer}Battania Militia Veteran Musketeer"
                 occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
+                skill_template="SkillSet.cla_musketeer_21">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
-    <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Head"
-                   id="Item.wrapped_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.celtic_dagger" slot="Item3"/>
+        <equipment id="Item.wrapped_headcloth" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.wrapped_scarf" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm_over_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.celtic_dagger" slot="Item3"/>
+        <equipment id="Item.leather_studdedhelm_over_headcloth" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm_over_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.celtic_dagger" slot="Item3"/>
+        <equipment id="Item.leather_studdedhelm_over_headcloth" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.wrapped_scarf" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item3"
-                   id="Item.celtic_dagger" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm_over_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.celtic_dagger" slot="Item3"/>
+        <equipment id="Item.leather_studdedhelm_over_headcloth" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.wrapped_scarf" slot="Cape"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="cla_battanian_militia_spearman"
+  
+  <!-- Caravan -->
+  <NPCCharacter culture="Culture.battania"
                 default_group="Infantry"
-                level="11"
-                name="{=cla_battanian_militia_spearman}Resistance Militia Spearman"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.northern_spear_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.battania_sword_1_t2" />
-        <equipment slot="Item2"
-                   id="Item.battania_targe_b_sparring" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.northern_spear_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.battania_mace_1_t2" />
-        <equipment slot="Item2"
-                   id="Item.battania_targe_b_sparring" />
-        <equipment slot="Head"
-                   id="Item.wrapped_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.northern_spear_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Item2"
-                   id="Item.battania_targe_b_sparring" />
-        <equipment slot="Head"
-                   id="Item.wrapped_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.military_fork_t2" />
-        <equipment slot="Item1"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Item2"
-                   id="Item.battania_targe_b_sparring" />
-        <equipment slot="Head"
-                   id="Item.wrapped_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_battanian_militia_veteran_spearman"
-                default_group="Infantry"
-                level="21"
-                name="{=cla_battanian_militia_veteran_spearman}Resistance Militia Veteran Spearman"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.triangluar_spear_t3" />
-        <equipment slot="Item1"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Item2"
-                   id="Item.woodland_axe_t3" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm" />
-        <equipment slot="Cape"
-                   id="Item.battania_shoulder_strap" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.triangluar_spear_t3" />
-        <equipment slot="Item1"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm_over_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.triangluar_spear_t3" />
-        <equipment slot="Item1"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.triangluar_spear_t3" />
-        <equipment slot="Item1"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.leather_studdedhelm_over_headcloth" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-      </EquipmentRoster>
-    </Equipments>
-  </NPCCharacter>
-<!-- Caravan -->
-  <NPCCharacter id="cla_caravan_master_battania"
-                default_group="Infantry"
+                id="cla_caravan_master_battania"
                 level="26"
-                name="{=cla_caravan_master_battania}Resistance Caravan Master"
-                occupation="CaravanGuard"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26">
+                name="{=cla_caravan_master_battania}Battania Armed Caravan Master"
+                occupation="Soldier"
+                skill_template="SkillSet.cla_musket_and_infantry_26">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
-    <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_musket_pistol_1" />
-        <equipment slot="Item0"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item0"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_plume_2" />
-        <equipment slot="Body"
-                   id="Item.battanian_scale_armor_b" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_2" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_2" />
-        <equipment slot="Cape"
-                   id="Item.cla_battania_cape_officer_cape_1" />
+        <equipment id="Item.battania_sword_2_t3" slot="Item0"/>
+        <equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.ridged_northernhelm" slot="Head"/>
+        <equipment id="Item.ranger_mail" slot="Body"/>
+        <equipment id="Item.battania_shoulder_furr" slot="Cape"/>
+        <equipment id="Item.wrapped_leather_boots" slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_musket_pistol_1" />
-        <equipment slot="Item0"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item0"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_plume_2" />
-        <equipment slot="Body"
-                   id="Item.battanian_chainmail_armor_d" />
-        <equipment slot="Cape"
-                   id="Item.cla_battania_cape_officer_cape_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_2" />
+        <equipment id="Item.battania_sword_2_t3" slot="Item0"/>
+        <equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_mercenary_armor" slot="Body"/>
+        <equipment id="Item.battania_civil_cape" slot="Cape"/>
+        <equipment id="Item.wrapped_leather_boots" slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_musket_pistol_1" />
-        <equipment slot="Item0"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item0"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_plume_2" />
-        <equipment slot="Body"
-                   id="Item.battanian_chainmail_armor_c" />
-        <equipment slot="Cape"
-                   id="Item.cla_battania_cape_officer_cape_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_2" />
+        <equipment id="Item.battania_sword_2_t3" slot="Item0"/>
+        <equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_fur_helmet" slot="Head"/>
+        <equipment id="Item.ranger_mail" slot="Body"/>
+        <equipment id="Item.bearskin" slot="Cape"/>
+        <equipment id="Item.wrapped_leather_boots" slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.cla_musket_pistol_1" />
-        <equipment slot="Item0"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item0"
-                   id="Item.battania_sword_2_t3" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_plume_2" />
-        <equipment slot="Body"
-                   id="Item.battanian_scale_armor_b" />
-        <equipment slot="Cape"
-                   id="Item.cla_battania_cape_officer_cape_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_2" />
+        <equipment id="Item.battania_sword_2_t3" slot="Item0"/>
+        <equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.ridged_northernhelm" slot="Head"/>
+        <equipment id="Item.ranger_mail" slot="Body"/>
+        <equipment id="Item.battania_shoulder_furr" slot="Cape"/>
+        <equipment id="Item.wrapped_leather_boots" slot="Leg"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-
-  <NPCCharacter id="cla_caravan_guard_battania"
-                default_group="Cavalry"
-                level="21"
-                name="{=cla_caravan_guard_battania}Resistance Caravan Guard"
-                upgrade_requires="ItemCategory.horse"
-                occupation="CaravanGuard"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_2_t3" />
-        <equipment slot="Item2"
-                   id="Item.woodland_axe_t3" />
-        <equipment slot="Item3"
-                   id="Item.battania_targe_b" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_1" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.triangluar_spear_t3" />
-        <equipment slot="Item2"
-                   id="Item.woodland_axe_t3" />
-        <equipment slot="Item3"
-                   id="Item.battania_targe_b" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_1" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_2_t3" />
-        <equipment slot="Item2"
-                   id="Item.woodland_axe_t3" />
-        <equipment slot="Item3"
-                   id="Item.battania_targe_b" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_1" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_2_t3" />
-        <equipment slot="Item2"
-                   id="Item.woodland_axe_t3" />
-        <equipment slot="Item3"
-                   id="Item.battania_targe_b" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_1" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_1" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-
-      <equipment slot="Horse"
-                 id="Item.battania_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.battania_horse_harness" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="cla_veteran_caravan_guard_battania"
-                default_group="Cavalry"
-                level="26"
-                name="{=cla_veteran_caravan_guard_battania}Resistance Veteran Caravan Guard"
-                upgrade_requires="ItemCategory.war_horse"
-                occupation="CaravanGuard"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_3_t4" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_4_t4" />
-        <equipment slot="Item3"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_3" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_3_t4" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_4_t4" />
-        <equipment slot="Item3"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_3" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_3_t4" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_4_t4" />
-        <equipment slot="Item3"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_3" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.highland_throwing_axe_1_t2" />
-        <equipment slot="Item1"
-                   id="Item.northern_spear_3_t4" />
-        <equipment slot="Item2"
-                   id="Item.battania_sword_4_t4" />
-        <equipment slot="Item3"
-                   id="Item.battania_shield_targe_a" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_3" />
-        <equipment slot="Body"
-                   id="Item.cla_battania_body_uniform_armor_2" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Gloves"
-                   id="Item.cla_battania_gloves_1" />
-        <equipment slot="Cape"
-                   id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-
-      <equipment slot="Horse"
-                 id="Item.battania_horse" />
-      <equipment slot="HorseHarness"
-                 id="Item.battania_horse_harness" />
-    </Equipments>
-  </NPCCharacter>
-
-  <NPCCharacter id="cla_armed_trader_battania"
+  <NPCCharacter culture="Culture.battania"
                 default_group="Ranged"
-                level="16"
-                name="{=cla_armed_trader_battania}Resistance Armed Trader"
-                occupation="CaravanGuard"
+                id="cla_armed_trader_battania"
                 is_basic_troop="true"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level16">
+                level="16"
+                name="{=cla_armed_trader_battania}Battania Muslel Trader"
+                occupation="Soldier"
+                skill_template="SkillSet.cla_musketeer_16">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
-    <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Body"
-                   id="Item.battania_civil_a" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.battania_woodland_cloak" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.battania_axe_1_t2" slot="Item2"/>
+        <equipment id="Item.battania_civil_a" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.battania_woodland_cloak" slot="Cape"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Body"
-                   id="Item.battania_civil_b" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.scarf" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_steel_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.battania_axe_1_t2" slot="Item2"/>
+        <equipment id="Item.battania_civil_b" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.cla_battania_helm_steel_1" slot="Head"/>
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Body"
-                   id="Item.battania_woodland_outfit" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.battania_civil_cloak" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.battania_axe_1_t2" slot="Item2"/>
+        <equipment id="Item.battania_woodland_outfit" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.battania_civil_cloak" slot="Cape"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Body"
-                   id="Item.battania_woodland_outfit" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.battania_civil_cloak" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.battania_axe_1_t2" slot="Item2"/>
+        <equipment id="Item.battania_woodland_outfit" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.battania_civil_cloak" slot="Cape"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
       </EquipmentRoster>
       <EquipmentRoster civilian="true">
-        <equipment slot="Item0"
-                   id="Item.cla_jestle_arquebus_1" />
-        <equipment slot="Item1"
-                   id="Item.cla_musket_ammo_1" />
-        <equipment slot="Item2"
-                   id="Item.battania_axe_1_t2" />
-        <equipment slot="Body"
-                   id="Item.battania_civil_b" />
-        <equipment slot="Leg"
-                   id="Item.cla_battania_simple_leather_tied_boots_1" />
-        <equipment slot="Cape"
-                   id="Item.scarf" />
-        <equipment slot="Head"
-                   id="Item.cla_battania_helm_bronze_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.battania_axe_1_t2" slot="Item2"/>
+        <equipment id="Item.battania_civil_b" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
 
-<!-- Tier 1 Recruit -->
-  <NPCCharacter id="cla_battania_recruit"
+  <!-- Tier 1 Recruit -->
+  <NPCCharacter culture="Culture.battania"
                 default_group="Ranged"
+                id="cla_battania_recruit"
+                is_basic_troop="true"
                 level="6"
-                name="{=cla_battania_recruit}Resistance Freedom Fighter"
+                name="{=cla_battania_recruit}Battania Freedom Fighter"
                 occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level6">
+                skill_template="SkillSet.cla_musketeer_6">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_2" />
-      <upgrade_target id="NPCCharacter.cla_battania_ranged_2" />
+      <upgrade_target id="NPCCharacter.cla_battania_ranged_2"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_cape_tartan_cloak_1" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.wrapped_headcloth" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.wrapped_headcloth" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.wrapped_headcloth" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.wrapped_headcloth" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
       </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
       </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t1"
-                    civilian="true" />
-    </Equipments>
-
-  </NPCCharacter>
-
-<!-- Basic Infantry -->
-  <NPCCharacter id="cla_battania_infantry_2"
-                default_group="Infantry"
-                level="11"
-                name="{=cla_battania_infantry_2}Resistance Armed Volunteer"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_3" />
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_pike_3" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_1_t2" />
-      <equipment slot="Item1"
-                 id="Item.battania_sword_1_t2" />
-      <equipment slot="Item2"
-                 id="Item.battania_large_shield_c" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-    
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_2_t2" />
-      <equipment slot="Item1"
-                 id="Item.battania_sword_1_t2" />
-      <equipment slot="Item2"
-                 id="Item.battania_large_shield_c" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_2_t2" />
-      <equipment slot="Item1"
-                 id="Item.battania_sword_1_t2" />
-      <equipment slot="Item2"
-                 id="Item.battania_large_shield_c" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentSet id="empire_troop_civilian_template_t1"
-                    civilian="true" />
-    </Equipments>
-
-
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_infantry_3"
-                default_group="Infantry"
-                level="16"
-                name="{=cla_battania_infantry_3}Resistance Armed Defender"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_4" />
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_4b" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.battania_sword_3_t3" />
-      <equipment slot="Item2"
-                 id="Item.battania_large_shield_c" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.battania_sword_3_t3" />
-      <equipment slot="Item2"
-                 id="Item.battania_large_shield_c" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_3_t3" />
-      <equipment slot="Item1"
-                 id="Item.battania_sword_3_t3" />
-      <equipment slot="Item2"
-                 id="Item.battania_large_shield_c" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_infantry_4"
-                default_group="Infantry"
-                level="21"
-                name="{=cla_battania_infantry_4}Resistance Armed Protector"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.battania_large_shield_a" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.battania_large_shield_a" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.battania_large_shield_a" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.battania_large_shield_a" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-
-
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_infantry_5"
-                default_group="Infantry"
-                level="26"
-                name="{=cla_battania_infantry_5}Resistance Armed Guard"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_battania_shield_round_2" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_battania_shield_round_2" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_battania_shield_round_2" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_battania_shield_round_2" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_simple_cloak_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.western_spear_4_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_battania_shield_round_2" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_woodland_cloak_2" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
-    </Equipments>
-
-
-  </NPCCharacter>
-<!-- Pike -->
-  <NPCCharacter id="cla_battania_infantry_pike_3"
-                default_group="Infantry"
-                level="16"
-                name="{=cla_battania_infantry_pike_3}Resistance Defender"
-                occupation="Soldier"
-                culture="Culture.battania">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="70" />
-      <skill id="Riding"
-             value="40" />
-      <skill id="OneHanded"
-             value="70" />
-      <skill id="TwoHanded"
-             value="40" />
-      <skill id="Polearm"
-             value="70" />
-      <skill id="Bow"
-             value="30" />
-      <skill id="Crossbow"
-             value="10" />
-      <skill id="Throwing"
-             value="30" />
-    </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_pike_4" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.simple_pike_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.simple_pike_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.simple_pike_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_infantry_pike_4"
-                default_group="Infantry"
-                level="21"
-                name="{=cla_battania_infantry_pike_4}Resistance Veteran Pikeman"
-                occupation="Soldier"
-                culture="Culture.battania">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="30" />
-      <skill id="OneHanded"
-             value="110" />
-      <skill id="TwoHanded"
-             value="60" />
-      <skill id="Polearm"
-             value="110" />
-      <skill id="Bow"
-             value="45" />
-      <skill id="Crossbow"
-             value="15" />
-      <skill id="Throwing"
-             value="55" />
-    </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_pike_5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.fine_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.fine_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.fine_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.fine_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-
-
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_infantry_pike_5"
-                default_group="Infantry"
-                level="26"
-                name="{=cla_battania_infantry_pike_5}Resistance Elite Pikeman"
-                occupation="Soldier"
-                culture="Culture.battania">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <skills>
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="80" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="80" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="60" />
-      <skill id="Crossbow"
-             value="20" />
-      <skill id="Throwing"
-             value="60" />
-    </skills>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.thamaskene_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.thamaskene_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.thamaskene_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.thamaskene_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_simple_cloak_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.thamaskene_pike_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_woodland_cloak_2" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
-    </Equipments>
-
-
-  </NPCCharacter>
-
-<!-- 2h Troop line -->
-  <NPCCharacter id="cla_battania_infantry_4b"
-                default_group="Infantry"
-                level="21"
-                name="{=cla_battania_infantry_4b}Resistance Bombardier"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_infantry_5b" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_1" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-
-
-  </NPCCharacter>
-  <NPCCharacter id="cla_battania_infantry_5b"
-                default_group="Infantry"
-                level="26"
-                name="{=cla_battania_infantry_5b}Resistance Elite Bombardier"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_woodland_cloak_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.battania_2hsword_5_t5" />
-      <equipment slot="Item1"
-                 id="Item.cla_throwing_bomb_2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-<!-- Basic Ranged -->
-  <NPCCharacter id="cla_battania_ranged_2"
-                default_group="Ranged"
-                level="11"
-                name="{=cla_battania_ranged_2}Resistance Patriot"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level11">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_ranged_3" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t1"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_ranged_3"
-                default_group="Ranged"
-                level="16"
-                name="{=cla_battania_ranged_3}Resistance Gunman"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level16">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_ranged_4" />
-      <upgrade_target id="NPCCharacter.cla_battania_ranged_mounted_4" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.battania_civil_cape" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_ranged_4"
-                default_group="Ranged"
-                level="21"
-                name="{=cla_battania_ranged_4}Resistance Trained Gunman"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_ranged_5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_arquebus_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.celtic_dagger" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_ranged_5"
-                default_group="Ranged"
-                level="26"
-                name="{=cla_battania_ranged_5}Resistance Ranger"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.battania_sword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-<!-- Basic Ranged Mounted -->
-  <NPCCharacter id="cla_battania_ranged_mounted_4"
-                default_group="HorseArcher"
-                level="21"
-                name="{=cla_battania_ranged_mounted_4}Resistance Mounted Scout"
-                upgrade_requires="ItemCategory.horse"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_ranged_mounted_5" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_sword_3_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_sword_3_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.wrapped_scarf" />
-      </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    <equipment slot="Horse"
-               id="Item.t2_battania_horse" />
-    <equipment slot="HorseHarness"
-               id="Item.battania_horse_harness_halfscaled" />
-
-    </Equipments>
-
-
-  </NPCCharacter>
-
-  <NPCCharacter id="cla_battania_ranged_mounted_5"
-                default_group="HorseArcher"
-                level="26"
-                name="{=cla_battania_ranged_mounted_5}Resistance Mounted Ranger"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_2" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_carbine_1" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_sword_4_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_1" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_simple_cloak_2" />
-      </EquipmentRoster>
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
-    <equipment slot="Horse"
-               id="Item.t2_battania_horse" />
-    <equipment slot="HorseHarness"
-               id="Item.battania_horse_harness_halfscaled" />
-  
-
-    </Equipments>
-  </NPCCharacter>
-
-<!-- Elite -->
-  <NPCCharacter id="cla_battania_elite_2"
-                default_group="Ranged"
-                level="11"
-                name="{=cla_battania_elite_2}Resistance Officer"
-                occupation="Soldier"
-                is_basic_troop="true"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level11_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_elite_3" />
-    </upgrade_targets>
-   <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_1_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_1_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_1_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_1" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_1" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_1" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_elite_3"
-                default_group="Ranged"
-                level="16"
-                name="{=cla_battania_elite_3}Resistance Trained Officer"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level16_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_elite_4" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_1_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_plume_2" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_b" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_1_t2" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_plume_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_uniform_armor_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
     </Equipments>
   </NPCCharacter>
   
-  <NPCCharacter id="cla_battania_elite_4"
+  <!-- Basic Ranged -->
+  <NPCCharacter culture="Culture.battania"
                 default_group="Ranged"
-                level="21"
-                name="{=cla_battania_elite_4}Resistance Veteran Officer"
+                id="cla_battania_ranged_2"
+                level="11"
+                name="{=cla_battania_ranged_2}Battania Patriot"
                 occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level21_elite">
+                skill_template="SkillSet.cla_musketeer_11">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-      <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_elite_5" />
-      <upgrade_target id="NPCCharacter.cla_battania_elite_5_b" />
-    </upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battanian_scale_armor_b" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_d" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_c" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_2_t3" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battanian_chainmail_armor_a" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t2"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_elite_5"
-                default_group="Ranged"
-                level="26"
-                name="{=cla_battania_elite_5}Resistance Hero"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_elite_6" />
+      <upgrade_target id="NPCCharacter.cla_battania_ranged_3"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battanian_scale_armor_a" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.kilt_over_plated_leather" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_cape_tartan_cloak_1" slot="Cape"/>
       </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_cape_tartan_heavy_cape_1" slot="Cape"/>
+      </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_elite_6"
-                default_group="Ranged"
-                level="31"
-                name="{=cla_battania_elite_6}Resistance War Hero"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level31_elite">
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_battania_ranged_3" level="16" name="{=cla_battania_ranged_3}Battania Gunman" occupation="Soldier" skill_template="SkillSet.cla_musketeer_16">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
-    </face>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battania_noble_armor" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item2"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_officer_1" />
-      <equipment slot="Body"
-                 id="Item.battania_noble_armor" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_officer_cape_1" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-
-<!-- Buck Shot troops -->
-  <NPCCharacter id="cla_battania_elite_5_b"
-                default_group="Ranged"
-                level="26"
-                name="{=cla_battania_elite_5_b}Resistance Explosive Specialist"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level26_elite">
-    <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.cla_battania_elite_6_b" />
+      <upgrade_target id="NPCCharacter.cla_battania_ranged_4"/>
+      <upgrade_target id="NPCCharacter.cla_battania_ranged_mounted_4"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_2" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.kilt_over_plated_leather" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_woodland_cloak_2" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_steel_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.battania_civil_cape" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_2" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.kilt_over_plated_leather" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.battania_woodland_cloak" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_2" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_3" />
-      <equipment slot="Body"
-                 id="Item.kilt_over_plated_leather" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_heavy_cape_2" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_steel_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_heavy_cape_1" slot="Cape"/>
       </EquipmentRoster>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_2" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.kilt_over_plated_leather" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cape_2" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cloak_1" slot="Cape"/>
       </EquipmentRoster>
-      <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_2" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_bronze_3" />
-      <equipment slot="Body"
-                 id="Item.kilt_over_plated_leather" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_tied_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.cla_battania_cape_tartan_cloak_2" />
-      </EquipmentRoster>
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentSet civilian="true" id="battania_troop_civilian_template_t2"/>
     </Equipments>
   </NPCCharacter>
-
-
-  <NPCCharacter id="cla_battania_elite_6_b"
-                default_group="Ranged"
-                level="31"
-                name="{=cla_battania_elite_6_b}Resistance Elite Explosive Specialist"
-                occupation="Soldier"
-                culture="Culture.battania"
-                skill_template="SkillSet.cla_skills_level31_elite">
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_battania_ranged_4" level="21" name="{=cla_battania_ranged_4}Battania Trained Gunman" occupation="Soldier" skill_template="SkillSet.cla_musketeer_21">
     <face>
-      <face_key_template value="BodyProperty.fighter_battania" />
+      <face_key_template value="BodyProperty.fighter_battania"/>
     </face>
     <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cla_battania_ranged_5"/>
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
-      <equipment slot="Item0"
-                 id="Item.cla_jestle_musket_3" />
-      <equipment slot="Item1"
-                 id="Item.cla_musket_ammo_1_large" />
-      <equipment slot="Item3"
-                 id="Item.battania_2hsword_5_t4" />
-      <equipment slot="Head"
-                 id="Item.cla_battania_helm_steel_plume_2" />
-      <equipment slot="Body"
-                 id="Item.cla_battania_body_heavy_scale_1" />
-      <equipment slot="Leg"
-                 id="Item.cla_battania_simple_leather_boots_2" />
-      <equipment slot="Gloves"
-                 id="Item.cla_battania_gloves_2" />
-      <equipment slot="Cape"
-                 id="Item.battania_woodland_cloak" />
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_heavy_cape_1" slot="Cape"/>
       </EquipmentRoster>
-
-
-      <EquipmentSet id="battania_troop_civilian_template_t3"
-                    civilian="true" />
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.celtic_dagger" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_bronze_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cloak_1" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="battania_troop_civilian_template_t2"/>
     </Equipments>
   </NPCCharacter>
-
+  <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cla_battania_ranged_5" level="26" name="{=cla_battania_ranged_5}Battania Ranger" occupation="Soldier" skill_template="SkillSet.cla_musketeer_26">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_musket_3" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.battania_sword_2_t3" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_steel_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_2" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_2" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_2" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cloak_1" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_musket_3" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.battania_sword_2_t3" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_steel_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_2" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_2" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_2" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_musket_3" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.battania_sword_2_t3" slot="Item2"/>
+        <equipment id="Item.cla_battania_helm_steel_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_2" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_2" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_2" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_1" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="battania_troop_civilian_template_t3"/>
+    </Equipments>
+  </NPCCharacter>
+  
+  <!-- Basic Ranged Mounted -->
+  <NPCCharacter culture="Culture.battania" default_group="HorseArcher" id="cla_battania_ranged_mounted_4" level="21" name="{=cla_battania_ranged_mounted_4}Battania Mounted Scout" occupation="Soldier" skill_template="SkillSet.cla_horse_musketeer_21" upgrade_requires="ItemCategory.horse">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cla_battania_ranged_mounted_5"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.cla_battania_helm_bronze_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.wrapped_scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.cla_battania_helm_steel_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_1" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_1" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_1" slot="Gloves"/>
+        <equipment id="Item.wrapped_scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="battania_troop_civilian_template_t2"/>
+      <equipment id="Item.t2_battania_horse" slot="Horse"/>
+      <equipment id="Item.battania_horse_harness_halfscaled" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter culture="Culture.battania" default_group="HorseArcher" id="cla_battania_ranged_mounted_5" level="26" name="{=cla_battania_ranged_mounted_5}Battania Mounted Ranger" occupation="Soldier" skill_template="SkillSet.cla_horse_musketeer_26">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania"/>
+    </face>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_sword_4_t4" slot="Item3"/>
+        <equipment id="Item.cla_battania_helm_bronze_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_2" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_2" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_2" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_cape_2" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_sword_4_t4" slot="Item3"/>
+        <equipment id="Item.cla_battania_helm_bronze_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_2" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_2" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_2" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_tartan_heavy_cape_2" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.battania_sword_4_t4" slot="Item3"/>
+        <equipment id="Item.cla_battania_helm_bronze_plume_1" slot="Head"/>
+        <equipment id="Item.cla_battania_body_uniform_armor_2" slot="Body"/>
+        <equipment id="Item.cla_battania_simple_leather_tied_boots_2" slot="Leg"/>
+        <equipment id="Item.cla_battania_gloves_2" slot="Gloves"/>
+        <equipment id="Item.cla_battania_cape_simple_cloak_2" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="battania_troop_civilian_template_t3"/>
+      <equipment id="Item.t2_battania_horse" slot="Horse"/>
+      <equipment id="Item.battania_horse_harness_halfscaled" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
 </NPCCharacters>
