@@ -24,6 +24,11 @@
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="empire">
@@ -45,6 +50,11 @@
     <Culture id="battania">
       <basicTroops>
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -70,6 +80,11 @@
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="empire_w">
@@ -91,6 +106,11 @@
     <Culture id="battania">
       <basicTroops>
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -116,6 +136,11 @@
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="khuzait">
@@ -137,6 +162,11 @@
     <Culture id="battania">
       <basicTroops>
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -162,6 +192,11 @@
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="vlandia">
@@ -183,6 +218,11 @@
     <Culture id="battania">
       <basicTroops>
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
+      </basicTroops>
+    </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
   </MapFaction>
@@ -208,6 +248,10 @@
         <volunteer id="cla_battania_recruit" percent="35" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="sturgia">
+      <basicTroops>
+        <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
+      </basicTroops>
+    </Culture>
   </MapFaction>
-
 </ATCConfig>

@@ -714,7 +714,7 @@
 			        rotation="0, -1, 0"
               missile_speed="240"
               accuracy="90"
-              thrust_damage="210"
+              thrust_damage="220"
               thrust_speed="100"
               speed_rating="82"
               weapon_length="95"
