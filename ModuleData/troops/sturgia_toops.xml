@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- Militia -->
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_sturgia_militia_veteran_ranged" level="21" name="{=cla_sturgia_militia_veteran_ranged}Sturgian Militia Musketeer" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.small_spurred_axe_t2" slot="Item2"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+				<equipment id="Item.nordic_padded_cloth" slot="Body"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.small_spurred_axe_t2" slot="Item2"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.small_spurred_axe_t2" slot="Item2"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+				<equipment id="Item.northern_leather_vest" slot="Body"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.small_spurred_axe_t2" slot="Item2"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Caravan -->
+	<NPCCharacter culture="Culture.sturgia" default_group="Infantry" id="cla_caravan_master_sturgia" level="26" name="{=cla_caravan_master_sturgia}Sturgian Armed Caravan Master" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level26_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_4_t4" slot="Item0"/>
+				<equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.strapped_round_shield" slot="Item3"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+				<equipment id="Item.northern_leather_tabard" slot="Body"/>
+				<equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+				<equipment id="Item.battania_leather_boots" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_4_t4" slot="Item0"/>
+				<equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.strapped_round_shield" slot="Item3"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+				<equipment id="Item.northern_leather_tabard" slot="Body"/>
+				<equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.battania_leather_boots" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_4_t4" slot="Item0"/>
+				<equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.strapped_round_shield" slot="Item3"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+				<equipment id="Item.nordic_lamellar_vest" slot="Body"/>
+				<equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.battania_leather_boots" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment id="Item.sturgia_axe_4_t4" slot="Item0"/>
+				<equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.strapped_round_shield" slot="Item3"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+				<equipment id="Item.northern_leather_tabard" slot="Body"/>
+				<equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.battania_leather_boots" slot="Leg"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter culture="Culture.sturgia" default_group="HorseArcher" id="cla_veteran_caravan_guard_sturgia" level="26" name="{=cla_veteran_caravan_guard_sturgian}Sturgian Armed Caravan Guard" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="140"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+				<equipment id="Item.light_mace_t3" slot="Item2"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				<equipment id="Item.nasalhelm_over_leather" slot="Head"/>
+				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
+				<equipment id="Item.battania_woodland_boots" slot="Leg"/>
+				<equipment id="Item.leather_gloves" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+				<equipment id="Item.light_mace_t3" slot="Item2"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				<equipment id="Item.nasalhelm_over_mail" slot="Head"/>
+				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
+				<equipment id="Item.ragged_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+				<equipment id="Item.sturgia_sword_5_t4" slot="Item2"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				<equipment id="Item.nasalhelm_over_leather" slot="Head"/>
+				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.mail_shoulders" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+				<equipment id="Item.sturgia_sword_5_t4" slot="Item2"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				<equipment id="Item.nasalhelm_over_leather" slot="Head"/>
+				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.mail_shoulders" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+				<equipment id="Item.sturgia_sword_5_t4" slot="Item2"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				<equipment id="Item.nasalhelm_over_mail" slot="Head"/>
+				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
+				<equipment id="Item.ragged_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+			</EquipmentRoster>
+			<equipment id="Item.khuzait_horse" slot="Horse"/>
+			<equipment id="Item.steppe_harness" slot="HorseHarness"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_armed_trader_sturgia" is_basic_troop="true" level="16" name="{=cla_armed_trader_sturgia}Sturgian Musketeer Trader" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.northern_padded_gambeson" slot="Body"/>
+				<equipment id="Item.battania_woodland_boots" slot="Leg"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.ragged_boots" slot="Leg"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.ragged_boots" slot="Leg"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Basic Tier 1 Recruit -->
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_sturgia_ranged_1" is_basic_troop="true" level="6" name="{=cla_sturgia_ranged_1}Sturgian Levy" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cla_sturgia_ranged_2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item0"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.tundra_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.peasant_hammer_1_t1" slot="Item0"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.tundra_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.ragged_armwraps" slot="Gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.peasant_hammer_2_t1" slot="Item0"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.tundra_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.peasant_sickle_1_t1" slot="Item0"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.tundra_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentSet civilian="true" id="sturgia_troop_civilian_template_t1"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ranged -->
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_sturgia_ranged_2" level="11" name="{=cla_sturgia_ranged_2}Sturgian Hunter" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cla_sturgia_ranged_3"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item0"/>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.cla_empire_cape_1" slot="Cape"/>
+				<equipment id="Item.leather_gloves" slot="Gloves"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item0"/>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.northern_fur_cap" slot="Head"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.leather_gloves" slot="Gloves"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.scarf" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item0"/>
+				<equipment id="Item.cla_jestle_arquebus_1" slot="Item1"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+				<equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+				<equipment id="Item.cla_empire_cape_1" slot="Cape"/>
+				<equipment id="Item.leather_gloves" slot="Gloves"/>
+				<equipment id="Item.nordic_fur_cap" slot="Head"/>
+			</EquipmentRoster>
+			<EquipmentSet civilian="true" id="sturgia_troop_civilian_template_t1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_sturgia_ranged_3" level="16" name="{=cla_sturgia_ranged_3}Sturgian Shooter" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cla_sturgia_ranged_4"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_musket_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.peaked_fur_hood" slot="Head"/>
+				<equipment id="Item.empire_warrior_padded_armor_a" slot="Body"/>
+				<equipment id="Item.turndown_leather_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.bearskin" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_musket_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.peaked_fur_hood" slot="Head"/>
+				<equipment id="Item.northern_padded_cloth" slot="Body"/>
+				<equipment id="Item.turndown_leather_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.battania_civil_cape" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_sturgia_ranged_4" level="21" name="{=cla_sturgia_ranged_4}Sturgian Musketeer" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level21_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.cla_sturgia_ranged_5"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_musket_2" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item3"/>
+				<equipment id="Item.peaked_fur_hood" slot="Head"/>
+				<equipment id="Item.northern_leather_tabard" slot="Body"/>
+				<equipment id="Item.turndown_leather_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.bearskin" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_jestle_musket_2" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+				<equipment id="Item.sturgia_axe_2_t2" slot="Item2"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item3"/>
+				<equipment id="Item.peaked_fur_hood" slot="Head"/>
+				<equipment id="Item.nordic_lamellar_vest" slot="Body"/>
+				<equipment id="Item.turndown_leather_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.bearskin" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentSet civilian="true" id="aserai_troop_civilian_template_t2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter culture="Culture.sturgia" default_group="Ranged" id="cla_sturgia_ranged_5" level="26" name="{=cla_sturgia_ranged_5}Sturgian Homeland Defender" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level26_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment id="Item.cla_flintlock_rifle_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+				<equipment id="Item.sturgia_sword_2_t3" slot="Item2"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item3"/>
+				<equipment id="Item.sturgia_heavy_cavalary_helmet" slot="Head"/>
+				<equipment id="Item.aserai_archer_armor" slot="Body"/>
+				<equipment id="Item.turndown_leather_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.cla_empire_cape_1" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment id="Item.cla_flintlock_rifle_1" slot="Item0"/>
+				<equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+				<equipment id="Item.sturgia_sword_2_t3" slot="Item2"/>
+				<equipment id="Item.cla_musket_pistol_1" slot="Item3"/>
+				<equipment id="Item.sturgia_heavy_cavalary_helmet" slot="Head"/>
+				<equipment id="Item.sturgian_lamellar_gambeson_heavy" slot="Body"/>
+				<equipment id="Item.turndown_leather_boots" slot="Leg"/>
+				<equipment id="Item.highland_gloves" slot="Gloves"/>
+				<equipment id="Item.bearskin" slot="Cape"/>
+			</EquipmentRoster>
+			<EquipmentSet civilian="true" id="aserai_troop_civilian_template_t3"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

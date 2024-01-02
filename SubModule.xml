@@ -36,22 +36,6 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 	  </XmlNode>
-    <XmlNode>                
-			<XmlName id="SPCultures" path="cultures"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-				<GameType value = "EditorGame"/>
-			</IncludedGameTypes>
-	  </XmlNode>
-		<XmlNode>
-			<XmlName id="partyTemplates" path="partytemplates"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-			</IncludedGameTypes>
-		</XmlNode>
 		<XmlNode>  
 			<XmlName id="Items" path="items"/>
 			<IncludedGameTypes>
@@ -132,5 +116,21 @@
 				<GameType value = "EditorGame"/>
 			</IncludedGameTypes>
 	</XmlNode> 
+		<XmlNode>
+			<XmlName id="partyTemplates" path="partytemplates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	<XmlNode>                
+			<XmlName id="SPCultures" path="cultures"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+				<GameType value = "EditorGame"/>
+			</IncludedGameTypes>
+	  </XmlNode>
   </Xmls>
 </Module>

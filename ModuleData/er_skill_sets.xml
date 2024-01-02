@@ -1,348 +1,358 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SkillSets>
-
-<!-- Warriors, brutes, and those who lead through valor and strength -->
+  <!-- Warriors, brutes, and those who lead through valor and strength -->
   <SkillSet id="cla_skills_lord_leader">
-      <skill id="Athletics"
-             value="300" />
-      <skill id="Riding"
-             value="300" />
-      <skill id="OneHanded"
-             value="300" />
-      <skill id="TwoHanded"
-             value="300" />
-      <skill id="Polearm"
-             value="300" />
-      <skill id="Bow"
-             value="300" />
-      <skill id="Crossbow"
-             value="300" />
-      <skill id="Throwing"
-             value="300" />
-      <skill id="Tactics"
-             value="200" />
-      <skill id="Scouting"
-             value="100" />
-      <skill id="Roguery"
-             value="100" />
-      <skill id="Leadership"
-             value="300" />
-      <skill id="Charm"
-             value="100" />
-      <skill id="Trade"
-             value="100" />
-      <skill id="Steward"
-             value="200" />
-      <skill id="Medicine"
-             value="100" />
-      <skill id="Engineering"
-             value="100" />
+    <skill id="Athletics" value="300"/>
+    <skill id="Riding" value="300"/>
+    <skill id="OneHanded" value="300"/>
+    <skill id="TwoHanded" value="300"/>
+    <skill id="Polearm" value="300"/>
+    <skill id="Bow" value="300"/>
+    <skill id="Crossbow" value="300"/>
+    <skill id="Throwing" value="300"/>
+    <skill id="Tactics" value="200"/>
+    <skill id="Scouting" value="100"/>
+    <skill id="Roguery" value="100"/>
+    <skill id="Leadership" value="300"/>
+    <skill id="Charm" value="100"/>
+    <skill id="Trade" value="100"/>
+    <skill id="Steward" value="200"/>
+    <skill id="Medicine" value="100"/>
+    <skill id="Engineering" value="100"/>
   </SkillSet>
-<!-- Tacticians, strategists, and those who think before they act -->
+  <!-- Tacticians, strategists, and those who think before they act -->
   <SkillSet id="cla_skills_lord_tactician">
-      <skill id="Athletics"
-             value="200" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="200" />
-      <skill id="TwoHanded"
-             value="200" />
-      <skill id="Polearm"
-             value="200" />
-      <skill id="Bow"
-             value="200" />
-      <skill id="Crossbow"
-             value="200" />
-      <skill id="Throwing"
-             value="200" />
-      <skill id="Tactics"
-             value="200" />
-      <skill id="Scouting"
-             value="200" />
-      <skill id="Roguery"
-             value="100" />
-      <skill id="Leadership"
-             value="200" />
-      <skill id="Charm"
-             value="300" />
-      <skill id="Trade"
-             value="300" />
-      <skill id="Steward"
-             value="300" />
-      <skill id="Medicine"
-             value="300" />
-      <skill id="Engineering"
-             value="300" />
+    <skill id="Athletics" value="200"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="200"/>
+    <skill id="Polearm" value="200"/>
+    <skill id="Bow" value="200"/>
+    <skill id="Crossbow" value="200"/>
+    <skill id="Throwing" value="200"/>
+    <skill id="Tactics" value="200"/>
+    <skill id="Scouting" value="200"/>
+    <skill id="Roguery" value="100"/>
+    <skill id="Leadership" value="200"/>
+    <skill id="Charm" value="300"/>
+    <skill id="Trade" value="300"/>
+    <skill id="Steward" value="300"/>
+    <skill id="Medicine" value="300"/>
+    <skill id="Engineering" value="300"/>
   </SkillSet>
-
-<!-- 1 -->
+  <!-- 1 -->
   <SkillSet id="cla_skills_level6">
-      <skill id="Athletics"
-             value="20" />
-      <skill id="Riding"
-             value="20" />
-      <skill id="OneHanded"
-             value="20" />
-      <skill id="TwoHanded"
-             value="20" />
-      <skill id="Polearm"
-             value="20" />
-      <skill id="Bow"
-             value="20" />
-      <skill id="Crossbow"
-             value="20" />
-      <skill id="Throwing"
-             value="20" />
+    <skill id="Athletics" value="20"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="20"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="20"/>
+    <skill id="Crossbow" value="20"/>
+    <skill id="Throwing" value="20"/>
   </SkillSet>
-<!-- 2 -->
+  <!-- 2 -->
   <SkillSet id="cla_skills_level11">
-      <skill id="Athletics"
-             value="40" />
-      <skill id="Riding"
-             value="40" />
-      <skill id="OneHanded"
-             value="40" />
-      <skill id="TwoHanded"
-             value="40" />
-      <skill id="Polearm"
-             value="40" />
-      <skill id="Bow"
-             value="40" />
-      <skill id="Crossbow"
-             value="40" />
-      <skill id="Throwing"
-             value="40" />
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="40"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="40"/>
+    <skill id="Polearm" value="40"/>
+    <skill id="Bow" value="40"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="40"/>
   </SkillSet>
-<!-- 3 -->
+  <!-- 3 -->
   <SkillSet id="cla_skills_level16">
-      <skill id="Athletics"
-             value="80" />
-      <skill id="Riding"
-             value="80" />
-      <skill id="OneHanded"
-             value="80" />
-      <skill id="TwoHanded"
-             value="80" />
-      <skill id="Polearm"
-             value="80" />
-      <skill id="Bow"
-             value="80" />
-      <skill id="Crossbow"
-             value="80" />
-      <skill id="Throwing"
-             value="80" />
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="80"/>
+    <skill id="OneHanded" value="80"/>
+    <skill id="TwoHanded" value="80"/>
+    <skill id="Polearm" value="80"/>
+    <skill id="Bow" value="80"/>
+    <skill id="Crossbow" value="80"/>
+    <skill id="Throwing" value="80"/>
   </SkillSet>
-<!-- 4 -->
+  <!-- 4 -->
   <SkillSet id="cla_skills_level21">
-      <skill id="Athletics"
-             value="100" />
-      <skill id="Riding"
-             value="100" />
-      <skill id="OneHanded"
-             value="100" />
-      <skill id="TwoHanded"
-             value="100" />
-      <skill id="Polearm"
-             value="100" />
-      <skill id="Bow"
-             value="100" />
-      <skill id="Crossbow"
-             value="100" />
-      <skill id="Throwing"
-             value="100" />
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="100"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="100"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="100"/>
+    <skill id="Crossbow" value="100"/>
+    <skill id="Throwing" value="100"/>
   </SkillSet>
-<!-- 5 -->
+  <!-- 5 -->
   <SkillSet id="cla_skills_level26">
-      <skill id="Athletics"
-             value="130" />
-      <skill id="Riding"
-             value="130" />
-      <skill id="OneHanded"
-             value="130" />
-      <skill id="TwoHanded"
-             value="130" />
-      <skill id="Polearm"
-             value="130" />
-      <skill id="Bow"
-             value="130" />
-      <skill id="Crossbow"
-             value="130" />
-      <skill id="Throwing"
-             value="130" />
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="130"/>
+    <skill id="Polearm" value="130"/>
+    <skill id="Bow" value="130"/>
+    <skill id="Crossbow" value="130"/>
+    <skill id="Throwing" value="130"/>
   </SkillSet>
-<!-- 6 -->
+  <!-- 6 -->
   <SkillSet id="cla_skills_level31">
-      <skill id="Athletics"
-             value="160" />
-      <skill id="Riding"
-             value="160" />
-      <skill id="OneHanded"
-             value="160" />
-      <skill id="TwoHanded"
-             value="160" />
-      <skill id="Polearm"
-             value="160" />
-      <skill id="Bow"
-             value="160" />
-      <skill id="Crossbow"
-             value="160" />
-      <skill id="Throwing"
-             value="160" />
+    <skill id="Athletics" value="160"/>
+    <skill id="Riding" value="160"/>
+    <skill id="OneHanded" value="160"/>
+    <skill id="TwoHanded" value="160"/>
+    <skill id="Polearm" value="160"/>
+    <skill id="Bow" value="160"/>
+    <skill id="Crossbow" value="160"/>
+    <skill id="Throwing" value="160"/>
   </SkillSet>
-<!-- 7 -->
+  <!-- 7 -->
   <SkillSet id="cla_skills_level36">
-      <skill id="Athletics"
-             value="200" />
-      <skill id="Riding"
-             value="200" />
-      <skill id="OneHanded"
-             value="200" />
-      <skill id="TwoHanded"
-             value="200" />
-      <skill id="Polearm"
-             value="200" />
-      <skill id="Bow"
-             value="200" />
-      <skill id="Crossbow"
-             value="200" />
-      <skill id="Throwing"
-             value="200" />
+    <skill id="Athletics" value="200"/>
+    <skill id="Riding" value="200"/>
+    <skill id="OneHanded" value="200"/>
+    <skill id="TwoHanded" value="200"/>
+    <skill id="Polearm" value="200"/>
+    <skill id="Bow" value="200"/>
+    <skill id="Crossbow" value="200"/>
+    <skill id="Throwing" value="200"/>
   </SkillSet>
-
-<!-- Better stats for troops that are stat based with lighter armor -->
-<!-- 1 -->
+  <!-- Better stats for troops that are stat based with lighter armor -->
+  <!-- 1 -->
   <SkillSet id="cla_skills_level6_elite">
-      <skill id="Athletics"
-             value="30" />
-      <skill id="Riding"
-             value="30" />
-      <skill id="OneHanded"
-             value="30" />
-      <skill id="TwoHanded"
-             value="30" />
-      <skill id="Polearm"
-             value="30" />
-      <skill id="Bow"
-             value="30" />
-      <skill id="Crossbow"
-             value="30" />
-      <skill id="Throwing"
-             value="30" />
+    <skill id="Athletics" value="30"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="30"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="30"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="30"/>
   </SkillSet>
-<!-- 2 -->
+  <!-- 2 -->
   <SkillSet id="cla_skills_level11_elite">
-      <skill id="Athletics"
-             value="50" />
-      <skill id="Riding"
-             value="50" />
-      <skill id="OneHanded"
-             value="50" />
-      <skill id="TwoHanded"
-             value="50" />
-      <skill id="Polearm"
-             value="50" />
-      <skill id="Bow"
-             value="50" />
-      <skill id="Crossbow"
-             value="50" />
-      <skill id="Throwing"
-             value="50" />
+    <skill id="Athletics" value="50"/>
+    <skill id="Riding" value="50"/>
+    <skill id="OneHanded" value="50"/>
+    <skill id="TwoHanded" value="50"/>
+    <skill id="Polearm" value="50"/>
+    <skill id="Bow" value="50"/>
+    <skill id="Crossbow" value="50"/>
+    <skill id="Throwing" value="50"/>
   </SkillSet>
-<!-- 3 -->
+  <!-- 3 -->
   <SkillSet id="cla_skills_level16_elite">
-      <skill id="Athletics"
-             value="90" />
-      <skill id="Riding"
-             value="90" />
-      <skill id="OneHanded"
-             value="90" />
-      <skill id="TwoHanded"
-             value="90" />
-      <skill id="Polearm"
-             value="90" />
-      <skill id="Bow"
-             value="90" />
-      <skill id="Crossbow"
-             value="90" />
-      <skill id="Throwing"
-             value="90" />
+    <skill id="Athletics" value="90"/>
+    <skill id="Riding" value="90"/>
+    <skill id="OneHanded" value="90"/>
+    <skill id="TwoHanded" value="90"/>
+    <skill id="Polearm" value="90"/>
+    <skill id="Bow" value="90"/>
+    <skill id="Crossbow" value="90"/>
+    <skill id="Throwing" value="90"/>
   </SkillSet>
-<!-- 4 -->
+  <!-- 4 -->
   <SkillSet id="cla_skills_level21_elite">
-      <skill id="Athletics"
-             value="110" />
-      <skill id="Riding"
-             value="110" />
-      <skill id="OneHanded"
-             value="110" />
-      <skill id="TwoHanded"
-             value="110" />
-      <skill id="Polearm"
-             value="110" />
-      <skill id="Bow"
-             value="110" />
-      <skill id="Crossbow"
-             value="110" />
-      <skill id="Throwing"
-             value="110" />
+    <skill id="Athletics" value="110"/>
+    <skill id="Riding" value="110"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="110"/>
+    <skill id="Polearm" value="110"/>
+    <skill id="Bow" value="110"/>
+    <skill id="Crossbow" value="110"/>
+    <skill id="Throwing" value="110"/>
   </SkillSet>
-<!-- 5 -->
+  <!-- 5 -->
   <SkillSet id="cla_skills_level26_elite">
-      <skill id="Athletics"
-             value="140" />
-      <skill id="Riding"
-             value="140" />
-      <skill id="OneHanded"
-             value="140" />
-      <skill id="TwoHanded"
-             value="140" />
-      <skill id="Polearm"
-             value="140" />
-      <skill id="Bow"
-             value="140" />
-      <skill id="Crossbow"
-             value="140" />
-      <skill id="Throwing"
-             value="140" />
+    <skill id="Athletics" value="140"/>
+    <skill id="Riding" value="140"/>
+    <skill id="OneHanded" value="140"/>
+    <skill id="TwoHanded" value="140"/>
+    <skill id="Polearm" value="140"/>
+    <skill id="Bow" value="140"/>
+    <skill id="Crossbow" value="140"/>
+    <skill id="Throwing" value="140"/>
   </SkillSet>
-<!-- 6 -->
+  <!-- 6 -->
   <SkillSet id="cla_skills_level31_elite">
-      <skill id="Athletics"
-             value="170" />
-      <skill id="Riding"
-             value="170" />
-      <skill id="OneHanded"
-             value="170" />
-      <skill id="TwoHanded"
-             value="170" />
-      <skill id="Polearm"
-             value="170" />
-      <skill id="Bow"
-             value="170" />
-      <skill id="Crossbow"
-             value="170" />
-      <skill id="Throwing"
-             value="170" />
+    <skill id="Athletics" value="170"/>
+    <skill id="Riding" value="170"/>
+    <skill id="OneHanded" value="170"/>
+    <skill id="TwoHanded" value="170"/>
+    <skill id="Polearm" value="170"/>
+    <skill id="Bow" value="170"/>
+    <skill id="Crossbow" value="170"/>
+    <skill id="Throwing" value="170"/>
   </SkillSet>
-<!-- 7 -->
+  <!-- 7 -->
   <SkillSet id="cla_skills_level36_elite">
-      <skill id="Athletics"
-             value="220" />
-      <skill id="Riding"
-             value="220" />
-      <skill id="OneHanded"
-             value="220" />
-      <skill id="TwoHanded"
-             value="220" />
-      <skill id="Polearm"
-             value="220" />
-      <skill id="Bow"
-             value="220" />
-      <skill id="Crossbow"
-             value="220" />
-      <skill id="Throwing"
-             value="220" />
+    <skill id="Athletics" value="220"/>
+    <skill id="Riding" value="220"/>
+    <skill id="OneHanded" value="220"/>
+    <skill id="TwoHanded" value="220"/>
+    <skill id="Polearm" value="220"/>
+    <skill id="Bow" value="220"/>
+    <skill id="Crossbow" value="220"/>
+    <skill id="Throwing" value="220"/>
   </SkillSet>
 
+  <!-- Generic musketeer (good crossbow, poor one-hand) -->
+  <!-- 1 -->
+  <SkillSet id="cla_musketeer_6">
+    <skill id="Athletics" value="20"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="20"/>
+    <skill id="TwoHanded" value="10"/>
+    <skill id="Polearm" value="10"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 2 -->
+  <SkillSet id="cla_musketeer_11">
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="40"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="10"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="60"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 3 -->
+  <SkillSet id="cla_musketeer_16">
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="60"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="90"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 4 -->
+  <SkillSet id="cla_musketeer_21">
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="70"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="110"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 5 -->
+  <SkillSet id="cla_musketeer_26">
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="80"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="150"/>
+    <skill id="Throwing" value="20"/>
+  </SkillSet>
+  <!-- 6 -->
+  <SkillSet id="cla_musketeer_31">
+    <skill id="Athletics" value="140"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="90"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="180"/>
+    <skill id="Throwing" value="20"/>
+  </SkillSet>
+
+  <!-- Infantry with firearm (strong one-hand and poor crossbow) -->
+  <!-- 1 -->
+  <SkillSet id="cla_musket_and_infantry_6">
+    <skill id="Athletics" value="20"/>
+    <skill id="Riding" value="10"/>
+    <skill id="OneHanded" value="30"/>
+    <skill id="TwoHanded" value="10"/>
+    <skill id="Polearm" value="10"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="30"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 2 -->
+  <SkillSet id="cla_musket_and_infantry_11">
+    <skill id="Athletics" value="40"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="60"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="10"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="40"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 3 -->
+  <SkillSet id="cla_musket_and_infantry_16">
+    <skill id="Athletics" value="80"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="90"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="60"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 4 -->
+  <SkillSet id="cla_musket_and_infantry_21">
+    <skill id="Athletics" value="100"/>
+    <skill id="Riding" value="20"/>
+    <skill id="OneHanded" value="110"/>
+    <skill id="TwoHanded" value="20"/>
+    <skill id="Polearm" value="20"/>
+    <skill id="Bow" value="10"/>
+    <skill id="Crossbow" value="70"/>
+    <skill id="Throwing" value="10"/>
+  </SkillSet>
+  <!-- 5 -->
+  <SkillSet id="cla_musket_and_infantry_26">
+    <skill id="Athletics" value="130"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="150"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="80"/>
+    <skill id="Throwing" value="20"/>
+  </SkillSet>
+  <!-- 6 -->
+  <SkillSet id="cla_musket_and_infantry_31">
+    <skill id="Athletics" value="140"/>
+    <skill id="Riding" value="30"/>
+    <skill id="OneHanded" value="160"/>
+    <skill id="TwoHanded" value="30"/>
+    <skill id="Polearm" value="30"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="90"/>
+    <skill id="Throwing" value="20"/>
+  </SkillSet>
+
+  <!-- Dragoons (Cavalary with firearm) -->
+  <!-- 21 -->
+  <SkillSet id="cla_horse_musketeer_21">
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="100"/>
+    <skill id="OneHanded" value="100"/>
+    <skill id="TwoHanded" value="45"/>
+    <skill id="Polearm" value="100"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="120"/>
+    <skill id="Throwing" value="25"/>
+  </SkillSet>
+  <!-- 26 -->
+  <SkillSet id="cla_horse_musketeer_26">
+    <skill id="Athletics" value="45"/>
+    <skill id="Riding" value="130"/>
+    <skill id="OneHanded" value="130"/>
+    <skill id="TwoHanded" value="45"/>
+    <skill id="Polearm" value="130"/>
+    <skill id="Bow" value="15"/>
+    <skill id="Crossbow" value="170"/>
+    <skill id="Throwing" value="25"/>
+  </SkillSet>
 </SkillSets>
