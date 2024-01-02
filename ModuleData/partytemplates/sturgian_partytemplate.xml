@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+  <MBPartyTemplate id="cla_caravan_template_sturgia">
+    <stacks>
+      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.armed_trader_sturgia"/>
+      <PartyTemplateStack max_value="4" min_value="6" troop="NPCCharacter.cla_armed_trader_sturgia"/>
+      <PartyTemplateStack max_value="4" min_value="4" troop="NPCCharacter.caravan_guard_sturgia"/>
+      <PartyTemplateStack max_value="2" min_value="2" troop="NPCCharacter.cla_veteran_caravan_guard_sturgia"/>
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="cla_elite_caravan_template_sturgia">
+    <stacks>
+      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.armed_trader_sturgia"/>
+      <PartyTemplateStack max_value="4" min_value="8" troop="NPCCharacter.cla_armed_trader_sturgia"/>
+      <PartyTemplateStack max_value="7" min_value="7" troop="NPCCharacter.caravan_guard_sturgia"/>
+      <PartyTemplateStack max_value="8" min_value="8" troop="NPCCharacter.cla_veteran_caravan_guard_sturgia"/>
+      <PartyTemplateStack max_value="2" min_value="2" troop="NPCCharacter.cla_caravan_master_sturgia"/>
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="cla_militia_sturgia_template">
+    <stacks>
+      <PartyTemplateStack max_value="1" min_value="1" troop="NPCCharacter.sturgian_militia_spearman"/>
+      <PartyTemplateStack max_value="1" min_value="1" troop="NPCCharacter.sturgian_militia_archer"/>
+      <PartyTemplateStack max_value="1" min_value="1" troop="NPCCharacter.cla_sturgia_militia_veteran_ranged"/>
+    </stacks>
+  </MBPartyTemplate>
+</partyTemplates>
