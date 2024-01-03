@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+  <!-- Caravan -->
+  <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cla_caravan_master_khuzait" level="26" name="{=cla_caravan_master_khuzait}Sturgian Armed Caravan Master" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level26_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.khuzait_axe_4_t4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.strapped_round_shield" slot="Item3"/>
+        <equipment id="Item.nordic_fur_cap" slot="Head"/>
+        <equipment id="Item.northern_leather_tabard" slot="Body"/>
+        <equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+        <equipment id="Item.battania_leather_boots" slot="Leg"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.khuzait_axe_4_t4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.strapped_round_shield" slot="Item3"/>
+        <equipment id="Item.northern_fur_cap" slot="Head"/>
+        <equipment id="Item.northern_leather_tabard" slot="Body"/>
+        <equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.battania_leather_boots" slot="Leg"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.khuzait_axe_4_t4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.strapped_round_shield" slot="Item3"/>
+        <equipment id="Item.nordic_fur_cap" slot="Head"/>
+        <equipment id="Item.nordic_lamellar_vest" slot="Body"/>
+        <equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.battania_leather_boots" slot="Leg"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.khuzait_axe_4_t4" slot="Item0"/>
+        <equipment id="Item.cla_jestle_musket_1" slot="Item1"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item2"/>
+        <equipment id="Item.strapped_round_shield" slot="Item3"/>
+        <equipment id="Item.northern_fur_cap" slot="Head"/>
+        <equipment id="Item.northern_leather_tabard" slot="Body"/>
+        <equipment id="Item.northern_brass_bracers" slot="Gloves"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.battania_leather_boots" slot="Leg"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cla_veteran_caravan_guard_khuzait" level="26" name="{=cla_veteran_caravan_guard_khuzaitn}Sturgian Armed Caravan Guard" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="120"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="140"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+        <equipment id="Item.light_mace_t3" slot="Item2"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+        <equipment id="Item.nasalhelm_over_leather" slot="Head"/>
+        <equipment id="Item.khuzaitn_chainmale_longsleeve" slot="Body"/>
+        <equipment id="Item.battania_woodland_boots" slot="Leg"/>
+        <equipment id="Item.leather_gloves" slot="Gloves"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+        <equipment id="Item.light_mace_t3" slot="Item2"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+        <equipment id="Item.nasalhelm_over_mail" slot="Head"/>
+        <equipment id="Item.khuzaitn_chainmale_longsleeve" slot="Body"/>
+        <equipment id="Item.ragged_boots" slot="Leg"/>
+        <equipment id="Item.highland_gloves" slot="Gloves"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+        <equipment id="Item.khuzait_sword_5_t4" slot="Item2"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+        <equipment id="Item.nasalhelm_over_leather" slot="Head"/>
+        <equipment id="Item.khuzaitn_chainmale_longsleeve" slot="Body"/>
+        <equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+        <equipment id="Item.highland_gloves" slot="Gloves"/>
+        <equipment id="Item.mail_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+        <equipment id="Item.khuzait_sword_5_t4" slot="Item2"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+        <equipment id="Item.nasalhelm_over_leather" slot="Head"/>
+        <equipment id="Item.khuzaitn_chainmale_longsleeve" slot="Body"/>
+        <equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+        <equipment id="Item.highland_gloves" slot="Gloves"/>
+        <equipment id="Item.mail_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.cla_jestle_carbine_1" slot="Item0"/>
+        <equipment id="Item.northern_spear_2_t3" slot="Item1"/>
+        <equipment id="Item.khuzait_sword_5_t4" slot="Item2"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+        <equipment id="Item.nasalhelm_over_mail" slot="Head"/>
+        <equipment id="Item.khuzaitn_chainmale_longsleeve" slot="Body"/>
+        <equipment id="Item.ragged_boots" slot="Leg"/>
+        <equipment id="Item.highland_gloves" slot="Gloves"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <equipment id="Item.khuzait_horse" slot="Horse"/>
+      <equipment id="Item.steppe_harness" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cla_armed_trader_khuzait" is_basic_troop="true" level="16" name="{=cla_armed_trader_khuzait}Sturgian Musketeer Trader" occupation="Soldier" skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_axe_2_t2" slot="Item2"/>
+        <equipment id="Item.northern_padded_gambeson" slot="Body"/>
+        <equipment id="Item.battania_woodland_boots" slot="Leg"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_axe_2_t2" slot="Item2"/>
+        <equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+        <equipment id="Item.ragged_boots" slot="Leg"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.northern_fur_cap" slot="Head"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_axe_2_t2" slot="Item2"/>
+        <equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+        <equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+        <equipment id="Item.northern_fur_cap" slot="Head"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_axe_2_t2" slot="Item2"/>
+        <equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+        <equipment id="Item.highland_leg_wrappings" slot="Leg"/>
+        <equipment id="Item.northern_fur_cap" slot="Head"/>
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment id="Item.cla_jestle_arquebus_1" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_axe_2_t2" slot="Item2"/>
+        <equipment id="Item.heavy_nordic_tunic" slot="Body"/>
+        <equipment id="Item.ragged_boots" slot="Leg"/>
+        <equipment id="Item.scarf" slot="Cape"/>
+        <equipment id="Item.northern_fur_cap" slot="Head"/>
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!-- Basic Tier 1 Recruit -->
+  <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cla_khuzait_horse_ranged_1" is_basic_troop="true" level="6" name="{=cla_khuzait_horse_ranged_1}Khuzait Novice Mushkyet" occupation="Soldier">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cla_khuzait_horse_ranged_2"/>
+    </upgrade_targets>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="40"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="55"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="50"/>
+      <skill id="Throwing" value="5"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.decorated_nomad_cap" slot="Head"/>
+        <equipment id="Item.steppe_armor" slot="Body"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.nomad_cap" slot="Head"/>
+        <equipment id="Item.steppe_robe" slot="Body"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.nomad_cap" slot="Head"/>
+        <equipment id="Item.steppe_armor" slot="Body"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.eastern_cap" slot="Head"/>
+        <equipment id="Item.steppe_armor" slot="Body"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="khuzait_troop_civilian_template_t1"/>
+      <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+      <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+      <equipment id="Item.khuzait_sword_1_t2" slot="Item2"/>
+      <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+      <equipment id="Item.studded_vambraces" slot="Gloves"/>
+      <equipment id="Item.khuzait_horse" slot="Horse"/>
+      <equipment id="Item.steppe_fur_harness" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+  <!-- Ranged -->
+  <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cla_khuzait_horse_ranged_2" level="11" name="{=cla_khuzait_horse_ranged_2}Khuzait Iniciate Mushkyet" occupation="Soldier">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cla_khuzait_horse_ranged_3"/>
+    </upgrade_targets>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="70"/>
+      <skill id="OneHanded" value="45"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="70"/>
+      <skill id="Throwing" value="25"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.eastern_spear_3_t3" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_1_t2" slot="Item3"/>
+        <equipment id="Item.khuzait_sturdy_armor" slot="Body"/>
+        <equipment id="Item.peaked_fur_hood" slot="Head"/>
+        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.eastern_spear_3_t3" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_1_t2" slot="Item3"/>
+        <equipment id="Item.khuzait_sturdy_armor" slot="Body"/>
+        <equipment id="Item.fur_hood" slot="Head"/>
+        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
+        <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.eastern_spear_3_t3" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_1_t2" slot="Item3"/>
+        <equipment id="Item.khuzait_sturdy_armor" slot="Body"/>
+        <equipment id="Item.steppe_leather_shoulders" slot="Cape"/>
+        <equipment id="Item.fur_hood" slot="Head"/>
+        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.buttoned_leather_bracers" slot="Gloves"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="khuzait_troop_civilian_template_t2"/>
+      <equipment id="Item.khuzait_horse" slot="Horse"/>
+      <equipment id="Item.steppe_harness" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cla_khuzait_horse_ranged_3" level="16" name="{=cla_khuzait_horse_ranged_3}Khuzait Trained Mushkyet" occupation="Soldier">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cla_khuzait_horse_ranged_4"/>
+    </upgrade_targets>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="60"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="30"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="60"/>
+      <skill id="Crossbow" value="100"/>
+      <skill id="Throwing" value="30"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.steppe_arrows" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.khuzait_sturdy_armor" slot="Body"/>
+        <equipment id="Item.eastern_cap" slot="Head"/>
+        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.studded_leather_vambraces" slot="Gloves"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.steppe_arrows" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.khuzait_sturdy_armor" slot="Body"/>
+        <equipment id="Item.eastern_cap" slot="Head"/>
+        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.studded_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.wrapped_scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_2" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.steppe_arrows" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.khuzait_sturdy_armor" slot="Body"/>
+        <equipment id="Item.peaked_fur_hood" slot="Head"/>
+        <equipment id="Item.eastern_leather_boots" slot="Leg"/>
+        <equipment id="Item.studded_leather_vambraces" slot="Gloves"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="khuzait_troop_civilian_template_t2"/>
+      <equipment id="Item.khuzait_horse" slot="Horse"/>
+      <equipment id="Item.steppe_harness" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cla_khuzait_horse_ranged_4" level="21" name="{=cla_khuzait_horse_ranged_4}Khuzait Veteran Mushkyet" occupation="Soldier">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="60"/>
+      <skill id="Riding" value="100"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="45"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="130"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cla_khuzait_horse_ranged_5"/>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_polearm_1_t4" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.eastern_plated_leather_vest" slot="Body"/>
+        <equipment id="Item.plumed_nomad_helmet" slot="Head"/>
+        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
+        <equipment id="Item.studded_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.leather_lamellar_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_polearm_1_t4" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.eastern_plated_leather_vest" slot="Body"/>
+        <equipment id="Item.steppe_helmet" slot="Head"/>
+        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
+        <equipment id="Item.studded_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.leather_lamellar_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_3" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1" slot="Item1"/>
+        <equipment id="Item.khuzait_polearm_1_t4" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_3_t3" slot="Item3"/>
+        <equipment id="Item.eastern_plated_leather_vest" slot="Body"/>
+        <equipment id="Item.nomad_helmet" slot="Head"/>
+        <equipment id="Item.steppe_leather_boots" slot="Leg"/>
+        <equipment id="Item.studded_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.leather_lamellar_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="khuzait_troop_civilian_template_t2"/>
+      <equipment id="Item.t2_khuzait_horse" slot="Horse"/>
+      <equipment id="Item.steppe_half_barding" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cla_khuzait_horse_ranged_5" level="26" name="{=cla_khuzait_horse_ranged_5}Khuzait Elite Mushkyet" occupation="Soldier">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="130"/>
+      <skill id="OneHanded" value="50"/>
+      <skill id="TwoHanded" value="50"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="170"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.khuzait_polearm_1_t4" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_2_t3" slot="Item3"/>
+        <equipment id="Item.khuzait_lamellar_strapped" slot="Body"/>
+        <equipment id="Item.spiked_helmet" slot="Head"/>
+        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.eastern_plated_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.khuzait_polearm_1_t4" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_2_t3" slot="Item3"/>
+        <equipment id="Item.khuzait_lamellar_strapped" slot="Body"/>
+        <equipment id="Item.spiked_helmet" slot="Head"/>
+        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.eastern_plated_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.cla_jestle_carbine_4" slot="Item0"/>
+        <equipment id="Item.cla_musket_ammo_1_large" slot="Item1"/>
+        <equipment id="Item.khuzait_polearm_1_t4" slot="Item2"/>
+        <equipment id="Item.khuzait_sword_2_t3" slot="Item3"/>
+        <equipment id="Item.khuzait_lamellar_strapped" slot="Body"/>
+        <equipment id="Item.spiked_helmet" slot="Head"/>
+        <equipment id="Item.khuzait_curved_boots" slot="Leg"/>
+        <equipment id="Item.eastern_plated_leather_vambraces" slot="Gloves"/>
+        <equipment id="Item.eastern_studded_shoulders" slot="Cape"/>
+      </EquipmentRoster>
+      <EquipmentSet civilian="true" id="khuzait_troop_civilian_template_t3"/>
+      <equipment id="Item.t3_khuzait_horse" slot="Horse"/>
+      <equipment id="Item.steppe_half_barding" slot="HorseHarness"/>
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

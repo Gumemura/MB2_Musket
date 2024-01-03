@@ -117,6 +117,7 @@
 				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
 				<equipment id="Item.light_mace_t3" slot="Item2"/>
 				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				
 				<equipment id="Item.nasalhelm_over_leather" slot="Head"/>
 				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
 				<equipment id="Item.battania_woodland_boots" slot="Leg"/>
@@ -128,6 +129,7 @@
 				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
 				<equipment id="Item.light_mace_t3" slot="Item2"/>
 				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				
 				<equipment id="Item.nasalhelm_over_mail" slot="Head"/>
 				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
 				<equipment id="Item.ragged_boots" slot="Leg"/>
@@ -139,6 +141,7 @@
 				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
 				<equipment id="Item.sturgia_sword_5_t4" slot="Item2"/>
 				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				
 				<equipment id="Item.nasalhelm_over_leather" slot="Head"/>
 				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
 				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
@@ -150,6 +153,7 @@
 				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
 				<equipment id="Item.sturgia_sword_5_t4" slot="Item2"/>
 				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				
 				<equipment id="Item.nasalhelm_over_leather" slot="Head"/>
 				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
 				<equipment id="Item.highland_leg_wrappings" slot="Leg"/>
@@ -161,6 +165,7 @@
 				<equipment id="Item.northern_spear_2_t3" slot="Item1"/>
 				<equipment id="Item.sturgia_sword_5_t4" slot="Item2"/>
 				<equipment id="Item.cla_musket_ammo_1" slot="Item3"/>
+				
 				<equipment id="Item.nasalhelm_over_mail" slot="Head"/>
 				<equipment id="Item.sturgian_chainmale_longsleeve" slot="Body"/>
 				<equipment id="Item.ragged_boots" slot="Leg"/>

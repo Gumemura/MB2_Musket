@@ -332,15 +332,19 @@
     </face>
     <Equipments>
       <EquipmentRoster>
-        <equipment id="Item.cla_musket_pistol_2" slot="Item0"/>
-        <equipment id="Item.cla_musket_ammo_3" slot="Item1"/>
-        <equipment id="Item.vlandia_sword_4_t4" slot="Item2"/>
-        <equipment id="Item.reinforced_kite_shield" slot="Item3"/>
-        <equipment id="Item.visored_helmet_over_laced_coif" slot="Head"/>
-        <equipment id="Item.white_coat_over_mail" slot="Body"/>
-        <equipment id="Item.folded_town_boots" slot="Leg"/>
-        <equipment id="Item.leather_gloves" slot="Gloves"/>
+        <equipment id="Item.hood" slot="Cape"/>
       </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment id="Item.female_scarf" slot="Cape"/>
+      </EquipmentRoster>
+      <equipment id="Item.cla_musket_pistol_2" slot="Item0"/>
+      <equipment id="Item.cla_musket_ammo_3" slot="Item1"/>
+      <equipment id="Item.vlandia_sword_4_t4" slot="Item2"/>
+      <equipment id="Item.reinforced_kite_shield" slot="Item3"/>
+      <equipment id="Item.visored_helmet_over_padded_coif" slot="Head"/>
+      <equipment id="Item.white_coat_over_mail" slot="Body"/>
+      <equipment id="Item.folded_town_boots" slot="Leg"/>
+      <equipment id="Item.leather_gloves" slot="Gloves"/>
       <EquipmentSet civilian="true" id="vlandia_troop_civilian_template_t3"/>
     </Equipments>
   </NPCCharacter>

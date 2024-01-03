@@ -29,6 +29,11 @@
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="empire">
@@ -56,6 +61,11 @@
       <basicTroops>
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
+    </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
     </Culture>
   </MapFaction>
 
@@ -85,6 +95,11 @@
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="empire_w">
@@ -112,6 +127,11 @@
       <basicTroops>
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
+    </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
     </Culture>
   </MapFaction>
 
@@ -141,6 +161,11 @@
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="khuzait">
@@ -168,6 +193,11 @@
       <basicTroops>
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
+    </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
     </Culture>
   </MapFaction>
 
@@ -197,6 +227,11 @@
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="vlandia">
@@ -225,6 +260,11 @@
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
     </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
+    </Culture>
   </MapFaction>
 
   <MapFaction id="player_faction">
@@ -252,6 +292,11 @@
       <basicTroops>
         <volunteer id="cla_sturgia_ranged_1" percent="40" atPower="0"/>
       </basicTroops>
+    </Culture>
+    <Culture id="khuzait">
+      <eliteTroops>
+        <volunteer id="cla_khuzait_horse_ranged_1" percent="40" atPower="0"/>
+      </eliteTroops>
     </Culture>
   </MapFaction>
 </ATCConfig>
